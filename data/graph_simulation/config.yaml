@@ -1,0 +1,19 @@
+# simulation parameters
+
+ntypes:
+  - 4
+  - 6
+
+k:
+  - 2
+  - 4
+  - 6
+
+ncells:
+  - 50
+  - 100
+  - 150
+
+subsample_prop:
+  - 20
+    #- 50
