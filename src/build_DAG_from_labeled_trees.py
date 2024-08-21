@@ -3,6 +3,7 @@ from argparse import ArgumentParser
 import cassiopeia as cas
 import networkx as nx
 import pandas as pd
+import pickle as pic
 
 import utils
 import ilp

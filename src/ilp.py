@@ -255,12 +255,28 @@ def post_process_solution_tree(model, observed_potencies, states, trees, attribu
 
     return model.objVal, final_progens, states_at_nodes
 
+# def post_process_solution_tree(model, states):
+#     vals = {}
+
+#     for var in model.getVars():
+#         vals[var.varName] = var.x
+
+#     progens = dict([(key, vals[key]) for key in vals if 'progen_inclusion' in key])
+
+#     final_progens = defaultdict(set)
+#     for key in progens:
+#         if progens[key] == 1:
+#             progen_index_by_state = re.search("\[(.*?)\]", key)[0][1: -1].split(",")
+#             final_progens[int(progen_index_by_state[0])].add(states[int(progen_index_by_state[1])])
+            
+#     return model.objVal, list(final_progens.values())
+
 def solve_large_k_problem(
     trees,
     states,
     k,
     state_weights=None,
-    time_limit_min=120,
+    time_limit_sec=21600,
     attribute_name="state_labels",
 ):
 
@@ -303,7 +319,7 @@ def solve_large_k_problem(
         state_weights,
     )
 
-    model.setParam('TimeLimit', time_limit_min)
+    model.setParam('TimeLimit', time_limit_sec)
     model.optimize()
 
     return model
@@ -325,7 +341,7 @@ def solve_large_k_problem_tree(
     states,
     k,
     state_weights=None,
-    time_limit_min=120,
+    time_limit_sec=21600,
     attribute_name="state_labels",
 ):
     
@@ -355,8 +371,48 @@ def solve_large_k_problem_tree(
         state_weights,
     )
 
-    model.setParam('TimeLimit', time_limit_min)
+    model.setParam('TimeLimit', time_limit_sec)
     model.optimize()
 
     return model, observed_potencies
 
+
+def get_inverse_state_proportions_from_trees(trees, attribute_name="state_labels"):
+    states_proportions = defaultdict(int)
+    total_cells = 0
+
+    for tree in trees:
+        for l in tree.leaves:
+            states_proportions[tree.get_attribute(l, attribute_name)[0]] += 1
+            total_cells += 1
+
+    #return dict(zip(states_proportions.keys(), [s / total_cells for s in states_proportions.values()]))
+    return dict(zip(states_proportions.keys(), [-np.log(1 - (s / total_cells)) for s in states_proportions.values()]))
+
+    #return dict(
+    #    zip(
+    #        states_proportions.keys(),
+    #        [1/(s / total_cells) for s in states_proportions.values()],
+    #    )
+    #)
+
+def get_inverse_state_proportions_from_trees_post_pruning(trees, attribute_name="state_labels"):
+    states_proportions = defaultdict(int)
+    total_cells = 0
+
+    for tree in trees:
+        states_in_subtree = {}
+        for node in tree.depth_first_traverse_nodes():
+            states_in_subtree[node] = set([tree.get_attribute(l, attribute_name)[0] for l in tree.leaves_in_subtree(node)])
+            if len(states_in_subtree[node]) > 1:
+                for child in tree.children(node):
+                    if len(states_in_subtree[child]) == 1:
+                        states_proportions[list(states_in_subtree[child])[0]] += 1
+                        total_cells += 1
+
+    return dict(
+        zip(
+            states_proportions.keys(),
+            [1/(s / total_cells) for s in states_proportions.values()],
+        )
+        )

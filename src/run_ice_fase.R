@@ -1,4 +1,19 @@
 #!/usr/bin/env Rscript
+#install.packages("ape", dependencies = T, repos = "http://cran.us.r-project.org")
+#install.packages("qfm", dependencies = T, repos = "http://cran.us.r-project.org")
+#install.packages("optparse", dependencies = T, repos = "http://cran.us.r-project.org")
+#install.packages("devtools", dependencies = T, repos = "http://cran.us.r-project.org")
+#install.packages("BiocManager", dependencies = T, repos = "http://cran.us.r-project.org")
+#if (!require("devtools"))
+#      install.packages("devtools")
+
+#if (!require("BiocManager", quietly = TRUE))
+#        install.packages("BiocManager")
+
+# install dependencies from Bioconductor
+#BiocManager::install("ComplexHeatmap")
+
+#devtools::install_github("Kalhor-Lab/QFM")
 
 library(ape)
 library(qfm)

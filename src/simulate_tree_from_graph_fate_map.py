@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import networkx as nx
 
-import graph_generation_utils as utils
+import utils
 
 parser = ArgumentParser()
 

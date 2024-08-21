@@ -17,8 +17,8 @@ CARTA takes as input:
      * [CARTA](#carta)
 
 <a name="pre-requisites"></a>
-## Pre-requisites
-+ python3 (>=3.6)
+## Pre-requisites (see .yaml file for versions)
++ python3 (note that 3.9 is necessary in order to correctly build cassiopeia)
 + [numpy](https://numpy.org/doc/)
 + [pandas](https://pandas.pydata.org/pandas-docs/stable/index.html)
 + [gurobipy](https://www.gurobi.com/documentation/9.0/quickstart_mac/py_python_interface.html)
@@ -33,10 +33,10 @@ CARTA takes as input:
 <a name="io"></a>
 ### I/O formats
 The input for CARTA is 
-* a tab-delimited file, which has on each line the locations of the newick and state annotation files of the set of cell lineage trees over which to infer the cell differentiation map.
-    * example: `data/gastruloid/TLS_states.txt`
-* an integer k specifying the number of progenitors in the inferred cell differentiation map.
-* a file containing all terminal cell types must be provided, with each cell type on its own line.
+* A tab-delimited file, which has on each line the locations of the newick and state annotation files of the set of cell lineage trees over which to infer the cell differentiation map.
+    * Example: `data/gastruloid/TLS_locations.txt`
+* An integer k specifying the number of progenitors in the inferred cell differentiation map. Zero-indexed; i.e. k = 0 will specify only the root progenitor.
+* A file containing all terminal cell types must be provided, with each cell type on its own line.
     * example: `data/gastruloid/TLS_states.txt`
 
 <a name="carta"></a>
@@ -51,11 +51,17 @@ The input for CARTA is
       --states_file STATES_FILE  file containing the terminal states
     optional arguments:
       --normalize_method NORMALIZE_METHOD   The weights for each terminal cell state corresponding to w_s(t). Default is w_s(t) = 1 for each terminal cell type
-      --time_limit_min TIME_LIMIT_MIN   The time limit in minutes. Default is 120 minutes.
+      --time_limit_sec TIME_LIMIT_SEC   The time limit in seconds. Default is 6 hours.
       --enforce_tree    Whether to enforce that the output cell differentiation map is a tree. Default is False
 
-An example of usage is as follows.
+An example of usage is as follows. This command can be run from the directory that contains this README file.
 
-    $ python src/run_ilp.py --prefix data/gastruloid/results/4_2_0_50_20_0 -k 2 --file_locations data/graph_simulation/location_files/4_2_0_50_20_0_locations.txt --states_file data/graph_simulation/sim_states_4.txt --enforce_tree
+    python src/run_ilp.py --prefix test -k 5 --file_locations data/gastruloid/TLS_locations.txt --states_file data/gastruloid/TLS_states.txt
 
-Currently, the newick files encoding the cell lineage trees in `data/gastruloid/input_trees` and the metadata files containing the cell type annotations in `data/gastruloid/formatted_and_reduced_labels` are available upon request via [rz3427@princeton.edu](rz3427@princeton.edu).
+A cell differentiation map built from the progenitors output by CARTA and with edge weights counting the number of cells in the dataset that traverse each edge can be generated using the following command.
+
+    python src/build_DAG_from_labeled_trees.py --prefix test --file_locations data/gastruloid/TLS_locations.txt --states_file data/gastruloid/TLS_states.txt --node_labels_file test_nodeLabels.txt
+
+<a name="data"></a>
+### Data
+Currently, the newick files encoding the TLS cell lineage trees are stored in `data/gastruloid/input_trees` and the metadata files containing the cell type annotations are stored in `data/gastruloid/formatted_and_reduced_labels`.

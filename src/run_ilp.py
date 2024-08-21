@@ -17,8 +17,8 @@ parser.add_argument(
     help="the scheme by which to normalize the objective function",
 )
 parser.add_argument(
-    "--time_limit_min",
-    default=120,
+    "--time_limit_sec",
+    default=21600,
     help="time limit on ilp runs",
 )
 parser.add_argument("--enforce_tree", default=False, action='store_true', help="whether or not to enforce that the progenitors can create a tree"
@@ -39,6 +39,7 @@ def main():
             tree = cas.data.CassiopeiaTree(tree = nw)
             utils.label_tree_with_leaf_states(tree, metadata)
             utils.prune_unwanted_states(tree, states)
+            # utils.impute_states_from_children(tree)
             labeled_trees.append(tree)
 
     if args.normalize_method == "no_normalization":
@@ -50,13 +51,17 @@ def main():
 
     if args.enforce_tree:
         solved_model, observed_potencies = ilp.solve_large_k_problem_tree(
-            labeled_trees, states, args.k, weights, args.time_limit_min
+            labeled_trees, states, args.k, weights, int(args.time_limit_sec)
         )
         out = ilp.post_process_solution_tree(solved_model, observed_potencies, states, labeled_trees)
+        # solved_model = ilp.solve_large_k_problem_tree(
+        #     labeled_trees, states, args.k, weights, int(args.time_limit_sec)
+        # )
+        # out = ilp.post_process_solution_tree(solved_model, states)
 
     else:
         solved_model = ilp.solve_large_k_problem(
-            labeled_trees, states, args.k, weights, args.time_limit_min
+            labeled_trees, states, args.k, weights, int(args.time_limit_sec)
         )
         out = ilp.post_process_solution_from_node_state_labels(solved_model)
     
