@@ -5,7 +5,7 @@ from collections import defaultdict
 import cassiopeia as cas
 from cassiopeia.simulator.TreeSimulator import TreeSimulatorError
 
-import cell_fate_mapping_utils
+import utils
 
 def powerset(iterable):
     s = list(iterable)
@@ -143,7 +143,7 @@ def build_tree_graph(states, k, root_time, seed):
         tree.set_attribute(l, "state_labels", [states[int(l)]])
     for n in tree.internal_nodes:
         tree.set_attribute(n, "state_labels", [])
-    cell_fate_mapping_utils.impute_states_from_children(tree)
+    utils.impute_states_from_children(tree)
     for n in tree.internal_nodes:
         if n == tree.root:
             continue
@@ -262,7 +262,7 @@ def count_unrealizations(tree, id_to_progen):
         tree.set_attribute(l, "state_labels", [id_to_progen[tree.get_attribute(l, "progen_label")]])
     for n in tree.internal_nodes:
         tree.set_attribute(n, "state_labels", [])
-    cell_fate_mapping_utils.impute_states_from_children(tree)
+    utils.impute_states_from_children(tree)
 
     num_unrealizations = 0
     for n in tree.internal_nodes:

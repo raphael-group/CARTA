@@ -4,37 +4,50 @@ import pandas as pd
 import itertools
 import numpy as np
 
-def avg_evolutionary_coupling(tree, states, leaf_state_labelings, use_branch_lengths = False):
-    print("in")
-    if use_branch_lengths:
-        dists = dict(nx.all_pairs_dijkstra_path_length(tree._CassiopeiaTree__network.to_undirected(), weight = "length"))
-    else:
-        dists = dict(nx.all_pairs_shortest_path_length(tree._CassiopeiaTree__network.to_undirected()))
-    print("dists done")
+def avg_evolutionary_coupling(trees, states, leaf_state_labelings, use_branch_lengths = False):
+    df_minBranchDist = pd.DataFrame(0, index = states, columns = states)
+    df_numcells = pd.DataFrame(0, index = states, columns = states)
     
-    cell_pairs = list(itertools.combinations(range(len(tree.leaves)), 2))
-    dist_mat = np.zeros([len(tree.leaves), len(tree.leaves)])
+    for i in range(len(trees)):
+        tree = trees[i]
+        leaf_state_labeling = leaf_state_labelings[i]
+        if use_branch_lengths:
+            dists = dict(nx.all_pairs_dijkstra_path_length(tree._CassiopeiaTree__network.to_undirected(), weight = "length"))
+            # diameter = nx.diameter(tree._CassiopeiaTree__network.to_undirected(), weight = "length")
+        else:
+            dists = dict(nx.all_pairs_shortest_path_length(tree._CassiopeiaTree__network.to_undirected()))
+            # diameter = nx.diameter(tree._CassiopeiaTree__network.to_undirected())
+        cell_pairs = list(itertools.combinations(range(len(tree.leaves)), 2))
+        dist_mat = np.zeros([len(tree.leaves), len(tree.leaves)])
 
-    for index, col in cell_pairs:
-        dist = dists[tree.leaves[index]][tree.leaves[col]]
+        # print(diameter)
 
-        dist_mat[index, col] = dist
-        dist_mat[col, index] = dist
+        for index, col in cell_pairs:
+            dist = dists[tree.leaves[index]][tree.leaves[col]]
+
+            dist_mat[index, col] = dist#/diameter
+            dist_mat[col, index] = dist#/diameter
+            
+        df_pairwiseTreeDist = pd.DataFrame(dist_mat, index = tree.leaves, columns = tree.leaves)
+        np.fill_diagonal(df_pairwiseTreeDist.values, df_pairwiseTreeDist)
         
-    df_pairwiseTreeDist = pd.DataFrame(dist_mat, index = tree.leaves, columns = tree.leaves)
-    s = pd.Series(index = df_pairwiseTreeDist.index, dtype = np.float64)
-    np.fill_diagonal(df_pairwiseTreeDist.values, s)
-    
-    df_minBranchDist = pd.DataFrame(index = states, columns = states)
+        for c1, c2 in itertools.combinations(states, 2):
+            cellList1 = leaf_state_labeling[leaf_state_labeling["cell_state"] == c1].index
+            cellList2 = leaf_state_labeling[leaf_state_labeling["cell_state"] == c2].index
+            mean_dist = np.sum(df_pairwiseTreeDist.loc[cellList1, cellList2].sum())
+            df_minBranchDist.loc[c1, c2] += mean_dist
+            df_minBranchDist.loc[c2, c1] += mean_dist
+            df_numcells.loc[c1, c2] += (len(cellList1) * len(cellList2))
+            df_numcells.loc[c2, c1] += (len(cellList1) * len(cellList2))
+
+    print(df_minBranchDist)
+    print(df_numcells)
+
+    df_minBranchDist = df_minBranchDist.div(df_numcells)
+
+    print(df_minBranchDist)
+
     df_minBranchDist.fillna(-1, inplace = True)
-
-    for c1, c2 in itertools.combinations(states, 2):
-        cellList1 = leaf_state_labelings[leaf_state_labelings["cell_state"] == c1].index
-        cellList2 = leaf_state_labelings[leaf_state_labelings["cell_state"] == c2].index
-        mean_dist = np.mean(df_pairwiseTreeDist.loc[cellList1, cellList2].mean())
-        df_minBranchDist.loc[c1, c2] = mean_dist
-        df_minBranchDist.loc[c2, c1] = mean_dist
-        
     df_Dist = df_minBranchDist.loc[states, states]
     
     upgma_tree = cas.data.CassiopeiaTree()

@@ -5,8 +5,8 @@ import networkx as nx
 import pandas as pd
 import pickle as pic
 
-import cell_fate_mapping_utils as utils
-import cell_fate_mapping_ilp as ilp
+import utils
+import ilp
 
 parser = ArgumentParser()
 
@@ -36,8 +36,6 @@ def main():
     with open(args.file_locations) as file_locations:
         for line in file_locations:
             nw, metadata = line.rstrip().split("\t")
-            nw = "data/gastruloid/" + nw
-            metadata = "data/gastruloid/" + metadata
             tree = cas.data.CassiopeiaTree(tree = nw)
             utils.label_tree_with_leaf_states(tree, metadata)
             utils.prune_unwanted_states(tree, states)

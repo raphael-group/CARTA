@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import networkx as nx
 
-import cell_fate_mapping_graph_generation_utils as utils
+import utils
 
 parser = ArgumentParser()
 

@@ -5,7 +5,7 @@ import ete3
 import networkx as nx
 import pandas as pd
 
-import cell_fate_mapping_evo_coupling as evo_coupling
+import evo_coupling
 
 parser = ArgumentParser()
 
@@ -26,30 +26,34 @@ def main():
         for line in f:
             states.append(line.rstrip())
 
+    trees = []
+    cell_types = []
     with open(args.file_locations) as file_locations:
         for line in file_locations:
             nw, metadata = line.rstrip().split("\t")
             df_cellTypes = pd.read_csv(metadata, sep = "\t")
             df_cellTypes.set_index("cellBC", inplace = True)
+            cell_types.append(df_cellTypes)
 
-    if args.use_branch_lengths:
-        tree = ete3.Tree(nw, 1)
+            if args.use_branch_lengths:
+                tree = ete3.Tree(nw, 1)
 
-        g = nx.DiGraph()
-        internal_node_iter = 0
-        for n in tree.traverse():
-            if n.name == "":
-                n.name = f"cassiopeia_internal_node{internal_node_iter}"
-                internal_node_iter += 1
-            if n.is_root():
-                continue
-            g.add_edge(n.up.name, n.name, length = n.dist)
+                g = nx.DiGraph()
+                internal_node_iter = 0
+                for n in tree.traverse():
+                    if n.name == "":
+                        n.name = f"cassiopeia_internal_node{internal_node_iter}"
+                        internal_node_iter += 1
+                    if n.is_root():
+                        continue
+                    g.add_edge(n.up.name, n.name, length = n.dist)
 
-        tree = cas.data.CassiopeiaTree(tree = g)
-    else:
-        tree = cas.data.CassiopeiaTree(tree = nw)
+                trees.append(cas.data.CassiopeiaTree(tree = g))
+            else:
+                trees.append(cas.data.CassiopeiaTree(tree = nw))
+    print(len(trees))
 
-    out_newick = evo_coupling.avg_evolutionary_coupling(tree, states, df_cellTypes, args.use_branch_lengths)
+    out_newick = evo_coupling.avg_evolutionary_coupling(trees, states, cell_types, args.use_branch_lengths)
     
     with open(f"{args.prefix}_EvoCGraph.nwk", "w") as f:
         f.write(out_newick)
