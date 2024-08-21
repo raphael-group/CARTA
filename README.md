@@ -51,7 +51,7 @@ The input for CARTA is
       --states_file STATES_FILE  file containing the terminal states
     optional arguments:
       --normalize_method NORMALIZE_METHOD   The weights for each terminal cell state corresponding to w_s(t). Default is w_s(t) = 1 for each terminal cell type
-      --time_limit_min TIME_LIMIT_MIN   The time limit in minutes. Default is 120 minutes.
+      --time_limit_sec TIME_LIMIT_SEC   The time limit in seconds. Default is 6 hours.
       --enforce_tree    Whether to enforce that the output cell differentiation map is a tree. Default is False
 
 An example of usage is as follows. This command can be run from the directory that contains this README file.
