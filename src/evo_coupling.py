@@ -5,10 +5,12 @@ import itertools
 import numpy as np
 
 def avg_evolutionary_coupling(tree, states, leaf_state_labelings, use_branch_lengths = False):
+    print("in")
     if use_branch_lengths:
         dists = dict(nx.all_pairs_dijkstra_path_length(tree._CassiopeiaTree__network.to_undirected(), weight = "length"))
     else:
         dists = dict(nx.all_pairs_shortest_path_length(tree._CassiopeiaTree__network.to_undirected()))
+    print("dists done")
     
     cell_pairs = list(itertools.combinations(range(len(tree.leaves)), 2))
     dist_mat = np.zeros([len(tree.leaves), len(tree.leaves)])

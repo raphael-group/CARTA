@@ -5,7 +5,7 @@ import ete3
 import networkx as nx
 import pandas as pd
 
-import evo_coupling
+import cell_fate_mapping_evo_coupling as evo_coupling
 
 parser = ArgumentParser()
 

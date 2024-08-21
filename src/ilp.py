@@ -5,7 +5,7 @@ from collections import defaultdict
 from gurobipy import *
 from itertools import combinations, product
 
-import utils
+import cell_fate_mapping_utils as utils
 
 
 def define_large_k_model(
@@ -210,7 +210,46 @@ def post_process_solution_from_node_state_labels(model):
 
     return model.objVal, progens, dict(states_at_nodes)
 
-def post_process_solution_tree(model, observed_potencies, states, trees, attribute_name = "state_labels"):
+# def post_process_solution_tree(model, observed_potencies, states, trees, attribute_name = "state_labels"):
+#     vals = {}
+
+#     for var in model.getVars():
+#         vals[var.varName] = var.x
+
+#     node_progens = dict([(key, vals[key]) for key in vals if "observed_potency_state_label" in key])
+
+#     potency_to_closest_progenitor = defaultdict(set)
+#     for key, value in node_progens.items():
+#         if value == 1:
+#             node, state = tuple(re.search("\[(.*?)\]", key)[0][1:-1].split(","))
+#             potency_set = observed_potencies[int(node)]
+#             tot = 0
+#             for i in range(len(potency_set)):
+#                 if potency_set[i]:
+#                     tot += 2**i
+#             potency_to_closest_progenitor[tot].add(states[int(state)])
+
+#     states_at_nodes = {}
+#     for ind, tree in enumerate(trees):
+#         for n in tree.internal_nodes:
+#             leaf_set = set(
+#                 [
+#                     tree.get_attribute(l, attribute_name)[0]
+#                     for l in tree.leaves_in_subtree(n)
+#                 ]
+#             ) 
+#             if len(leaf_set) != 1:
+#                 progen_state = potency_to_closest_progenitor[state_set_to_int(leaf_set, states)]
+#                 states_at_nodes[n + "-" + str(ind)] = progen_state
+            
+#     progens = []
+#     for i in potency_to_closest_progenitor.values():
+#         if i not in progens:
+#             progens.append(i)
+
+#     return model.objVal, progens, dict(states_at_nodes)
+
+def post_process_solution_tree(model, states):
     vals = {}
 
     for var in model.getVars():
@@ -223,44 +262,15 @@ def post_process_solution_tree(model, observed_potencies, states, trees, attribu
         if progens[key] == 1:
             progen_index_by_state = re.search("\[(.*?)\]", key)[0][1: -1].split(",")
             final_progens[int(progen_index_by_state[0])].add(states[int(progen_index_by_state[1])])
-    final_progens = list(final_progens.values())
-
-    node_progens = dict([(key, vals[key]) for key in vals if "closest_progen_to_observed_potency" in key])
-
-    potency_to_closest_progenitor = {}
-    for key, value in node_progens.items():
-        if value == 1:
-            observed_potency_ind, progen_ind = tuple(re.search("\[(.*?)\]", key)[0][1:-1].split(","))
-            potency_set = observed_potencies[int(observed_potency_ind)]
-            tot = 0
-            for i in range(len(potency_set)):
-                if potency_set[i]:
-                    tot += 2**i
-            potency_to_closest_progenitor[tot] = final_progens[int(progen_ind)]
-
-
-    states_at_nodes = {}
-    for ind, tree in enumerate(trees):
-        for n in tree.internal_nodes:
-            leaf_set = set(
-                [
-                    tree.get_attribute(l, attribute_name)[0]
-                    for l in tree.leaves_in_subtree(n)
-                ]
-            ) 
-            if len(leaf_set) != 1:
-                progen_state = potency_to_closest_progenitor[state_set_to_int(leaf_set, states)]
-                states_at_nodes[n + "-" + str(ind)] = progen_state
-
-
-    return model.objVal, final_progens, states_at_nodes
+            
+    return model.objVal, list(final_progens.values())
 
 def solve_large_k_problem(
     trees,
     states,
     k,
     state_weights=None,
-    time_limit_min=120,
+    time_limit_sec=2880000,
     attribute_name="state_labels",
 ):
 
@@ -303,7 +313,7 @@ def solve_large_k_problem(
         state_weights,
     )
 
-    model.setParam('TimeLimit', time_limit_min)
+    model.setParam('TimeLimit', time_limit_sec)
     model.optimize()
 
     return model
@@ -325,7 +335,7 @@ def solve_large_k_problem_tree(
     states,
     k,
     state_weights=None,
-    time_limit_min=120,
+    time_limit_sec=2880000,
     attribute_name="state_labels",
 ):
     
@@ -355,8 +365,48 @@ def solve_large_k_problem_tree(
         state_weights,
     )
 
-    model.setParam('TimeLimit', time_limit_min)
+    model.setParam('TimeLimit', time_limit_sec)
     model.optimize()
 
-    return model, observed_potencies
+    return model#, observed_potencies
 
+
+def get_inverse_state_proportions_from_trees(trees, attribute_name="state_labels"):
+    states_proportions = defaultdict(int)
+    total_cells = 0
+
+    for tree in trees:
+        for l in tree.leaves:
+            states_proportions[tree.get_attribute(l, attribute_name)[0]] += 1
+            total_cells += 1
+
+    #return dict(zip(states_proportions.keys(), [s / total_cells for s in states_proportions.values()]))
+    return dict(zip(states_proportions.keys(), [-np.log(1 - (s / total_cells)) for s in states_proportions.values()]))
+
+    #return dict(
+    #    zip(
+    #        states_proportions.keys(),
+    #        [1/(s / total_cells) for s in states_proportions.values()],
+    #    )
+    #)
+
+def get_inverse_state_proportions_from_trees_post_pruning(trees, attribute_name="state_labels"):
+    states_proportions = defaultdict(int)
+    total_cells = 0
+
+    for tree in trees:
+        states_in_subtree = {}
+        for node in tree.depth_first_traverse_nodes():
+            states_in_subtree[node] = set([tree.get_attribute(l, attribute_name)[0] for l in tree.leaves_in_subtree(node)])
+            if len(states_in_subtree[node]) > 1:
+                for child in tree.children(node):
+                    if len(states_in_subtree[child]) == 1:
+                        states_proportions[list(states_in_subtree[child])[0]] += 1
+                        total_cells += 1
+
+    return dict(
+        zip(
+            states_proportions.keys(),
+            [1/(s / total_cells) for s in states_proportions.values()],
+        )
+    )

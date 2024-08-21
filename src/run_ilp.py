@@ -1,8 +1,8 @@
 from argparse import ArgumentParser
 
 import cassiopeia as cas
-import utils
-import ilp
+import cell_fate_mapping_utils as utils
+import cell_fate_mapping_ilp as ilp
 
 parser = ArgumentParser()
 
@@ -17,8 +17,8 @@ parser.add_argument(
     help="the scheme by which to normalize the objective function",
 )
 parser.add_argument(
-    "--time_limit_min",
-    default=120,
+    "--time_limit_sec",
+    default=2880000,
     help="time limit on ilp runs",
 )
 parser.add_argument("--enforce_tree", default=False, action='store_true', help="whether or not to enforce that the progenitors can create a tree"
@@ -36,9 +36,11 @@ def main():
     with open(args.file_locations) as file_locations:
         for line in file_locations:
             nw, metadata = line.rstrip().split("\t")
+            print(nw, metadata)
             tree = cas.data.CassiopeiaTree(tree = nw)
             utils.label_tree_with_leaf_states(tree, metadata)
             utils.prune_unwanted_states(tree, states)
+            # utils.impute_states_from_children(tree)
             labeled_trees.append(tree)
 
     if args.normalize_method == "no_normalization":
@@ -49,14 +51,18 @@ def main():
         weights = ilp.get_inverse_state_proportions_from_trees_post_pruning(labeled_trees)
 
     if args.enforce_tree:
-        solved_model, observed_potencies = ilp.solve_large_k_problem_tree(
-            labeled_trees, states, args.k, weights, args.time_limit_min
+        # solved_model, observed_potencies = ilp.solve_large_k_problem_tree(
+        #     labeled_trees, states, args.k, weights, 
+        # )
+        # out = ilp.post_process_solution_tree(solved_model, observed_potencies, states, labeled_trees)
+        solved_model = ilp.solve_large_k_problem_tree(
+            labeled_trees, states, args.k, weights, args.time_limit_sec
         )
-        out = ilp.post_process_solution_tree(solved_model, observed_potencies, states, labeled_trees)
+        out = ilp.post_process_solution_tree(solved_model, states)
 
     else:
         solved_model = ilp.solve_large_k_problem(
-            labeled_trees, states, args.k, weights, args.time_limit_min
+            labeled_trees, states, args.k, weights, args.time_limit_sec
         )
         out = ilp.post_process_solution_from_node_state_labels(solved_model)
     
@@ -68,12 +74,12 @@ def main():
         for progen in out[1]:
             f.write(f"{progen}\n")
 
-    with open(f"{args.prefix}_nodeLabels.txt", "w") as f:
-        f.write("tree_index\tnode_name\tlabel\n")
-        for node, label in out[2].items():
-            tree_index = node.split("-")[-1]
-            node_name = "-".join(node.split("-")[:-1])
-            f.write(f"{tree_index}\t{node_name}\t{label}\n")
+    # with open(f"{args.prefix}_nodeLabels.txt", "w") as f:
+    #     f.write("tree_index\tnode_name\tlabel\n")
+    #     for node, label in out[2].items():
+    #         tree_index = node.split("-")[-1]
+    #         node_name = "-".join(node.split("-")[:-1])
+    #         f.write(f"{tree_index}\t{node_name}\t{label}\n")
 
 
 if __name__ == "__main__":
