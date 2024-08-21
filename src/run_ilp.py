@@ -17,7 +17,7 @@ parser.add_argument(
     help="the scheme by which to normalize the objective function",
 )
 parser.add_argument(
-    "--time_limit_min",
+    "--time_limit_sec",
     default=21600,
     help="time limit on ilp runs",
 )
@@ -51,17 +51,17 @@ def main():
 
     if args.enforce_tree:
         solved_model, observed_potencies = ilp.solve_large_k_problem_tree(
-            labeled_trees, states, args.k, weights, int(args.time_limit_min)
+            labeled_trees, states, args.k, weights, int(args.time_limit_sec)
         )
         out = ilp.post_process_solution_tree(solved_model, observed_potencies, states, labeled_trees)
         # solved_model = ilp.solve_large_k_problem_tree(
-        #     labeled_trees, states, args.k, weights, int(args.time_limit_min)
+        #     labeled_trees, states, args.k, weights, int(args.time_limit_sec)
         # )
         # out = ilp.post_process_solution_tree(solved_model, states)
 
     else:
         solved_model = ilp.solve_large_k_problem(
-            labeled_trees, states, args.k, weights, int(args.time_limit_min)
+            labeled_trees, states, args.k, weights, int(args.time_limit_sec)
         )
         out = ilp.post_process_solution_from_node_state_labels(solved_model)
     

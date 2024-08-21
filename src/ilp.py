@@ -276,7 +276,7 @@ def solve_large_k_problem(
     states,
     k,
     state_weights=None,
-    time_limit_min=21600,
+    time_limit_sec=21600,
     attribute_name="state_labels",
 ):
 
@@ -319,7 +319,7 @@ def solve_large_k_problem(
         state_weights,
     )
 
-    model.setParam('TimeLimit', time_limit_min)
+    model.setParam('TimeLimit', time_limit_sec)
     model.optimize()
 
     return model
@@ -341,7 +341,7 @@ def solve_large_k_problem_tree(
     states,
     k,
     state_weights=None,
-    time_limit_min=21600,
+    time_limit_sec=21600,
     attribute_name="state_labels",
 ):
     
@@ -371,7 +371,7 @@ def solve_large_k_problem_tree(
         state_weights,
     )
 
-    model.setParam('TimeLimit', time_limit_min)
+    model.setParam('TimeLimit', time_limit_sec)
     model.optimize()
 
     return model, observed_potencies
@@ -415,4 +415,4 @@ def get_inverse_state_proportions_from_trees_post_pruning(trees, attribute_name=
             states_proportions.keys(),
             [1/(s / total_cells) for s in states_proportions.values()],
         )
-    )
+        )

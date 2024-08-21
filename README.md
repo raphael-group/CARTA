@@ -17,8 +17,8 @@ CARTA takes as input:
      * [CARTA](#carta)
 
 <a name="pre-requisites"></a>
-## Pre-requisites
-+ python3 (>=3.6)
+## Pre-requisites (see .yaml file for versions)
++ python3 (note that 3.9 is necessary in order to correctly build cassiopeia)
 + [numpy](https://numpy.org/doc/)
 + [pandas](https://pandas.pydata.org/pandas-docs/stable/index.html)
 + [gurobipy](https://www.gurobi.com/documentation/9.0/quickstart_mac/py_python_interface.html)
@@ -58,4 +58,10 @@ An example of usage is as follows. This command can be run from the directory th
 
     python src/run_ilp.py --prefix test -k 5 --file_locations data/gastruloid/TLS_locations.txt --states_file data/gastruloid/TLS_states.txt
 
+A cell differentiation map built from the progenitors output by CARTA and with edge weights counting the number of cells in the dataset that traverse each edge can be generated using the following command.
+
+    python src/build_DAG_from_labeled_trees.py --prefix test --file_locations data/gastruloid/TLS_locations.txt --states_file data/gastruloid/TLS_states.txt --node_labels_file test_nodeLabels.txt
+
+<a name="data"></a>
+### Data
 Currently, the newick files encoding the TLS cell lineage trees are stored in `data/gastruloid/input_trees` and the metadata files containing the cell type annotations are stored in `data/gastruloid/formatted_and_reduced_labels`.
