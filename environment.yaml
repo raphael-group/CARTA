@@ -1,0 +1,15 @@
+name: carta_env
+channels:
+  - conda-forge
+  - gurobi
+dependencies:
+  - python = 3.9
+  - numpy = 1.21.6
+  - pandas = 1.3.5
+  - gurobi = 10.0.2
+  - networkx = 2.6
+  - ete3 = 3.1.2
+  - pip
+  - pip:
+      - gurobipy==10.0.2
+      - git+https://github.com/YosefLab/Cassiopeia@master#egg=cassiopeia-lineage
