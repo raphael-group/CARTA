@@ -1,32 +1,30 @@
 from argparse import ArgumentParser
 
+import sys
+import os
 import cassiopeia as cas
+
+src = os.path.join(os.path.dirname(os.path.abspath(__file__)))
+if not os.path.isdir(src):
+    raise ValueError("carta directory cannot be found i.e. {}, is anything been moved?".format(src))
+sys.path.append(src)
+
 import utils
 import ilp
 
-parser = ArgumentParser()
+def get_options():
+    parser = ArgumentParser()
+    parser.add_argument("--prefix", type=str, help="filepath prefix for this run")
+    parser.add_argument("-k", type=int, help="number of a prior progenitors")
+    parser.add_argument("--file_locations", type=str, help="a file that on each line specifies the filepath of a newick file and a corresponding state metadata file in that order, seperated by a tab")
+    parser.add_argument("--states_file", type=str, help="a file containing the cell states present in this dataset")
+    parser.add_argument("--normalize_method", default="no_normalization", choices=["no_normalization", "cell_proportion_before_pruning", "cell_proportion_after_pruning"], help="the scheme by which to normalize the objective function",)
+    parser.add_argument("--time_limit_sec", default=21600, help="time limit on ilp runs")
+    parser.add_argument("--enforce_tree", default=False, action='store_true', help="whether or not to enforce that the progenitors can create a tree")
+    args = parser.parse_args()
+    return args
 
-parser.add_argument("--prefix", type=str, help="filepath prefix for this run")
-parser.add_argument("-k", type=int, help="number of a prior progenitors")
-parser.add_argument("--file_locations", type=str, help="a file that on each line specifies the filepath of a newick file and a corresponding state metadata file in that order, seperated by a tab")
-parser.add_argument("--states_file", type=str, help="a file containing the cell states present in this dataset")
-parser.add_argument(
-    "--normalize_method",
-    default="no_normalization",
-    choices=["no_normalization", "cell_proportion_before_pruning", "cell_proportion_after_pruning"],
-    help="the scheme by which to normalize the objective function",
-)
-parser.add_argument(
-    "--time_limit_sec",
-    default=21600,
-    help="time limit on ilp runs",
-)
-parser.add_argument("--enforce_tree", default=False, action='store_true', help="whether or not to enforce that the progenitors can create a tree"
-)
-
-args = parser.parse_args()
-
-def main():
+def main(args):
     states = []
     with open(args.states_file, "r") as f:
         for line in f:
@@ -80,6 +78,11 @@ def main():
             node_name = "-".join(node.split("-")[:-1])
             f.write(f"{tree_index}\t{node_name}\t{label}\n")
 
+def main_cli():
+    """Entry point for command-line script"""
+    arguments = get_options()
+    main(arguments)
 
 if __name__ == "__main__":
-    main()
+    arguments = get_options()
+    main(arguments)
