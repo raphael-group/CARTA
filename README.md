@@ -1,8 +1,8 @@
 # CARTA (cell differentiation map inference)
 
-<!-- ![Overview of CARTA](intro.png) -->
+![Overview of CARTA](overview.png)
 <!--Overview of the CARTA algorithm.-->
-CARTA employs a MILP to solve a constrained maximum parsimony problem to infer (i) a cell differentiatoin map and (ii) an ancestral cell type labeling for a set of cell lineage trees.
+**Cell differentiation mapping from lineage tracing data using Carta.** (a) The input to Carta is one or more cell lineage trees, whose leaves are labeled by the measured cell type (labeled A, B, C) of the sequenced cells. Typically, some cells that are present at the time of the experiment are not sampled (denoted by dotted lines). (b) Carta infers a cell differentiation map that describes the progenitor cell types – represented as a potency set – and cell type transitions that occurred during development. (c) Carta quantifies the trade-off between the number k of progenitor cell types in the cell differentiation map and its discrepancy with the cell lineage trees by computing the Pareto front of optimal solutions. A cell differentiation map with the optimal number k* of progenitors is chosen by identifying an elbow of the Pareto front.
 
 ## Contents
 
