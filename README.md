@@ -7,7 +7,7 @@ CARTA employs a MILP to solve a constrained maximum parsimony problem to infer (
 ## Contents
 
   1. [Pre-requisites](#pre-requisites)
-  2. [Installation] (#installation)
+  2. [Installation](#installation)
      * [Using pip](#pip)
   4. [Usage instructions](#usage)
      * [Input file format](#input)
