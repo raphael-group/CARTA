@@ -33,6 +33,7 @@ dependencies = [
     #"gurobipy",
     "networkx",
     "ete3==3.1.3",
+    "loguru",
     "cassiopeia-lineage @ git+https://github.com/YosefLab/Cassiopeia",
 ]
 
@@ -41,4 +42,4 @@ Homepage = "https://github.com/raphael-group/CARTA"
 Issues = "https://github.com/raphael-group/CARTA/issues"
 
 [project.scripts]
-carta = "carta.carta_main:main_cli"
+carta = "carta.carta:main_cli"
