@@ -1,0 +1,1852 @@
+tree_index	node_name	label
+0	cassiopeia_internal_node0	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node10	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node100	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1000	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1002	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1004	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1006	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1007	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1008	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1009	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node101	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1011	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1012	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1013	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1014	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1015	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1016	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1017	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1018	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1019	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node102	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1021	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1024	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1025	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1026	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1027	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1028	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1029	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1030	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1032	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1034	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1035	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1037	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1038	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1039	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node104	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1040	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1042	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1043	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1047	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1048	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node105	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1051	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1052	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1055	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1058	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1059	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node106	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1060	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1063	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1065	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1066	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1067	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1069	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node107	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1071	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1072	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1073	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1075	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node108	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1081	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1082	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1084	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1085	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1087	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1088	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1089	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node109	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1094	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1097	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1098	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1099	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node11	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node110	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1100	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1101	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1103	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1104	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1105	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1106	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1107	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1108	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node111	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1110	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1111	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1114	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1115	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1117	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1119	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node112	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1123	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1126	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1129	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node113	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1130	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1132	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1133	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1137	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1139	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1140	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1142	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1143	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1145	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1146	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1147	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1149	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node115	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1155	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1156	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1158	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1159	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1162	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1164	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1166	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1169	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1170	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1172	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1177	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node118	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1180	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1184	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1186	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node119	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1190	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1191	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1192	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1193	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1194	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1195	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1196	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1197	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1198	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node12	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node120	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1200	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1202	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1205	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1207	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1208	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1209	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node121	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1213	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1215	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1216	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1217	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1219	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node122	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1220	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1221	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1222	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1223	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1224	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1225	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1226	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1228	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node123	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1233	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1234	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1238	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node124	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1241	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1243	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1248	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1249	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node125	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1250	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1254	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1256	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1257	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1258	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1259	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node126	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1260	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1261	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1262	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1268	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node127	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1273	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1274	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1275	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1278	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node128	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1280	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1282	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1284	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1286	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1288	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1289	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1290	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1291	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1292	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1293	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1294	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1297	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1299	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node13	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node130	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1300	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1301	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1302	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1305	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1306	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1307	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1309	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node131	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1310	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1311	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1313	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1314	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1315	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1316	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1317	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node132	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1320	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1321	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1322	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1324	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1327	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1329	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node133	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1330	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1331	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1335	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1336	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1337	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1338	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1339	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node134	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1341	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1342	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1348	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node135	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1351	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1352	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1353	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1354	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1356	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1359	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node136	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1360	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1361	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1363	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1364	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1369	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node137	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1371	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1372	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1373	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1374	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1375	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1376	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1377	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1378	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node138	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1380	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1383	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1384	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1387	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1388	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1390	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1394	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1395	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1398	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node140	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1402	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1403	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1404	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1407	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1409	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node141	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1414	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1415	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1416	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1417	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1419	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1420	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1421	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1422	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1424	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1425	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1426	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1427	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1428	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1429	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node143	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1431	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1432	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1436	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1437	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1439	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1440	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1442	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1445	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1447	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1448	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1449	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node145	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1453	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1458	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node146	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1460	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1461	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1462	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1463	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1464	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1465	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1466	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node147	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1474	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1477	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node148	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1480	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1481	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1484	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1485	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1486	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1489	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node149	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1490	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1491	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1495	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1496	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1498	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1499	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node15	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node150	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1501	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1502	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1504	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1505	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1506	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1507	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1514	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1517	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1518	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node152	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1520	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1521	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1522	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1523	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1525	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1529	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node153	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1532	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1533	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1534	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1535	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1536	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1537	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1539	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node154	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1540	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1541	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1542	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1544	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1545	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1546	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1547	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1548	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1549	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node155	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1550	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1551	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1552	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1554	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1556	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1559	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node156	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1560	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1561	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1562	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1563	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1565	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1566	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1567	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1568	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1569	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1570	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1571	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1572	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1573	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1578	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1579	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node158	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1580	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1581	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1582	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1583	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1584	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1585	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1586	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1588	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node159	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1590	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1591	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1593	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1595	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1597	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1598	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node16	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node160	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1600	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1601	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1603	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1606	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1607	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node161	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1613	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1614	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1615	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1618	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1619	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1620	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1622	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1625	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1626	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1627	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node163	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1633	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1634	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1636	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1637	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1638	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1639	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node164	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1640	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1642	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1643	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1644	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1645	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1646	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1649	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node165	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1650	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1651	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1652	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1655	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1656	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1657	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1658	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1659	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node166	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1662	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1669	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node167	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1670	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1671	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1673	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1675	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1679	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node168	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1680	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1686	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1687	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1690	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1692	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1693	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1694	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1695	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1697	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1699	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node17	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node170	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1701	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1707	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1709	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node171	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1710	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1711	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1712	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1713	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1714	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1715	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1716	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1718	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1719	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node172	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1723	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1724	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1726	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1727	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1729	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node173	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1731	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1733	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1734	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1738	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node174	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1741	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1742	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1743	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1744	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1745	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1747	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1748	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1749	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node175	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1750	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1751	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1753	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1755	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1757	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1758	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1759	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node176	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1761	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1762	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1766	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1767	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1769	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node177	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1770	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1772	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1773	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1774	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1775	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1782	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1785	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1786	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1787	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1788	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1789	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node179	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1791	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1792	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1793	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1794	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1797	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node18	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node180	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1800	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1801	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1806	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1807	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node181	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1810	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1814	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1816	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1817	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node182	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1821	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1826	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1831	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1832	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1833	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1835	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1836	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1837	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1839	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node184	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1841	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1845	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1846	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1847	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node185	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1850	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1853	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1855	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1857	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1858	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node186	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1863	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1864	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1865	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1867	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1869	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node187	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1870	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1871	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1877	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node188	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1880	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1884	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1885	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1886	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1888	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node189	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1891	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1892	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1893	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1895	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1899	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node19	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1903	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1906	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1909	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node191	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1913	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1915	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node192	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1920	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1921	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1925	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node193	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1934	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1936	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1940	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1943	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1944	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1947	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1949	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1950	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1951	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1952	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1953	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1954	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1958	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1961	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1963	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1964	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1965	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1966	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1968	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1969	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node197	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1971	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1973	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1976	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1979	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node198	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1980	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1982	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1983	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1984	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1985	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1987	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1988	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node199	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node1990	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1991	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node1992	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1994	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1997	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node1998	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node200	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2000	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2001	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2002	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2006	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2009	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node201	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2011	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2012	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2016	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node202	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2020	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2023	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2024	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2025	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2027	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node203	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2033	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2034	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2035	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2037	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2038	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2039	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node204	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2040	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2043	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2044	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2045	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2046	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2048	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2049	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node205	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2051	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2053	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2056	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2057	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2058	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2059	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node206	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2065	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2066	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node207	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2070	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2073	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2078	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node208	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2081	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2082	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2083	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2084	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2085	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2086	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2089	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node209	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2090	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2091	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2092	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2098	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node210	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2100	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2101	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2103	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2106	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2107	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2109	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node211	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2110	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2113	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2115	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2116	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2117	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2118	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node212	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2120	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2128	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node213	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2130	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2131	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2134	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2135	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2137	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2138	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2139	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node214	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2143	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2148	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2149	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node215	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2153	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2157	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2158	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node216	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2160	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2162	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2168	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node217	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2172	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2174	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2176	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2178	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2179	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node218	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2180	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2182	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2183	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2184	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2185	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2186	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2187	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2188	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2189	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node219	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2194	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2195	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2196	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2197	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2198	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node22	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2200	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2201	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2202	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2203	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2204	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2205	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2206	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2209	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node221	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2211	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2212	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2214	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2216	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2219	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node222	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2220	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2223	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2225	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2227	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2228	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node223	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2231	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2235	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2236	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2237	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2239	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node224	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2242	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2243	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2244	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2245	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2248	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2249	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node225	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2250	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2253	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2256	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2257	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2258	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2262	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2264	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2265	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2266	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2267	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2269	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node227	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2271	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2274	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2275	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2277	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2278	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node228	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2284	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2285	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2287	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2290	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2291	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2292	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2295	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2299	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node23	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node230	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2301	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2302	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2303	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2304	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2305	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2308	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2309	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node231	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2314	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2317	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2319	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node232	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2321	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2323	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2325	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node233	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2332	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2333	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2339	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node234	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2340	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2341	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2343	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2344	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2346	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2347	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2350	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2353	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2354	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2355	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2358	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node236	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2363	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2364	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node237	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2373	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2375	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2376	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2377	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2378	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node238	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2380	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2381	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2386	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2389	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2390	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2391	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2392	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2393	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node24	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node240	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2400	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2401	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2402	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2405	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2406	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2408	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2409	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2412	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2413	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2415	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2416	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2419	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node242	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2422	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2423	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2424	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2428	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node243	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2431	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2434	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2435	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2438	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node244	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2444	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2445	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node245	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2450	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2454	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2457	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2459	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node246	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2466	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node247	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2470	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2473	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2474	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2475	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node248	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2480	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2483	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2485	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node249	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2492	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2494	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2495	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2498	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2499	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node250	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node251	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2513	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2517	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2518	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node252	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2524	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2526	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2527	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2528	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2529	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node253	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2530	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2532	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2536	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2539	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node254	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2541	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2545	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2546	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2547	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2548	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2549	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node255	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2550	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2552	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2554	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2556	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2557	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2558	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2559	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node256	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2562	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2563	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2566	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2567	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node257	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2570	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2571	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2573	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2577	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2579	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node258	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2581	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2584	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2586	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2587	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2588	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2589	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node259	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2590	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2591	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2593	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2595	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2596	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2599	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node26	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2601	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2602	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2603	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2604	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2605	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2606	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2609	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node261	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2615	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2616	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2617	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2618	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node262	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2624	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2628	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node263	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2635	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2636	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node264	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2640	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2644	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2646	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2648	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node265	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2651	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2652	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2653	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2654	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2655	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2658	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2659	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node266	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2662	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2666	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node267	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2672	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2674	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2676	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2677	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2678	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node268	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2683	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2686	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2687	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2689	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2690	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2691	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2693	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2694	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2695	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2698	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2699	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node27	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node270	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2701	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2702	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2703	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2705	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2707	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2708	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node271	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2710	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2711	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2714	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2716	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2718	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node272	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2723	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2724	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2725	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2727	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2728	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2729	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node273	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2731	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2735	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2737	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2740	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2741	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2742	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2743	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2744	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2746	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2749	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node275	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2754	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2755	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2757	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2758	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2759	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2761	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2764	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2765	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2768	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2769	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2771	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2773	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2774	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2778	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2779	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node278	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2781	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2782	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2783	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2785	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2789	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node279	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2792	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2793	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2794	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2796	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2797	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2799	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node28	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node280	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2800	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2802	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2803	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2807	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2808	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2809	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node281	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2810	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2811	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2812	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2813	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2815	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2816	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2818	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2819	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2820	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2824	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2827	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node283	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2830	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2834	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node284	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2840	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2841	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2842	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2843	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2844	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node285	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2851	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2854	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2856	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2857	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2858	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node286	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2860	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2862	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2863	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2869	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node287	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2875	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2876	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node288	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2880	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2881	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2882	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2886	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2887	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2890	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2892	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2897	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2899	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node29	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node290	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2902	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2906	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2908	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node291	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2911	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2912	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2914	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2917	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2918	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node292	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2923	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2925	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2926	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2927	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2928	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2929	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node293	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2930	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2932	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2934	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2935	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2936	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2937	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2939	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2940	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2941	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2942	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2946	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2947	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2949	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node295	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2950	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2951	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2952	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2956	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2957	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2959	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node296	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2960	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2962	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2963	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2968	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node297	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2970	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2972	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2974	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node2975	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2977	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node298	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2980	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node2992	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2993	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node2998	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node30	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node300	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3000	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3001	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3006	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3008	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3010	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3011	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3013	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3015	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3016	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3017	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node302	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3023	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3024	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node303	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3030	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3033	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3038	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node304	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3041	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3043	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3044	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3048	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3050	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3051	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3052	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3054	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3055	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3056	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3057	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3059	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3060	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3062	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3065	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3068	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3070	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3073	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3074	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3077	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3078	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node308	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3080	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3081	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3088	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3089	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node309	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3090	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3091	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3092	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node31	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node310	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3103	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3105	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3107	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3108	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3109	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node311	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3110	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3111	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3112	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3115	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3118	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3119	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node312	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3121	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3127	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3129	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node313	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3131	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3138	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3139	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node314	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3141	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3146	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3148	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node315	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3150	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3152	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3154	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3155	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3156	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3157	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3165	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3169	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node317	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3170	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3178	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node318	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3180	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3184	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3187	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3189	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3190	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3192	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3193	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3196	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3198	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3199	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node320	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3208	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3209	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node321	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3211	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3212	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3217	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3219	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3223	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3224	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3225	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3226	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3235	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3237	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3238	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node324	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3241	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3242	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3243	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3248	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node325	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3250	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3259	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3263	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3265	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3266	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3267	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3269	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3274	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3275	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3277	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3279	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node328	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3289	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node329	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3291	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3293	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3294	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3299	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node33	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node330	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3301	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3304	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3307	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node331	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3310	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3312	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3318	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node332	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3320	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3321	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3323	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3324	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node333	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3333	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3336	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node334	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3340	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3342	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node335	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node3350	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node3351	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3353	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3354	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node336	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node3360	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node338	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node339	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node340	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node341	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node342	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node343	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node347	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node348	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node35	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node350	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node355	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node356	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node357	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node358	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node361	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node362	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node363	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node364	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node366	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node367	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node368	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node369	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node37	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node370	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node371	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node372	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node373	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node374	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node375	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node378	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node380	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node381	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node382	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node383	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node384	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node385	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node386	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node387	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node389	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node39	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node390	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node392	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node393	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node394	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node396	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node397	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node398	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node399	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node4	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node40	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node401	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node403	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node404	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node405	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node406	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node407	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node408	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node41	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node410	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node411	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node412	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node413	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node414	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node416	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node418	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node419	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node42	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node422	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node423	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node424	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node427	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node428	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node429	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node43	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node430	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node431	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node432	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node434	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node435	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node436	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node437	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node438	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node439	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node44	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node440	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node441	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node442	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node443	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node445	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node446	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node449	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node45	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node451	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node452	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node453	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node455	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node456	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node457	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node458	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node459	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node46	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node461	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node462	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node464	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node465	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node466	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node467	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node47	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node470	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node471	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node474	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node475	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node476	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node477	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node478	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node48	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node480	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node481	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node482	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node487	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node488	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node49	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node491	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node495	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node498	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node5	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node50	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node500	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node501	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node502	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node504	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node505	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node507	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node508	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node509	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node51	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node511	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node512	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node513	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node514	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node515	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node516	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node517	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node518	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node519	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node52	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node520	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node521	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node523	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node527	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node53	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node532	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node533	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node534	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node535	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node537	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node538	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node539	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node54	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node540	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node541	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node542	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node544	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node545	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node546	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node547	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node548	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node55	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node550	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node552	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node553	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node555	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node556	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node557	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node558	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node56	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node561	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node562	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node563	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node564	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node566	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node568	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node569	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node57	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node570	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node572	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node573	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node574	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node575	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node576	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node577	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node578	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node579	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node58	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node581	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node582	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node583	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node584	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node585	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node589	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node59	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node591	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node593	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node594	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node596	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node597	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node598	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node599	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node6	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node60	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node601	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node602	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node603	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node604	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node605	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node606	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node607	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node61	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node610	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node611	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node612	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node613	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node614	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node616	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node617	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node618	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node619	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node620	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node621	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node622	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node623	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node626	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node627	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node628	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node629	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node63	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node630	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node631	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node632	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node636	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node637	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node638	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node639	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node64	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node642	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node643	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node645	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node646	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node647	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node65	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node650	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node652	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node653	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node654	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node656	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node657	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node659	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node66	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node660	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node661	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node662	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node663	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node666	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node667	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node668	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node67	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node670	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node671	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node672	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node673	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node674	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node675	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node678	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node68	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node680	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node681	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node683	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node685	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node686	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node687	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node689	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node69	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node692	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node693	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node694	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node695	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node699	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node7	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node70	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node700	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node703	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node704	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node705	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node706	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node707	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node71	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node710	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node711	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node715	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node716	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node717	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node719	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node72	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node720	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node722	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node723	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node724	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node726	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node727	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node728	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node73	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node731	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node734	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node735	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node736	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node738	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node740	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node741	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node745	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node748	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node749	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node753	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node758	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node76	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node760	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node762	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node764	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node765	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node766	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node767	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node769	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node772	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node777	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node779	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node780	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node782	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node786	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node787	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node789	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node79	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node790	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node791	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node792	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node793	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node794	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node796	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node797	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node8	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node80	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node800	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node802	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node803	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node804	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node805	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node806	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node807	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node808	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node809	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node810	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node811	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node812	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node813	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node817	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node818	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node819	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node820	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node821	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node823	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node825	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node827	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node828	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node829	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node831	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node832	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node833	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node834	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node835	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node836	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node837	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node838	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node84	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node840	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node841	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node845	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node846	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node847	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node848	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node849	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node851	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node852	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node853	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node854	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node855	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node856	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node859	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node86	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node860	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node861	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node862	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node863	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node864	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node866	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node868	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node869	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node87	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node870	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node871	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node872	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node874	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node875	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node877	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node879	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node88	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node880	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node881	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node883	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node884	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node887	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node892	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node893	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node894	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node895	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node898	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node899	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node9	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node90	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node900	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node901	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node902	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node903	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node904	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node905	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node906	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node907	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node908	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node909	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node91	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node911	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node912	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node913	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node915	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node916	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node917	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node918	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node920	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node921	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node925	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node926	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node928	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node931	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node934	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node935	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node938	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node939	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node94	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node941	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node942	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node943	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node944	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node946	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node947	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node949	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node950	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node952	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node954	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node955	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node957	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node958	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node959	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node960	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node961	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node962	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node964	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node97	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node970	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node973	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node975	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node977	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node979	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node98	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node981	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node982	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node983	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node986	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node987	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node988	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node989	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node99	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
+0	cassiopeia_internal_node992	{'NeuralTube', 'NMPs', 'Somite'}
+0	cassiopeia_internal_node993	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node995	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node997	{'NeuralTube', 'Somite'}
+0	cassiopeia_internal_node998	{'NeuralTube', 'Somite', 'Endothelial', 'Endoderm', 'PCGLC', 'NMPs'}
