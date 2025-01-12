@@ -20,7 +20,7 @@ rule carta_stability:
         err='stability/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}.err.log',
     benchmark: 'stability/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}.benchmark',
     shell:
-        "python ../../src/larry.py -i {input.clone_type_mat} -k {wildcards.nprogs} -t {wildcards.threshold} -r "
+        "python ../../scripts/larry.py -i {input.clone_type_mat} -k {wildcards.nprogs} -t {wildcards.threshold} -r "
         " -o {params.prefix} "
         " 1> {log.std} 2> {log.err}"
 
@@ -37,7 +37,7 @@ rule carta_subsampled:
         err='subsampling/{celltype}/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}.err.log',
     benchmark: 'subsampling/{celltype}/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}.benchmark',
     shell:
-        "python ../../src/larry.py -i {input.clone_type_mat} -k {wildcards.nprogs} -t {wildcards.threshold} -r "
+        "python ../../scripts/larry.py -i {input.clone_type_mat} -k {wildcards.nprogs} -t {wildcards.threshold} -r "
         " -o {params.prefix} "
         " 1> {log.std} 2> {log.err}"
 
@@ -54,7 +54,7 @@ rule carta_tree:
         err="carta/{case}/{case}_k{nprogs}_t{threshold}.err.log",
     benchmark: "carta/{case}/{case}_k{nprogs}_t{threshold}.benchmark",
     shell:
-        "python ../../src/larry.py -i {input.clone_type_mat} -k {wildcards.nprogs} -t {wildcards.threshold} -r "
+        "python ../../scripts/larry.py -i {input.clone_type_mat} -k {wildcards.nprogs} -t {wildcards.threshold} -r "
         " -o {params.prefix} "
         " 1> {log.std} 2> {log.err}"
 
