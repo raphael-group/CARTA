@@ -1,0 +1,60 @@
+# simulation snakefile
+configfile: "config.yaml"
+
+rule all:
+    input:
+        expand('carta/{case}/{case}_k{nprogs}_t{threshold}_tree_prog.csv', case=config['case'], nprogs=config['nprogs'], threshold=config['threshold']),
+        #expand('subsampling/{celltype}/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}_tree_prog.csv', celltype=config['subsampled_celltype'], nprogs=config['nprogs'], subsampling_prob=config['subsampling_prob'], iter=range(5), threshold=config['threshold']),
+        #expand('stability/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}_tree_prog.csv', nprogs=config['nprogs'], subsampling_prob=config['subsampling_prob'], iter=range(5), threshold=config['threshold'])
+
+
+rule carta_stability:
+    input:
+        clone_type_mat='input/stability_{subsampling_prob}_{iter}_clone_type_mat.csv',
+    output:
+        prog_file='stability/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}_tree_prog.csv',
+    params:
+        prefix='stability/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}_tree',
+    log:
+        std='stability/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}.log',
+        err='stability/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}.err.log',
+    benchmark: 'stability/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}.benchmark',
+    shell:
+        "python ../../src/larry.py -i {input.clone_type_mat} -k {wildcards.nprogs} -t {wildcards.threshold} -r "
+        " -o {params.prefix} "
+        " 1> {log.std} 2> {log.err}"
+
+
+rule carta_subsampled:
+    input:
+        clone_type_mat='input/subsampled_{celltype}_{subsampling_prob}_{iter}_clone_type_mat.csv',
+    output:
+        prog_file='subsampling/{celltype}/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}_tree_prog.csv',
+    params:
+        prefix='subsampling/{celltype}/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}_tree',
+    log:
+        std='subsampling/{celltype}/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}.log',
+        err='subsampling/{celltype}/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}.err.log',
+    benchmark: 'subsampling/{celltype}/k{nprogs}_p{subsampling_prob}_i{iter}_t{threshold}.benchmark',
+    shell:
+        "python ../../src/larry.py -i {input.clone_type_mat} -k {wildcards.nprogs} -t {wildcards.threshold} -r "
+        " -o {params.prefix} "
+        " 1> {log.std} 2> {log.err}"
+
+
+rule carta_tree:
+    input:
+        clone_type_mat="input/{case}_clone_type_mat.csv",
+    output:
+        prog_file="carta/{case}/{case}_k{nprogs}_t{threshold}_tree_prog.csv",
+    params:
+        prefix="carta/{case}/{case}_k{nprogs}_t{threshold}_tree",
+    log:
+        std="carta/{case}/{case}_k{nprogs}_t{threshold}.log",
+        err="carta/{case}/{case}_k{nprogs}_t{threshold}.err.log",
+    benchmark: "carta/{case}/{case}_k{nprogs}_t{threshold}.benchmark",
+    shell:
+        "python ../../src/larry.py -i {input.clone_type_mat} -k {wildcards.nprogs} -t {wildcards.threshold} -r "
+        " -o {params.prefix} "
+        " 1> {log.std} 2> {log.err}"
+
