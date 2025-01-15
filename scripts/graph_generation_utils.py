@@ -143,7 +143,7 @@ def build_tree_graph(states, k, root_time, seed):
         tree.set_attribute(l, "state_labels", [states[int(l)]])
     for n in tree.internal_nodes:
         tree.set_attribute(n, "state_labels", [])
-    utils.impute_states_from_children(tree)
+    cell_fate_mapping_utils.impute_states_from_children(tree)
     for n in tree.internal_nodes:
         if n == tree.root:
             continue
@@ -189,7 +189,7 @@ def build_tree(num_extant, seed):
         except TreeSimulatorError:
             size = 0
             np.random.seed(seed)
-            seed = np.random.choice(10000)
+            seed = np.random.choice(100000)
 
     tree.relabel_nodes(dict(zip(tree.leaves, ["c" + i for i in tree.leaves])))
 
@@ -199,17 +199,41 @@ def build_tree(num_extant, seed):
 
     branch_length_dict = {}
     for e1, e2 in tree.edges:
-        branch_length_dict[(e1, e2)] = tree.get_branch_length(e1, e2)/total_time
+        branch_length_dict[(e1, e2)] = (tree.get_branch_length(e1, e2)/total_time)
     tree.set_branch_lengths(branch_length_dict)
     
     return tree, seed
 
-def overlay_fate_map_on_tree(edge_dict, tree, states, total_times, num_leaves_per_cell_type, seed):
+def overlay_fate_map_on_tree_random_sample_cells(edge_dict, tree, states, root_state, prob_dict, total_times, seed):
 
-    tree.set_attribute(tree.root, "progen_label", len(states))
+    tree.set_attribute(tree.root, "progen_label", root_state)
+
+    np.random.seed(seed)
+
+    for i in tree.depth_first_traverse_nodes(postorder = False):
+        if i == tree.root:
+            continue
+        time = tree.get_time(i)
+        parent_progen = tree.get_attribute(tree.parent(i), "progen_label")
+        possible_progens = [n for n in edge_dict[parent_progen] if total_times[parent_progen] < time]
+        if len(possible_progens) == 0:
+            chosen_state = parent_progen
+        else:
+            # chosen_state = np.random.choice(possible_progens)
+            chosen_state = np.random.choice(possible_progens, p = prob_dict[parent_progen])
+        tree.set_attribute(i, "progen_label", chosen_state)
+
+    return tree, seed
+
+def overlay_fate_map_on_tree_num_cells_per_type(edge_dict, tree, states, root_state, prob_dict, incidence_dict, total_times, num_leaves_per_cell_type, seed):
+
+    tree.set_attribute(tree.root, "progen_label", root_state)
 
     not_enough_to_subsample_flag = True
+    iters = 0
     while not_enough_to_subsample_flag:
+        if iters > 300:
+            return None, seed
 
         np.random.seed(seed)
 
@@ -222,23 +246,26 @@ def overlay_fate_map_on_tree(edge_dict, tree, states, total_times, num_leaves_pe
             if len(possible_progens) == 0:
                 chosen_state = parent_progen
             else:
-                chosen_state = np.random.choice(possible_progens)
+                chosen_state = np.random.choice(possible_progens, p = prob_dict[parent_progen])
+                # chosen_state = np.random.choice(possible_progens)
             tree.set_attribute(i, "progen_label", chosen_state)
             
         leaf_types = defaultdict(list)
         for l in tree.leaves:
             leaf_types[tree.get_attribute(l, "progen_label")].append(l)
         not_enough_to_subsample_flag = False
-        for i in range(len(states)):
-            if len(leaf_types[i]) < num_leaves_per_cell_type:
+        for i in states:
+            if len(leaf_types[i]) < incidence_dict[i] * num_leaves_per_cell_type:
                 not_enough_to_subsample_flag = True
         if not_enough_to_subsample_flag:
             np.random.seed(seed)
-            seed = np.random.choice(10000)
+            seed = np.random.choice(100000)
+
+        iters += 1
 
     return tree, seed
 
-def subsample_tree(tree, states, num_leaves_per_cell_type, seed):
+def subsample_tree_num_cells_per_type(tree, states, num_leaves_per_cell_type, seed):
     
     np.random.seed(seed)
     
@@ -249,8 +276,56 @@ def subsample_tree(tree, states, num_leaves_per_cell_type, seed):
 
     to_keep = []
 
-    for i in range(len(states)):
+    for i in states:
         to_keep.extend(np.random.choice(leaf_types[i], size = num_leaves_per_cell_type, replace = False))
+
+    to_remove = list(set(tree.leaves) - set(to_keep))
+
+    tree.remove_leaves_and_prune_lineages(to_remove)
+    tree.collapse_unifurcations()
+
+def subsample_tree_min_cells_per_type(tree, states, total_sample, id_to_progen, incidence_dict, min_sampled_per_cell_type, seed):
+    
+    np.random.seed(seed)
+
+    not_singleton = []
+
+    for l in tree.leaves:
+        if type(id_to_progen[tree.get_attribute(l, "progen_label")]) == list:
+            not_singleton.append(l)
+
+    to_consider = set(tree.leaves) - set(not_singleton)
+    
+    leaf_types = defaultdict(list)
+
+    for l in to_consider:
+        leaf_types[tree.get_attribute(l, "progen_label")].append(l)
+
+    to_keep = []
+
+    for i in states:
+        to_keep.extend(np.random.choice(leaf_types[i], size = min_sampled_per_cell_type * incidence_dict[i], replace = False))
+
+    print("remaining :" + str(total_sample - len(to_keep)))
+
+    to_keep = list(np.random.choice(list(set(to_consider) - set(to_keep)), size = total_sample - len(to_keep), replace = False)) + to_keep
+
+    to_remove = list(set(tree.leaves) - set(to_keep))
+
+    tree.remove_leaves_and_prune_lineages(to_remove)
+    tree.collapse_unifurcations()
+
+def subsample_tree_random_sample_cells(tree, states, total_sample, id_to_progen, seed):
+    
+    np.random.seed(seed)
+
+    not_singleton = []
+
+    for l in tree.leaves:
+        if type(id_to_progen[tree.get_attribute(l, "progen_label")]) == list:
+            not_singleton.append(l)
+
+    to_keep = list(np.random.choice(list(set(tree.leaves) - set(not_singleton)), size = total_sample, replace = False))
 
     to_remove = list(set(tree.leaves) - set(to_keep))
 
@@ -262,7 +337,7 @@ def count_unrealizations(tree, id_to_progen):
         tree.set_attribute(l, "state_labels", [id_to_progen[tree.get_attribute(l, "progen_label")]])
     for n in tree.internal_nodes:
         tree.set_attribute(n, "state_labels", [])
-    utils.impute_states_from_children(tree)
+    cell_fate_mapping_utils.impute_states_from_children(tree)
 
     num_unrealizations = 0
     for n in tree.internal_nodes:

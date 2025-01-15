@@ -118,8 +118,8 @@ An example while providing a set of putative progenitors as input.
 
 <a name="data"></a>
 ## Data
-The newick files for the TLS cell lineage trees are stored in `data/gastruloid/input_trees` and the metadata files containing the cell type annotations are stored in `data/gastruloid/formatted_and_reduced_labels`.
+The newick files for the TLS cell lineage trees are stored in `data/TLS/input_trees` and the metadata files containing the cell type annotations are stored in `data/TLS/formatted_and_reduced_labels`.
 
 The input files for mouse hematopoiesis data are stored in `data/larry/input`. The format of this data is slightly different and we use the code `scripts/larry.py` which implements the CARTA-tree ILP that can take the mouse hematopoiesis data as input. The raw mouse hematopoiesis data is availabe at `https://github.com/AllonKleinLab/paper-data/tree/master/Lineage_tracing_on_transcriptional_landscapes_links_state_to_fate_during_differentiation`
 
-The Snakefiles to generate the simulations and run cell differentiation mapping methods (including Carta) are provided in `data/tree_simulation`, `data/graph_simulation`.
+The Snakefiles to generate the simulations and run cell differentiation mapping methods (including Carta) are provided in `data/simulations`.

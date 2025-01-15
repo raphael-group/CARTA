@@ -36,8 +36,9 @@ def main():
     with open(args.file_locations) as file_locations:
         for line in file_locations:
             nw, metadata = line.rstrip().split("\t")
-            tree = cas.data.CassiopeiaTree(tree = nw)
-            utils.label_tree_with_leaf_states(tree, metadata)
+            # tree = cas.data.CassiopeiaTree(tree = nw)
+            # utils.label_tree_with_leaf_states(tree, metadata)
+            utils.label_tree_with_leaf_states(nw, metadata)
             utils.prune_unwanted_states(tree, states)
             utils.impute_states_from_children(tree)
             

@@ -1,0 +1,31 @@
+# gastruloid snakefile
+configfile: "config.yaml"
+
+rule all:
+    input:
+        expand('results/{case}/{structure}/{weights}_progenitors_{k}.txt', case=config['case'], structure=config['structure'], weights=config['weights'], k=config['k']),
+
+def get_structure_flag(wc):
+    structure = wc.structure
+    if structure == 'tree':
+        return "--enforce_tree"
+    else:
+        return ""
+
+rule run:
+    input:
+        location_file="{case}_locations.txt",
+        state_file="{case}_states.txt",
+    output:
+        prog_file="results/{case}/{structure}/{weights}_progenitors_{k}.txt",
+    params:
+        prefix="results/{case}/{structure}/{weights}",
+        structure_flag=get_structure_flag,
+    log:
+        std="results/{case}/{structure}/{weights}_{k}.log",
+        err="results/{case}/{structure}/{weights}_{k}.err.log",
+    shell:
+        "python ../../src/cell_fate_mapping_run_ilp.py --prefix {params.prefix} -ks {wildcards.k} "
+        "--file_locations {input.location_file} --states_file {input.state_file} "
+        "--normalize_method {wildcards.weights} --time_limit_sec 1000000000000 "
+        "{params.structure_flag} > {log.std} 2> {log.err} "
