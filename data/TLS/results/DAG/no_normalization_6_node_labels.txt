@@ -1,0 +1,1865 @@
+tree_index	node_name	label
+0	node0	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node0	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node0	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node0	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+12	node0	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node0	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+2	node0	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+3	node0	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+4	node0	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+5	node0	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+6	node0	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+7	node0	{'NeuralTube', 'Somite', 'NMPs'}
+8	node0	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+9	node0	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node1	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node1	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+10	node1	{'NeuralTube', 'Somite', 'NMPs'}
+11	node1	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+12	node1	{'NeuralTube', 'Somite', 'NMPs'}
+13	node1	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+2	node1	{'NeuralTube', 'Somite', 'NMPs'}
+3	node1	{'NeuralTube', 'Somite', 'NMPs'}
+4	node1	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+5	node1	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+6	node1	{'NeuralTube', 'Somite', 'NMPs'}
+7	node1	{'NeuralTube', 'Somite', 'NMPs'}
+8	node1	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+9	node1	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node10	{'NeuralTube', 'Somite', 'NMPs'}
+1	node10	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node10	{'NeuralTube', 'Somite'}
+11	node10	{'NeuralTube', 'Somite', 'NMPs'}
+12	node10	{'NeuralTube', 'Somite'}
+13	node10	{'NeuralTube', 'Somite', 'NMPs'}
+2	node10	{'NeuralTube', 'Somite', 'NMPs'}
+6	node10	{'NeuralTube', 'NMPs'}
+7	node10	{'NeuralTube', 'Somite', 'NMPs'}
+8	node10	{'NeuralTube', 'Somite'}
+9	node10	{'NeuralTube', 'Somite', 'NMPs'}
+0	node100	{'NeuralTube', 'Somite', 'NMPs'}
+1	node100	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+12	node100	{'NeuralTube', 'NMPs'}
+13	node100	{'NeuralTube', 'NMPs'}
+5	node100	{'NeuralTube', 'NMPs'}
+9	node100	{'NeuralTube', 'Somite'}
+1	node1002	{'Endothelial', 'Somite'}
+1	node1006	{'NeuralTube', 'Somite'}
+1	node1008	{'Endothelial', 'Somite'}
+0	node101	{'NeuralTube', 'Somite', 'NMPs'}
+1	node101	{'NeuralTube', 'Somite'}
+10	node101	{'NeuralTube', 'Somite', 'NMPs'}
+11	node101	{'NeuralTube', 'Somite'}
+12	node101	{'NeuralTube', 'NMPs'}
+3	node101	{'NeuralTube', 'Somite', 'NMPs'}
+5	node101	{'NeuralTube', 'Somite', 'NMPs'}
+1	node1016	{'NeuralTube', 'Somite'}
+0	node102	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node102	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node102	{'NeuralTube', 'Endoderm', 'Somite'}
+4	node102	{'NeuralTube', 'Somite'}
+5	node102	{'NeuralTube', 'Somite', 'NMPs'}
+9	node102	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node103	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node103	{'NeuralTube', 'Somite'}
+12	node103	{'NeuralTube', 'NMPs'}
+13	node103	{'NeuralTube', 'Somite', 'NMPs'}
+3	node103	{'NeuralTube', 'NMPs'}
+4	node103	{'NeuralTube', 'Somite'}
+9	node103	{'NeuralTube', 'NMPs'}
+0	node104	{'NeuralTube', 'Somite', 'NMPs'}
+1	node104	{'NeuralTube', 'Somite'}
+10	node104	{'NeuralTube', 'Somite'}
+12	node104	{'NeuralTube', 'NMPs'}
+2	node104	{'NeuralTube', 'Somite', 'NMPs'}
+8	node104	{'NeuralTube', 'Somite', 'NMPs'}
+10	node105	{'NeuralTube', 'Somite', 'NMPs'}
+12	node105	{'NeuralTube', 'Somite'}
+2	node105	{'NeuralTube', 'NMPs'}
+8	node105	{'NeuralTube', 'NMPs'}
+9	node105	{'NeuralTube', 'Somite'}
+0	node106	{'Endothelial', 'Somite'}
+1	node106	{'NeuralTube', 'Somite'}
+10	node106	{'NeuralTube', 'Somite'}
+11	node106	{'NeuralTube', 'Somite'}
+2	node106	{'NeuralTube', 'NMPs'}
+5	node106	{'NeuralTube', 'NMPs'}
+8	node106	{'NeuralTube', 'Somite'}
+0	node107	{'NeuralTube', 'Somite'}
+1	node107	{'NeuralTube', 'Somite'}
+12	node107	{'NeuralTube', 'NMPs'}
+8	node107	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+9	node107	{'NeuralTube', 'NMPs'}
+0	node108	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node108	{'NeuralTube', 'Somite'}
+10	node108	{'NeuralTube', 'Somite'}
+12	node108	{'NeuralTube', 'Somite', 'NMPs'}
+8	node108	{'NeuralTube', 'Somite'}
+9	node108	{'NeuralTube', 'NMPs'}
+0	node109	{'NeuralTube', 'Somite'}
+1	node109	{'NeuralTube', 'Endoderm', 'Somite'}
+12	node109	{'NeuralTube', 'Somite'}
+13	node109	{'NeuralTube', 'NMPs'}
+4	node109	{'NeuralTube', 'NMPs'}
+5	node109	{'NeuralTube', 'NMPs'}
+8	node109	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+9	node109	{'NeuralTube', 'Somite', 'NMPs'}
+0	node11	{'NeuralTube', 'Somite', 'NMPs'}
+1	node11	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node11	{'NeuralTube', 'Somite', 'NMPs'}
+11	node11	{'NeuralTube', 'Somite', 'NMPs'}
+12	node11	{'NeuralTube', 'NMPs'}
+3	node11	{'NeuralTube', 'Somite', 'NMPs'}
+4	node11	{'NeuralTube', 'Somite', 'NMPs'}
+5	node11	{'NeuralTube', 'Somite', 'NMPs'}
+6	node11	{'NeuralTube', 'Somite', 'NMPs'}
+8	node11	{'Endothelial', 'Somite'}
+9	node11	{'NeuralTube', 'Somite'}
+0	node110	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node110	{'NeuralTube', 'Somite'}
+11	node110	{'NeuralTube', 'NMPs'}
+12	node110	{'NeuralTube', 'Somite'}
+13	node110	{'NeuralTube', 'Somite'}
+8	node110	{'NeuralTube', 'Somite', 'NMPs'}
+9	node110	{'NeuralTube', 'Somite', 'NMPs'}
+0	node111	{'NeuralTube', 'Somite'}
+1	node111	{'NeuralTube', 'Somite'}
+11	node111	{'NeuralTube', 'Somite'}
+2	node111	{'NeuralTube', 'Somite'}
+4	node111	{'NeuralTube', 'Somite'}
+5	node111	{'NeuralTube', 'Somite'}
+8	node111	{'NeuralTube', 'Somite', 'NMPs'}
+12	node112	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node112	{'NeuralTube', 'Somite', 'NMPs'}
+4	node112	{'NeuralTube', 'Somite'}
+5	node112	{'NeuralTube', 'Somite', 'NMPs'}
+1	node113	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node113	{'NeuralTube', 'Somite', 'NMPs'}
+13	node113	{'NeuralTube', 'Somite', 'NMPs'}
+4	node113	{'NeuralTube', 'NMPs'}
+1	node114	{'NeuralTube', 'Endoderm', 'Somite'}
+12	node114	{'NeuralTube', 'NMPs'}
+13	node114	{'NeuralTube', 'NMPs'}
+2	node114	{'NeuralTube', 'Somite'}
+4	node114	{'NeuralTube', 'NMPs'}
+8	node114	{'NeuralTube', 'Somite', 'NMPs'}
+0	node115	{'NeuralTube', 'Somite'}
+1	node115	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node115	{'NeuralTube', 'Somite', 'NMPs'}
+12	node115	{'NeuralTube', 'NMPs'}
+4	node115	{'NeuralTube', 'NMPs'}
+5	node115	{'NeuralTube', 'Somite'}
+8	node115	{'NeuralTube', 'Somite', 'NMPs'}
+0	node116	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node116	{'Endothelial', 'Somite'}
+12	node116	{'NeuralTube', 'Somite'}
+13	node116	{'NeuralTube', 'Somite'}
+2	node116	{'NeuralTube', 'NMPs'}
+8	node116	{'NeuralTube', 'Somite'}
+9	node116	{'NeuralTube', 'Somite'}
+1	node117	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+12	node117	{'NeuralTube', 'Somite'}
+4	node117	{'NeuralTube', 'NMPs'}
+8	node117	{'NeuralTube', 'Somite', 'NMPs'}
+0	node118	{'NeuralTube', 'Endoderm', 'Somite'}
+10	node118	{'NeuralTube', 'Somite', 'NMPs'}
+13	node118	{'NeuralTube', 'Somite'}
+1	node119	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node119	{'NeuralTube', 'NMPs'}
+13	node119	{'NeuralTube', 'Somite'}
+5	node119	{'NeuralTube', 'Somite'}
+8	node119	{'NeuralTube', 'Somite'}
+0	node12	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node12	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+11	node12	{'NeuralTube', 'Somite'}
+12	node12	{'NeuralTube', 'Somite', 'NMPs'}
+13	node12	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+2	node12	{'NeuralTube', 'Somite', 'NMPs'}
+4	node12	{'NeuralTube', 'Somite', 'NMPs'}
+5	node12	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+6	node12	{'NeuralTube', 'Somite'}
+8	node12	{'NeuralTube', 'Somite', 'NMPs'}
+9	node12	{'NeuralTube', 'Somite'}
+4	node120	{'NeuralTube', 'Somite'}
+8	node120	{'NeuralTube', 'Somite', 'NMPs'}
+9	node120	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node121	{'NeuralTube', 'Somite'}
+11	node121	{'NeuralTube', 'Somite', 'NMPs'}
+12	node121	{'NeuralTube', 'NMPs'}
+13	node121	{'NeuralTube', 'Somite'}
+4	node121	{'NeuralTube', 'Somite'}
+1	node122	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+13	node122	{'NeuralTube', 'NMPs'}
+5	node122	{'NeuralTube', 'Somite', 'NMPs'}
+8	node122	{'NeuralTube', 'NMPs'}
+0	node123	{'NeuralTube', 'Somite'}
+10	node123	{'NeuralTube', 'Somite'}
+2	node123	{'NeuralTube', 'Somite', 'NMPs'}
+0	node124	{'NeuralTube', 'Somite', 'NMPs'}
+5	node124	{'NeuralTube', 'NMPs'}
+8	node124	{'NeuralTube', 'Somite', 'NMPs'}
+9	node124	{'NeuralTube', 'NMPs'}
+0	node125	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node125	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node125	{'NeuralTube', 'Somite'}
+13	node125	{'NeuralTube', 'Somite', 'NMPs'}
+0	node126	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node126	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+2	node126	{'NeuralTube', 'NMPs'}
+4	node126	{'NeuralTube', 'NMPs'}
+9	node126	{'NeuralTube', 'Somite'}
+1	node127	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+11	node127	{'NeuralTube', 'Somite', 'NMPs'}
+13	node127	{'NeuralTube', 'Somite'}
+8	node127	{'NeuralTube', 'Somite', 'NMPs'}
+9	node127	{'NeuralTube', 'NMPs'}
+4	node128	{'NeuralTube', 'Somite'}
+5	node128	{'NeuralTube', 'Somite', 'NMPs'}
+8	node128	{'NeuralTube', 'Somite', 'NMPs'}
+0	node129	{'NeuralTube', 'Somite'}
+11	node129	{'NeuralTube', 'Somite'}
+13	node129	{'NeuralTube', 'Somite'}
+2	node129	{'NeuralTube', 'NMPs'}
+4	node129	{'NeuralTube', 'NMPs'}
+5	node129	{'NeuralTube', 'Somite', 'NMPs'}
+8	node129	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+9	node129	{'NeuralTube', 'Somite'}
+0	node13	{'NeuralTube', 'Somite'}
+1	node13	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node13	{'NeuralTube', 'Somite'}
+11	node13	{'NeuralTube', 'Somite', 'NMPs'}
+12	node13	{'NeuralTube', 'Somite'}
+13	node13	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+2	node13	{'NeuralTube', 'Somite'}
+3	node13	{'NeuralTube', 'Somite'}
+4	node13	{'NeuralTube', 'Somite'}
+5	node13	{'NeuralTube', 'Somite', 'NMPs'}
+6	node13	{'NeuralTube', 'NMPs'}
+9	node13	{'NeuralTube', 'Somite', 'NMPs'}
+0	node130	{'NeuralTube', 'Somite'}
+1	node130	{'NeuralTube', 'Endoderm', 'Somite'}
+2	node130	{'NeuralTube', 'Somite'}
+4	node130	{'NeuralTube', 'NMPs'}
+5	node130	{'NeuralTube', 'Somite', 'NMPs'}
+8	node130	{'NeuralTube', 'Somite', 'NMPs'}
+0	node131	{'NeuralTube', 'Somite'}
+1	node131	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+5	node131	{'NeuralTube', 'NMPs'}
+0	node132	{'NeuralTube', 'Somite', 'NMPs'}
+1	node132	{'NeuralTube', 'Endoderm', 'Somite'}
+11	node132	{'NeuralTube', 'Somite'}
+5	node132	{'NeuralTube', 'Somite'}
+9	node132	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node133	{'NeuralTube', 'Endoderm', 'Somite'}
+11	node133	{'NeuralTube', 'NMPs'}
+4	node133	{'NeuralTube', 'Somite'}
+5	node133	{'NeuralTube', 'NMPs'}
+0	node134	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node134	{'NeuralTube', 'Endoderm', 'Somite'}
+11	node134	{'NeuralTube', 'Somite'}
+13	node134	{'NeuralTube', 'NMPs'}
+0	node135	{'NeuralTube', 'Somite', 'NMPs'}
+1	node135	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node135	{'NeuralTube', 'Somite', 'NMPs'}
+13	node135	{'NeuralTube', 'NMPs'}
+4	node135	{'NeuralTube', 'Somite'}
+5	node135	{'NeuralTube', 'Somite', 'NMPs'}
+0	node136	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node136	{'NeuralTube', 'Somite'}
+13	node136	{'NeuralTube', 'Somite'}
+8	node136	{'NeuralTube', 'Somite', 'NMPs'}
+0	node137	{'NeuralTube', 'Somite'}
+1	node137	{'NeuralTube', 'Endoderm', 'Somite'}
+2	node137	{'NeuralTube', 'NMPs'}
+5	node137	{'NeuralTube', 'NMPs'}
+8	node137	{'NeuralTube', 'NMPs'}
+0	node138	{'NeuralTube', 'Somite'}
+1	node138	{'NeuralTube', 'Somite'}
+13	node138	{'NeuralTube', 'NMPs'}
+0	node139	{'NeuralTube', 'Somite', 'NMPs'}
+1	node139	{'NeuralTube', 'Somite', 'NMPs'}
+11	node139	{'NeuralTube', 'Somite'}
+13	node139	{'NeuralTube', 'Somite'}
+2	node139	{'NeuralTube', 'NMPs'}
+5	node139	{'NeuralTube', 'NMPs'}
+1	node14	{'NeuralTube', 'Somite'}
+10	node14	{'NeuralTube', 'Somite', 'NMPs'}
+12	node14	{'NeuralTube', 'Somite', 'NMPs'}
+2	node14	{'NeuralTube', 'Somite', 'NMPs'}
+3	node14	{'NeuralTube', 'Somite', 'NMPs'}
+4	node14	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+5	node14	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+6	node14	{'NeuralTube', 'Somite', 'NMPs'}
+9	node14	{'NeuralTube', 'Somite'}
+0	node140	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node140	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node140	{'NeuralTube', 'Endoderm', 'Somite'}
+13	node140	{'NeuralTube', 'Somite'}
+5	node140	{'NeuralTube', 'NMPs'}
+0	node141	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node141	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+2	node141	{'NeuralTube', 'NMPs'}
+5	node141	{'NeuralTube', 'NMPs'}
+8	node141	{'NeuralTube', 'Somite'}
+0	node142	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node142	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node142	{'NeuralTube', 'NMPs'}
+5	node142	{'NeuralTube', 'NMPs'}
+0	node143	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node143	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node143	{'NeuralTube', 'Somite', 'NMPs'}
+1	node144	{'NeuralTube', 'Somite'}
+8	node144	{'NeuralTube', 'NMPs'}
+1	node145	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+5	node145	{'NeuralTube', 'Somite', 'NMPs'}
+0	node146	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node146	{'NeuralTube', 'Somite'}
+13	node146	{'NeuralTube', 'Somite', 'NMPs'}
+5	node146	{'NeuralTube', 'NMPs'}
+0	node147	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node147	{'NeuralTube', 'Somite'}
+0	node148	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node148	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node149	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node149	{'NeuralTube', 'Endoderm', 'Somite'}
+5	node149	{'NeuralTube', 'NMPs'}
+8	node149	{'NeuralTube', 'Somite', 'NMPs'}
+0	node15	{'NeuralTube', 'Somite'}
+1	node15	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+10	node15	{'NeuralTube', 'Somite', 'NMPs'}
+11	node15	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+12	node15	{'NeuralTube', 'Somite', 'NMPs'}
+2	node15	{'NeuralTube', 'Somite'}
+3	node15	{'NeuralTube', 'Somite', 'NMPs'}
+5	node15	{'NeuralTube', 'Somite', 'NMPs'}
+9	node15	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node150	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+5	node150	{'NeuralTube', 'Somite', 'NMPs'}
+0	node152	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node152	{'Endothelial', 'Somite'}
+13	node152	{'NeuralTube', 'Somite', 'NMPs'}
+8	node152	{'Endothelial', 'Somite'}
+11	node153	{'NeuralTube', 'Somite', 'NMPs'}
+13	node153	{'NeuralTube', 'Somite', 'NMPs'}
+5	node153	{'NeuralTube', 'Somite'}
+0	node154	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node154	{'NeuralTube', 'Somite'}
+5	node154	{'NeuralTube', 'Somite'}
+8	node154	{'NeuralTube', 'Somite', 'NMPs'}
+0	node155	{'NeuralTube', 'Somite', 'NMPs'}
+1	node155	{'NeuralTube', 'Endoderm', 'Somite'}
+8	node155	{'NeuralTube', 'Somite', 'NMPs'}
+0	node156	{'Endothelial', 'Somite'}
+1	node156	{'NeuralTube', 'Somite'}
+5	node156	{'NeuralTube', 'NMPs'}
+8	node156	{'NeuralTube', 'Somite'}
+0	node157	{'NeuralTube', 'Somite'}
+8	node157	{'NeuralTube', 'Somite', 'NMPs'}
+0	node158	{'NeuralTube', 'Somite'}
+1	node158	{'NeuralTube', 'Somite'}
+8	node158	{'NeuralTube', 'Somite', 'NMPs'}
+1	node159	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+13	node159	{'NeuralTube', 'Somite'}
+5	node159	{'NeuralTube', 'Somite'}
+8	node159	{'NeuralTube', 'Somite', 'NMPs'}
+0	node16	{'NeuralTube', 'Somite'}
+1	node16	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+12	node16	{'NeuralTube', 'Somite'}
+2	node16	{'NeuralTube', 'Somite', 'NMPs'}
+3	node16	{'NeuralTube', 'Somite', 'NMPs'}
+4	node16	{'NeuralTube', 'NMPs'}
+5	node16	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+7	node16	{'NeuralTube', 'NMPs'}
+8	node16	{'NeuralTube', 'Somite'}
+9	node16	{'NeuralTube', 'Somite'}
+0	node160	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node160	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node160	{'NeuralTube', 'Somite', 'NMPs'}
+5	node160	{'NeuralTube', 'Somite'}
+0	node161	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node161	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node161	{'NeuralTube', 'Somite', 'NMPs'}
+5	node161	{'NeuralTube', 'Somite', 'NMPs'}
+8	node161	{'NeuralTube', 'Somite', 'NMPs'}
+1	node162	{'NeuralTube', 'Somite'}
+13	node162	{'NeuralTube', 'Somite'}
+0	node163	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+5	node163	{'NeuralTube', 'NMPs'}
+8	node163	{'NeuralTube', 'Somite'}
+1	node164	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+8	node164	{'NeuralTube', 'Somite', 'NMPs'}
+0	node165	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node165	{'NeuralTube', 'Somite'}
+5	node165	{'NeuralTube', 'Somite', 'NMPs'}
+0	node166	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+11	node166	{'NeuralTube', 'NMPs'}
+5	node166	{'NeuralTube', 'Somite', 'NMPs'}
+0	node167	{'NeuralTube', 'Somite', 'NMPs'}
+1	node167	{'NeuralTube', 'Somite'}
+13	node167	{'NeuralTube', 'Somite'}
+5	node167	{'NeuralTube', 'Somite', 'NMPs'}
+8	node167	{'NeuralTube', 'NMPs'}
+1	node168	{'NeuralTube', 'Somite'}
+11	node168	{'NeuralTube', 'Somite', 'NMPs'}
+5	node168	{'NeuralTube', 'Somite', 'NMPs'}
+0	node169	{'NeuralTube', 'Somite', 'NMPs'}
+1	node169	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+11	node169	{'NeuralTube', 'Somite'}
+8	node169	{'NeuralTube', 'Somite', 'NMPs'}
+0	node17	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node17	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+10	node17	{'NeuralTube', 'NMPs'}
+12	node17	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node17	{'NeuralTube', 'Somite'}
+2	node17	{'NeuralTube', 'Somite', 'NMPs'}
+4	node17	{'NeuralTube', 'Somite'}
+5	node17	{'NeuralTube', 'Somite', 'NMPs'}
+6	node17	{'NeuralTube', 'Somite'}
+8	node17	{'NeuralTube', 'NMPs'}
+0	node170	{'NeuralTube', 'Somite', 'NMPs'}
+1	node170	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+13	node170	{'NeuralTube', 'Somite'}
+5	node170	{'NeuralTube', 'NMPs'}
+8	node170	{'NeuralTube', 'Somite'}
+5	node171	{'NeuralTube', 'Somite'}
+8	node171	{'NeuralTube', 'NMPs'}
+13	node172	{'NeuralTube', 'Somite'}
+5	node172	{'NeuralTube', 'Somite', 'NMPs'}
+8	node172	{'NeuralTube', 'Somite'}
+0	node173	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node173	{'NeuralTube', 'Somite'}
+13	node173	{'NeuralTube', 'Somite'}
+5	node173	{'NeuralTube', 'Somite', 'NMPs'}
+8	node173	{'NeuralTube', 'NMPs'}
+1	node174	{'NeuralTube', 'Somite'}
+11	node174	{'NeuralTube', 'NMPs'}
+8	node174	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node176	{'NeuralTube', 'Somite'}
+13	node176	{'NeuralTube', 'Somite'}
+1	node177	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+13	node177	{'NeuralTube', 'NMPs'}
+5	node177	{'NeuralTube', 'NMPs'}
+8	node177	{'NeuralTube', 'Somite'}
+0	node178	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node178	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node178	{'NeuralTube', 'NMPs'}
+13	node178	{'NeuralTube', 'Somite', 'NMPs'}
+5	node178	{'NeuralTube', 'NMPs'}
+0	node179	{'NeuralTube', 'Somite', 'NMPs'}
+1	node179	{'Endothelial', 'Somite'}
+0	node18	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node18	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node18	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+2	node18	{'NeuralTube', 'Somite', 'NMPs'}
+3	node18	{'NeuralTube', 'Somite', 'NMPs'}
+4	node18	{'NeuralTube', 'Somite', 'NMPs'}
+5	node18	{'NeuralTube', 'Somite', 'NMPs'}
+6	node18	{'NeuralTube', 'Somite', 'NMPs'}
+8	node18	{'NeuralTube', 'Somite'}
+9	node18	{'NeuralTube', 'NMPs'}
+0	node180	{'NeuralTube', 'Somite'}
+1	node180	{'Endothelial', 'Somite'}
+5	node180	{'NeuralTube', 'Somite', 'NMPs'}
+0	node181	{'NeuralTube', 'Somite'}
+1	node181	{'NeuralTube', 'Somite'}
+11	node181	{'NeuralTube', 'Somite'}
+5	node181	{'NeuralTube', 'NMPs'}
+11	node182	{'NeuralTube', 'Somite', 'NMPs'}
+5	node182	{'NeuralTube', 'NMPs'}
+1	node183	{'Endothelial', 'Somite'}
+5	node183	{'NeuralTube', 'Somite'}
+8	node183	{'NeuralTube', 'NMPs'}
+0	node184	{'NeuralTube', 'Somite'}
+1	node184	{'NeuralTube', 'Somite'}
+11	node184	{'NeuralTube', 'Somite', 'NMPs'}
+8	node184	{'NeuralTube', 'Somite', 'NMPs'}
+0	node185	{'NeuralTube', 'Somite'}
+1	node185	{'NeuralTube', 'Endoderm', 'Somite'}
+11	node185	{'NeuralTube', 'Somite', 'NMPs'}
+0	node186	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+8	node186	{'NeuralTube', 'Somite'}
+0	node187	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node187	{'NeuralTube', 'Somite'}
+8	node187	{'NeuralTube', 'Somite'}
+0	node188	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+13	node188	{'NeuralTube', 'Somite'}
+5	node188	{'NeuralTube', 'Somite', 'NMPs'}
+0	node189	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+8	node189	{'NeuralTube', 'NMPs'}
+0	node19	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node19	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node19	{'NeuralTube', 'Somite'}
+11	node19	{'NeuralTube', 'Somite', 'NMPs'}
+13	node19	{'NeuralTube', 'Somite', 'NMPs'}
+3	node19	{'NeuralTube', 'NMPs'}
+4	node19	{'NeuralTube', 'Somite', 'NMPs'}
+8	node19	{'NeuralTube', 'Somite', 'NMPs'}
+9	node19	{'NeuralTube', 'Somite'}
+0	node190	{'Endothelial', 'Somite'}
+1	node190	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+11	node190	{'NeuralTube', 'NMPs'}
+13	node190	{'NeuralTube', 'Somite', 'NMPs'}
+5	node190	{'NeuralTube', 'Somite', 'NMPs'}
+8	node190	{'NeuralTube', 'Somite', 'NMPs'}
+0	node191	{'NeuralTube', 'Somite', 'NMPs'}
+1	node191	{'NeuralTube', 'Somite'}
+5	node191	{'NeuralTube', 'Somite'}
+0	node192	{'NeuralTube', 'Somite'}
+0	node193	{'NeuralTube', 'Somite'}
+11	node193	{'NeuralTube', 'Somite', 'NMPs'}
+13	node193	{'NeuralTube', 'Somite', 'NMPs'}
+5	node193	{'NeuralTube', 'Somite', 'NMPs'}
+0	node194	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node194	{'Endothelial', 'Somite'}
+5	node194	{'NeuralTube', 'Somite', 'NMPs'}
+0	node195	{'NeuralTube', 'Endoderm', 'Somite'}
+11	node195	{'NeuralTube', 'NMPs'}
+8	node195	{'NeuralTube', 'Somite', 'NMPs'}
+0	node197	{'NeuralTube', 'Somite', 'NMPs'}
+8	node197	{'NeuralTube', 'NMPs'}
+0	node198	{'NeuralTube', 'Somite', 'NMPs'}
+1	node198	{'NeuralTube', 'Somite'}
+5	node198	{'NeuralTube', 'Somite', 'NMPs'}
+0	node199	{'NeuralTube', 'NMPs'}
+0	node2	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node2	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node2	{'NeuralTube', 'Somite'}
+11	node2	{'NeuralTube', 'Somite', 'NMPs'}
+12	node2	{'NeuralTube', 'Somite', 'NMPs'}
+13	node2	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+2	node2	{'NeuralTube', 'Somite', 'NMPs'}
+3	node2	{'NeuralTube', 'Somite', 'NMPs'}
+4	node2	{'NeuralTube', 'Somite', 'NMPs'}
+5	node2	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+6	node2	{'NeuralTube', 'Somite', 'NMPs'}
+9	node2	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node20	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node20	{'NeuralTube', 'Somite', 'NMPs'}
+11	node20	{'NeuralTube', 'Somite', 'NMPs'}
+13	node20	{'NeuralTube', 'Somite', 'NMPs'}
+3	node20	{'NeuralTube', 'NMPs'}
+4	node20	{'NeuralTube', 'Somite', 'NMPs'}
+6	node20	{'NeuralTube', 'Somite', 'NMPs'}
+8	node20	{'NeuralTube', 'Somite', 'NMPs'}
+9	node20	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+8	node200	{'NeuralTube', 'Somite', 'NMPs'}
+0	node201	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node201	{'NeuralTube', 'Somite'}
+11	node201	{'NeuralTube', 'Somite', 'NMPs'}
+0	node202	{'NeuralTube', 'Somite'}
+8	node202	{'NeuralTube', 'Somite'}
+0	node203	{'NeuralTube', 'Somite'}
+1	node203	{'NeuralTube', 'Somite'}
+8	node203	{'NeuralTube', 'Somite', 'NMPs'}
+0	node204	{'NeuralTube', 'Somite', 'NMPs'}
+1	node204	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node205	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node206	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node207	{'NeuralTube', 'Somite'}
+1	node207	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node208	{'NeuralTube', 'Somite'}
+8	node208	{'NeuralTube', 'Somite', 'NMPs'}
+1	node21	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+12	node21	{'NeuralTube', 'Somite'}
+13	node21	{'NeuralTube', 'Somite', 'NMPs'}
+2	node21	{'NeuralTube', 'Somite'}
+3	node21	{'Endothelial', 'Somite'}
+4	node21	{'NeuralTube', 'Somite', 'NMPs'}
+5	node21	{'NeuralTube', 'Somite', 'NMPs'}
+6	node21	{'NeuralTube', 'Somite'}
+8	node21	{'NeuralTube', 'Somite', 'NMPs'}
+1	node210	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node211	{'NeuralTube', 'Somite', 'NMPs'}
+1	node211	{'Endothelial', 'Somite'}
+0	node212	{'NeuralTube', 'Somite', 'NMPs'}
+1	node212	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node214	{'NeuralTube', 'Somite'}
+1	node214	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node215	{'NeuralTube', 'Somite'}
+1	node216	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node217	{'NeuralTube', 'Somite', 'NMPs'}
+1	node217	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node218	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node219	{'NeuralTube', 'Somite'}
+0	node22	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node22	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node22	{'NeuralTube', 'NMPs'}
+11	node22	{'NeuralTube', 'Somite', 'NMPs'}
+12	node22	{'NeuralTube', 'NMPs'}
+2	node22	{'NeuralTube', 'NMPs'}
+3	node22	{'NeuralTube', 'Somite', 'NMPs'}
+4	node22	{'NeuralTube', 'Somite', 'NMPs'}
+5	node22	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+6	node22	{'NeuralTube', 'NMPs'}
+8	node22	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node220	{'NeuralTube', 'Somite', 'NMPs'}
+1	node220	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node221	{'NeuralTube', 'Somite'}
+1	node221	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node222	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node223	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node224	{'NeuralTube', 'NMPs'}
+1	node224	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node225	{'NeuralTube', 'Somite', 'NMPs'}
+1	node226	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node227	{'NeuralTube', 'Somite', 'NMPs'}
+0	node228	{'NeuralTube', 'Somite', 'NMPs'}
+0	node229	{'NeuralTube', 'Somite', 'NMPs'}
+0	node23	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node23	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node23	{'NeuralTube', 'Somite'}
+11	node23	{'NeuralTube', 'Somite', 'NMPs'}
+12	node23	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node23	{'NeuralTube', 'Somite'}
+2	node23	{'NeuralTube', 'Somite', 'NMPs'}
+5	node23	{'NeuralTube', 'Somite', 'NMPs'}
+8	node23	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+9	node23	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node230	{'NeuralTube', 'Somite'}
+1	node230	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node232	{'NeuralTube', 'Somite'}
+0	node233	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node235	{'NeuralTube', 'Somite'}
+1	node235	{'NeuralTube', 'Somite'}
+0	node236	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node236	{'Endothelial', 'Somite'}
+1	node237	{'NeuralTube', 'Somite'}
+0	node238	{'NeuralTube', 'Somite'}
+1	node238	{'NeuralTube', 'Somite'}
+0	node24	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node24	{'NeuralTube', 'Somite'}
+12	node24	{'NeuralTube', 'Somite', 'NMPs'}
+13	node24	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+2	node24	{'NeuralTube', 'Somite'}
+5	node24	{'NeuralTube', 'Somite', 'NMPs'}
+8	node24	{'NeuralTube', 'Somite', 'NMPs'}
+9	node24	{'NeuralTube', 'Somite', 'NMPs'}
+0	node240	{'NeuralTube', 'Somite'}
+1	node240	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node241	{'NeuralTube', 'Somite'}
+1	node241	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node242	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node243	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node243	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node244	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node244	{'NeuralTube', 'Somite'}
+0	node245	{'Endothelial', 'Somite'}
+1	node245	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node246	{'NeuralTube', 'Somite'}
+0	node247	{'NeuralTube', 'Somite'}
+1	node247	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node248	{'NeuralTube', 'Somite', 'NMPs'}
+1	node248	{'NeuralTube', 'Somite'}
+1	node249	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node25	{'Endothelial', 'Somite'}
+11	node25	{'NeuralTube', 'Somite'}
+12	node25	{'NeuralTube', 'Somite', 'NMPs'}
+13	node25	{'Endothelial', 'Somite'}
+4	node25	{'NeuralTube', 'Somite', 'NMPs'}
+5	node25	{'NeuralTube', 'Somite', 'NMPs'}
+6	node25	{'NeuralTube', 'Somite', 'NMPs'}
+8	node25	{'NeuralTube', 'Somite', 'NMPs'}
+0	node250	{'NeuralTube', 'Somite'}
+1	node250	{'NeuralTube', 'Somite'}
+1	node251	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node253	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node255	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node256	{'NeuralTube', 'Somite'}
+1	node256	{'Endothelial', 'Somite'}
+1	node258	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node259	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node259	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node26	{'NeuralTube', 'Somite'}
+1	node26	{'NeuralTube', 'Endoderm', 'Somite'}
+11	node26	{'NeuralTube', 'Endoderm', 'Somite'}
+13	node26	{'NeuralTube', 'Somite', 'NMPs'}
+2	node26	{'NeuralTube', 'Somite'}
+3	node26	{'NeuralTube', 'Somite', 'NMPs'}
+4	node26	{'NeuralTube', 'Somite', 'NMPs'}
+5	node26	{'NeuralTube', 'Somite', 'NMPs'}
+8	node26	{'NeuralTube', 'Somite', 'NMPs'}
+0	node261	{'NeuralTube', 'NMPs'}
+1	node261	{'NeuralTube', 'Somite'}
+1	node262	{'NeuralTube', 'Somite'}
+0	node263	{'NeuralTube', 'Somite', 'NMPs'}
+1	node263	{'NeuralTube', 'Somite'}
+1	node264	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node265	{'NeuralTube', 'Somite'}
+1	node265	{'NeuralTube', 'Somite'}
+1	node266	{'Endothelial', 'Somite'}
+0	node267	{'NeuralTube', 'Somite', 'NMPs'}
+1	node267	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node268	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node268	{'NeuralTube', 'Somite'}
+0	node269	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node269	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node27	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node27	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+10	node27	{'NeuralTube', 'Somite'}
+11	node27	{'NeuralTube', 'Somite', 'NMPs'}
+12	node27	{'NeuralTube', 'Somite', 'NMPs'}
+13	node27	{'NeuralTube', 'NMPs'}
+4	node27	{'NeuralTube', 'Somite', 'NMPs'}
+5	node27	{'NeuralTube', 'Somite', 'NMPs'}
+6	node27	{'NeuralTube', 'Somite', 'NMPs'}
+8	node27	{'NeuralTube', 'NMPs'}
+1	node271	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node272	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node273	{'NeuralTube', 'Somite'}
+0	node274	{'NeuralTube', 'Somite'}
+1	node274	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node275	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node275	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node276	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node277	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node278	{'NeuralTube', 'Somite', 'NMPs'}
+1	node278	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node279	{'NeuralTube', 'Somite'}
+1	node279	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node28	{'NeuralTube', 'NMPs'}
+1	node28	{'NeuralTube', 'Somite'}
+13	node28	{'NeuralTube', 'Somite', 'NMPs'}
+2	node28	{'NeuralTube', 'NMPs'}
+3	node28	{'NeuralTube', 'Somite', 'NMPs'}
+4	node28	{'NeuralTube', 'Somite', 'NMPs'}
+6	node28	{'NeuralTube', 'NMPs'}
+8	node28	{'NeuralTube', 'Somite', 'NMPs'}
+9	node28	{'NeuralTube', 'Somite'}
+1	node280	{'NeuralTube', 'Somite'}
+0	node281	{'NeuralTube', 'Somite'}
+1	node282	{'NeuralTube', 'Somite'}
+0	node283	{'NeuralTube', 'Somite'}
+0	node284	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node284	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node285	{'Endothelial', 'Somite'}
+0	node286	{'NeuralTube', 'Somite', 'NMPs'}
+1	node287	{'NeuralTube', 'Somite'}
+0	node288	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node288	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node289	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node29	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node29	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node29	{'NeuralTube', 'Somite', 'NMPs'}
+12	node29	{'NeuralTube', 'Somite', 'NMPs'}
+2	node29	{'NeuralTube', 'Somite'}
+4	node29	{'NeuralTube', 'NMPs'}
+6	node29	{'NeuralTube', 'NMPs'}
+9	node29	{'NeuralTube', 'Somite'}
+0	node290	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node290	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node292	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node292	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node293	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node293	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node294	{'NeuralTube', 'Somite', 'NMPs'}
+0	node295	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node296	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node297	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node297	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node298	{'NeuralTube', 'Somite'}
+1	node298	{'NeuralTube', 'Somite'}
+0	node299	{'NeuralTube', 'Somite', 'NMPs'}
+0	node3	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node3	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node3	{'NeuralTube', 'Somite', 'NMPs'}
+12	node3	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node3	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+2	node3	{'NeuralTube', 'Somite'}
+3	node3	{'NeuralTube', 'Somite', 'NMPs'}
+4	node3	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+5	node3	{'NeuralTube', 'Somite', 'NMPs'}
+6	node3	{'NeuralTube', 'Somite', 'NMPs'}
+7	node3	{'NeuralTube', 'NMPs'}
+8	node3	{'NeuralTube', 'Somite', 'NMPs'}
+9	node3	{'NeuralTube', 'NMPs'}
+0	node30	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node30	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+10	node30	{'NeuralTube', 'NMPs'}
+11	node30	{'NeuralTube', 'Somite', 'NMPs'}
+2	node30	{'NeuralTube', 'Somite', 'NMPs'}
+3	node30	{'NeuralTube', 'NMPs'}
+9	node30	{'NeuralTube', 'Somite', 'NMPs'}
+0	node300	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node301	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node301	{'NeuralTube', 'Somite'}
+1	node302	{'NeuralTube', 'Somite'}
+0	node303	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node305	{'NeuralTube', 'Somite', 'NMPs'}
+1	node305	{'NeuralTube', 'Somite'}
+0	node306	{'Endothelial', 'Somite'}
+0	node308	{'NeuralTube', 'Somite'}
+1	node308	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node309	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node31	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node31	{'NeuralTube', 'Somite'}
+10	node31	{'NeuralTube', 'Somite', 'NMPs'}
+12	node31	{'NeuralTube', 'Somite', 'NMPs'}
+13	node31	{'NeuralTube', 'NMPs'}
+3	node31	{'NeuralTube', 'Somite', 'NMPs'}
+5	node31	{'NeuralTube', 'Somite', 'NMPs'}
+6	node31	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+8	node31	{'NeuralTube', 'Somite', 'NMPs'}
+0	node310	{'NeuralTube', 'Somite'}
+1	node310	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node312	{'NeuralTube', 'Somite', 'NMPs'}
+0	node313	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node313	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node315	{'NeuralTube', 'Somite', 'NMPs'}
+1	node315	{'NeuralTube', 'Somite'}
+0	node316	{'NeuralTube', 'Somite', 'NMPs'}
+1	node316	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node317	{'NeuralTube', 'Somite'}
+0	node318	{'NeuralTube', 'Somite', 'NMPs'}
+1	node319	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node32	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+12	node32	{'NeuralTube', 'Somite', 'NMPs'}
+13	node32	{'NeuralTube', 'Somite', 'NMPs'}
+2	node32	{'Endothelial', 'Somite'}
+3	node32	{'NeuralTube', 'Somite', 'NMPs'}
+4	node32	{'NeuralTube', 'Somite', 'NMPs'}
+5	node32	{'NeuralTube', 'Somite', 'NMPs'}
+6	node32	{'NeuralTube', 'Somite', 'NMPs'}
+9	node32	{'NeuralTube', 'Somite', 'NMPs'}
+0	node321	{'NeuralTube', 'Somite', 'NMPs'}
+1	node321	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node322	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node322	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node323	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node325	{'NeuralTube', 'Somite'}
+0	node328	{'NeuralTube', 'Somite', 'NMPs'}
+0	node329	{'NeuralTube', 'Somite'}
+0	node33	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node33	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node33	{'NeuralTube', 'Somite'}
+12	node33	{'NeuralTube', 'Somite', 'NMPs'}
+13	node33	{'NeuralTube', 'Somite', 'NMPs'}
+2	node33	{'NeuralTube', 'Somite', 'NMPs'}
+3	node33	{'NeuralTube', 'Somite', 'NMPs'}
+5	node33	{'NeuralTube', 'Somite', 'NMPs'}
+8	node33	{'NeuralTube', 'Somite', 'NMPs'}
+9	node33	{'NeuralTube', 'Somite', 'NMPs'}
+0	node330	{'NeuralTube', 'Somite'}
+1	node331	{'NeuralTube', 'Somite'}
+1	node332	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node333	{'NeuralTube', 'Somite'}
+0	node334	{'NeuralTube', 'Somite'}
+1	node334	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node335	{'NeuralTube', 'Somite'}
+1	node335	{'NeuralTube', 'Somite'}
+0	node337	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node337	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node338	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node339	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node34	{'NeuralTube', 'Somite'}
+13	node34	{'NeuralTube', 'Somite', 'NMPs'}
+2	node34	{'NeuralTube', 'Somite', 'NMPs'}
+3	node34	{'NeuralTube', 'Somite', 'NMPs'}
+4	node34	{'NeuralTube', 'Somite', 'NMPs'}
+5	node34	{'NeuralTube', 'NMPs'}
+6	node34	{'NeuralTube', 'NMPs'}
+8	node34	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node340	{'Endothelial', 'Somite'}
+0	node341	{'NeuralTube', 'Somite', 'NMPs'}
+0	node342	{'NeuralTube', 'Somite'}
+1	node344	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node347	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node348	{'NeuralTube', 'NMPs'}
+1	node348	{'NeuralTube', 'Somite'}
+0	node349	{'NeuralTube', 'Somite', 'NMPs'}
+1	node349	{'NeuralTube', 'Somite'}
+0	node35	{'NeuralTube', 'Somite'}
+1	node35	{'NeuralTube', 'Endoderm', 'Somite'}
+10	node35	{'NeuralTube', 'Somite', 'NMPs'}
+11	node35	{'NeuralTube', 'Somite', 'NMPs'}
+12	node35	{'NeuralTube', 'Somite'}
+13	node35	{'NeuralTube', 'Somite', 'NMPs'}
+2	node35	{'NeuralTube', 'Somite'}
+3	node35	{'NeuralTube', 'NMPs'}
+5	node35	{'NeuralTube', 'Somite', 'NMPs'}
+6	node35	{'NeuralTube', 'Somite', 'NMPs'}
+9	node35	{'NeuralTube', 'Somite'}
+1	node350	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node351	{'NeuralTube', 'NMPs'}
+1	node351	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node352	{'NeuralTube', 'Somite'}
+0	node353	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node353	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node354	{'NeuralTube', 'NMPs'}
+1	node354	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node355	{'NeuralTube', 'Somite'}
+1	node355	{'NeuralTube', 'Somite'}
+1	node356	{'NeuralTube', 'Somite'}
+0	node357	{'NeuralTube', 'Somite', 'NMPs'}
+1	node357	{'NeuralTube', 'Somite'}
+0	node358	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node358	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node359	{'NeuralTube', 'Endoderm', 'Somite'}
+11	node36	{'NeuralTube', 'Somite', 'NMPs'}
+12	node36	{'NeuralTube', 'Somite', 'NMPs'}
+13	node36	{'NeuralTube', 'NMPs'}
+2	node36	{'NeuralTube', 'Somite', 'NMPs'}
+4	node36	{'NeuralTube', 'Somite'}
+5	node36	{'NeuralTube', 'Somite', 'NMPs'}
+6	node36	{'NeuralTube', 'Somite', 'NMPs'}
+8	node36	{'NeuralTube', 'Somite'}
+9	node36	{'NeuralTube', 'Somite'}
+0	node360	{'NeuralTube', 'Somite', 'NMPs'}
+1	node360	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node361	{'NeuralTube', 'Somite', 'NMPs'}
+1	node361	{'NeuralTube', 'Somite'}
+0	node364	{'NeuralTube', 'NMPs'}
+1	node364	{'NeuralTube', 'Somite', 'NMPs'}
+0	node365	{'NeuralTube', 'Somite', 'NMPs'}
+1	node365	{'NeuralTube', 'Somite', 'NMPs'}
+0	node366	{'NeuralTube', 'Somite'}
+0	node367	{'NeuralTube', 'Somite'}
+1	node367	{'NeuralTube', 'Somite'}
+1	node369	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node37	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+11	node37	{'NeuralTube', 'Somite', 'NMPs'}
+12	node37	{'NeuralTube', 'Somite'}
+13	node37	{'NeuralTube', 'Somite'}
+2	node37	{'NeuralTube', 'Somite'}
+5	node37	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+6	node37	{'NeuralTube', 'Somite'}
+9	node37	{'NeuralTube', 'Somite'}
+0	node370	{'NeuralTube', 'NMPs'}
+0	node371	{'NeuralTube', 'NMPs'}
+0	node372	{'NeuralTube', 'Somite'}
+0	node373	{'NeuralTube', 'Somite', 'NMPs'}
+1	node373	{'Endothelial', 'Somite'}
+0	node374	{'NeuralTube', 'Somite', 'NMPs'}
+1	node376	{'NeuralTube', 'Somite'}
+0	node377	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node379	{'NeuralTube', 'Somite'}
+1	node38	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+11	node38	{'NeuralTube', 'NMPs'}
+12	node38	{'NeuralTube', 'Somite'}
+2	node38	{'NeuralTube', 'Somite', 'NMPs'}
+4	node38	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+6	node38	{'NeuralTube', 'Somite', 'NMPs'}
+8	node38	{'NeuralTube', 'NMPs'}
+1	node380	{'NeuralTube', 'Somite'}
+1	node382	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node383	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node384	{'NeuralTube', 'Somite'}
+0	node385	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node386	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node387	{'NeuralTube', 'Somite'}
+0	node388	{'NeuralTube', 'Somite'}
+1	node389	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node39	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+12	node39	{'NeuralTube', 'Somite', 'NMPs'}
+13	node39	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+2	node39	{'NeuralTube', 'Somite', 'NMPs'}
+5	node39	{'NeuralTube', 'Somite', 'NMPs'}
+6	node39	{'NeuralTube', 'Somite'}
+8	node39	{'NeuralTube', 'Somite', 'NMPs'}
+9	node39	{'NeuralTube', 'Somite'}
+0	node390	{'NeuralTube', 'Somite', 'NMPs'}
+1	node390	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node392	{'NeuralTube', 'Somite'}
+1	node393	{'NeuralTube', 'Somite'}
+0	node394	{'NeuralTube', 'Somite'}
+0	node395	{'NeuralTube', 'Somite'}
+1	node395	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node396	{'NeuralTube', 'Somite'}
+1	node397	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node399	{'NeuralTube', 'Somite'}
+0	node4	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node4	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node4	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+11	node4	{'NeuralTube', 'Somite', 'NMPs'}
+12	node4	{'NeuralTube', 'Somite', 'NMPs'}
+13	node4	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+2	node4	{'NeuralTube', 'Somite', 'NMPs'}
+3	node4	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+4	node4	{'NeuralTube', 'Somite', 'NMPs'}
+5	node4	{'NeuralTube', 'Somite', 'NMPs'}
+6	node4	{'NeuralTube', 'Somite', 'NMPs'}
+7	node4	{'NeuralTube', 'Somite'}
+8	node4	{'NeuralTube', 'Somite', 'NMPs'}
+9	node4	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node40	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node40	{'Endothelial', 'Somite'}
+11	node40	{'NeuralTube', 'Somite'}
+12	node40	{'NeuralTube', 'NMPs'}
+2	node40	{'NeuralTube', 'Somite', 'NMPs'}
+4	node40	{'NeuralTube', 'Somite'}
+5	node40	{'NeuralTube', 'Somite'}
+6	node40	{'NeuralTube', 'Somite', 'NMPs'}
+8	node40	{'NeuralTube', 'Somite', 'NMPs'}
+9	node40	{'NeuralTube', 'NMPs'}
+0	node401	{'NeuralTube', 'NMPs'}
+0	node402	{'NeuralTube', 'Somite'}
+0	node405	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node405	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node406	{'Endothelial', 'Somite'}
+0	node407	{'NeuralTube', 'Somite'}
+0	node408	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node408	{'Endothelial', 'Somite'}
+0	node409	{'NeuralTube', 'NMPs'}
+1	node409	{'Endothelial', 'Somite'}
+0	node41	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node41	{'Endothelial', 'Somite'}
+11	node41	{'NeuralTube', 'Somite', 'NMPs'}
+12	node41	{'NeuralTube', 'NMPs'}
+13	node41	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+3	node41	{'NeuralTube', 'Somite', 'NMPs'}
+5	node41	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+9	node41	{'NeuralTube', 'Somite'}
+0	node410	{'NeuralTube', 'Somite'}
+0	node412	{'NeuralTube', 'Somite'}
+1	node412	{'NeuralTube', 'Somite'}
+0	node414	{'NeuralTube', 'Somite'}
+1	node414	{'Endothelial', 'Somite'}
+0	node416	{'NeuralTube', 'Somite'}
+1	node416	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node419	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node42	{'NeuralTube', 'Somite'}
+10	node42	{'NeuralTube', 'Somite'}
+12	node42	{'NeuralTube', 'Somite', 'NMPs'}
+2	node42	{'NeuralTube', 'Somite', 'NMPs'}
+4	node42	{'NeuralTube', 'Somite', 'NMPs'}
+8	node42	{'NeuralTube', 'Somite'}
+1	node420	{'NeuralTube', 'Somite'}
+0	node422	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node422	{'Endothelial', 'Somite'}
+0	node424	{'NeuralTube', 'Somite'}
+0	node425	{'NeuralTube', 'Somite', 'NMPs'}
+0	node426	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node427	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node428	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node43	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+12	node43	{'NeuralTube', 'NMPs'}
+4	node43	{'NeuralTube', 'Somite'}
+5	node43	{'NeuralTube', 'Somite', 'NMPs'}
+1	node430	{'NeuralTube', 'Somite'}
+0	node431	{'NeuralTube', 'Somite', 'NMPs'}
+0	node432	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node433	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node434	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node434	{'NeuralTube', 'Somite'}
+1	node436	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node437	{'NeuralTube', 'Somite', 'NMPs'}
+0	node438	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node439	{'NeuralTube', 'NMPs'}
+10	node44	{'NeuralTube', 'Somite', 'NMPs'}
+11	node44	{'NeuralTube', 'Somite'}
+13	node44	{'NeuralTube', 'Somite'}
+4	node44	{'NeuralTube', 'Somite', 'NMPs'}
+5	node44	{'NeuralTube', 'Somite', 'NMPs'}
+9	node44	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node440	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node441	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node442	{'NeuralTube', 'Somite'}
+1	node442	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node443	{'Endothelial', 'Somite'}
+1	node444	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node445	{'NeuralTube', 'Somite', 'NMPs'}
+1	node445	{'NeuralTube', 'Somite'}
+0	node446	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node446	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node447	{'NeuralTube', 'Somite'}
+1	node447	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node448	{'NeuralTube', 'Endoderm', 'Somite'}
+11	node45	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+12	node45	{'NeuralTube', 'Somite', 'NMPs'}
+13	node45	{'NeuralTube', 'Somite', 'NMPs'}
+4	node45	{'NeuralTube', 'Somite', 'NMPs'}
+5	node45	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+8	node45	{'NeuralTube', 'Somite'}
+1	node450	{'Endothelial', 'Somite'}
+0	node451	{'NeuralTube', 'Somite', 'NMPs'}
+1	node452	{'NeuralTube', 'Somite'}
+0	node453	{'NeuralTube', 'Somite', 'NMPs'}
+0	node454	{'NeuralTube', 'Somite', 'NMPs'}
+0	node455	{'NeuralTube', 'Somite'}
+1	node455	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node456	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node457	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node458	{'NeuralTube', 'Somite'}
+1	node458	{'NeuralTube', 'Somite'}
+1	node459	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node46	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node46	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node46	{'NeuralTube', 'Somite'}
+11	node46	{'NeuralTube', 'Somite', 'NMPs'}
+13	node46	{'NeuralTube', 'Somite', 'NMPs'}
+3	node46	{'NeuralTube', 'Somite', 'NMPs'}
+4	node46	{'NeuralTube', 'NMPs'}
+5	node46	{'NeuralTube', 'Endoderm', 'Somite'}
+6	node46	{'NeuralTube', 'NMPs'}
+8	node46	{'NeuralTube', 'Somite'}
+0	node460	{'NeuralTube', 'Somite'}
+0	node463	{'NeuralTube', 'Somite'}
+1	node463	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node464	{'NeuralTube', 'Somite'}
+1	node465	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node466	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node466	{'NeuralTube', 'Somite'}
+0	node467	{'NeuralTube', 'Somite'}
+1	node467	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node469	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node47	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+10	node47	{'NeuralTube', 'Somite'}
+13	node47	{'Endothelial', 'Somite'}
+2	node47	{'NeuralTube', 'NMPs'}
+3	node47	{'NeuralTube', 'Somite', 'NMPs'}
+4	node47	{'NeuralTube', 'Somite'}
+5	node47	{'NeuralTube', 'Somite', 'NMPs'}
+8	node47	{'NeuralTube', 'Somite'}
+9	node47	{'NeuralTube', 'NMPs'}
+1	node470	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node471	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node472	{'Endothelial', 'Somite'}
+0	node473	{'NeuralTube', 'NMPs'}
+1	node473	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node474	{'NeuralTube', 'Somite'}
+1	node474	{'Endothelial', 'Somite'}
+1	node475	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node476	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node476	{'NeuralTube', 'Somite'}
+1	node477	{'NeuralTube', 'Somite'}
+1	node478	{'NeuralTube', 'Somite'}
+0	node479	{'NeuralTube', 'Somite', 'NMPs'}
+1	node479	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node48	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node48	{'NeuralTube', 'Somite'}
+10	node48	{'NeuralTube', 'Somite', 'NMPs'}
+13	node48	{'NeuralTube', 'Somite'}
+2	node48	{'NeuralTube', 'Somite'}
+3	node48	{'NeuralTube', 'Somite'}
+4	node48	{'NeuralTube', 'Somite', 'NMPs'}
+8	node48	{'NeuralTube', 'Somite', 'NMPs'}
+9	node48	{'NeuralTube', 'Somite'}
+0	node480	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node480	{'NeuralTube', 'Somite'}
+0	node481	{'NeuralTube', 'NMPs'}
+1	node482	{'Endothelial', 'Somite'}
+1	node483	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node484	{'NeuralTube', 'Somite', 'NMPs'}
+1	node487	{'Endothelial', 'Somite'}
+0	node488	{'NeuralTube', 'Somite', 'NMPs'}
+1	node488	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node49	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node49	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+10	node49	{'NeuralTube', 'Somite'}
+11	node49	{'NeuralTube', 'Somite'}
+12	node49	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+6	node49	{'NeuralTube', 'Somite', 'NMPs'}
+9	node49	{'NeuralTube', 'Somite'}
+0	node490	{'NeuralTube', 'Somite'}
+1	node490	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node491	{'NeuralTube', 'Somite'}
+1	node491	{'NeuralTube', 'Somite', 'NMPs'}
+0	node492	{'NeuralTube', 'NMPs'}
+0	node493	{'NeuralTube', 'NMPs'}
+1	node493	{'Endothelial', 'Somite'}
+0	node494	{'NeuralTube', 'Somite'}
+1	node495	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node497	{'NeuralTube', 'NMPs'}
+1	node497	{'NeuralTube', 'Somite'}
+0	node498	{'NeuralTube', 'Somite', 'NMPs'}
+1	node498	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node5	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node5	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node5	{'NeuralTube', 'Somite', 'NMPs'}
+11	node5	{'NeuralTube', 'Somite', 'NMPs'}
+12	node5	{'NeuralTube', 'Somite', 'NMPs'}
+13	node5	{'NeuralTube', 'Somite', 'NMPs'}
+2	node5	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+3	node5	{'NeuralTube', 'Somite'}
+4	node5	{'NeuralTube', 'Somite', 'NMPs'}
+6	node5	{'NeuralTube', 'Somite', 'NMPs'}
+7	node5	{'NeuralTube', 'Somite', 'NMPs'}
+8	node5	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+9	node5	{'NeuralTube', 'Somite'}
+1	node50	{'NeuralTube', 'Endoderm', 'Somite'}
+11	node50	{'NeuralTube', 'NMPs'}
+13	node50	{'NeuralTube', 'NMPs'}
+3	node50	{'NeuralTube', 'NMPs'}
+5	node50	{'NeuralTube', 'Somite', 'NMPs'}
+6	node50	{'NeuralTube', 'Somite', 'NMPs'}
+1	node502	{'NeuralTube', 'Somite'}
+0	node503	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node505	{'Endothelial', 'Somite'}
+0	node506	{'NeuralTube', 'Somite'}
+1	node506	{'Endothelial', 'Somite'}
+1	node507	{'NeuralTube', 'Somite'}
+0	node508	{'NeuralTube', 'Somite', 'NMPs'}
+1	node508	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node509	{'NeuralTube', 'Somite'}
+0	node51	{'NeuralTube', 'Somite', 'NMPs'}
+10	node51	{'NeuralTube', 'Somite'}
+11	node51	{'NeuralTube', 'Somite', 'NMPs'}
+13	node51	{'NeuralTube', 'Somite', 'NMPs'}
+4	node51	{'NeuralTube', 'Somite', 'NMPs'}
+5	node51	{'NeuralTube', 'NMPs'}
+6	node51	{'NeuralTube', 'NMPs'}
+9	node51	{'NeuralTube', 'Somite'}
+0	node510	{'NeuralTube', 'Somite'}
+1	node511	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node512	{'NeuralTube', 'Somite'}
+1	node512	{'NeuralTube', 'Somite'}
+1	node513	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node514	{'NeuralTube', 'Somite'}
+1	node514	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node515	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node517	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node519	{'NeuralTube', 'Somite'}
+0	node52	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node52	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+12	node52	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node52	{'NeuralTube', 'Somite'}
+2	node52	{'NeuralTube', 'Somite'}
+3	node52	{'NeuralTube', 'Somite', 'NMPs'}
+5	node52	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+6	node52	{'NeuralTube', 'NMPs'}
+8	node52	{'NeuralTube', 'NMPs'}
+0	node521	{'NeuralTube', 'Somite', 'NMPs'}
+1	node521	{'NeuralTube', 'Somite'}
+0	node522	{'NeuralTube', 'Somite'}
+1	node522	{'NeuralTube', 'Somite'}
+1	node523	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node525	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node526	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node529	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node53	{'NeuralTube', 'Somite'}
+1	node53	{'NeuralTube', 'Somite'}
+12	node53	{'NeuralTube', 'Somite'}
+13	node53	{'NeuralTube', 'Somite'}
+4	node53	{'NeuralTube', 'Somite', 'NMPs'}
+8	node53	{'NeuralTube', 'Somite'}
+9	node53	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node530	{'NeuralTube', 'Somite'}
+1	node531	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node532	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node533	{'NeuralTube', 'Somite', 'NMPs'}
+1	node533	{'NeuralTube', 'Somite'}
+0	node534	{'NeuralTube', 'Somite'}
+1	node534	{'NeuralTube', 'Somite'}
+0	node535	{'NeuralTube', 'Somite', 'NMPs'}
+0	node536	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node536	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node537	{'NeuralTube', 'Somite'}
+0	node538	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node538	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node539	{'NeuralTube', 'NMPs'}
+0	node54	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node54	{'NeuralTube', 'NMPs'}
+12	node54	{'NeuralTube', 'NMPs'}
+13	node54	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+4	node54	{'NeuralTube', 'Somite', 'NMPs'}
+5	node54	{'NeuralTube', 'Somite', 'NMPs'}
+6	node54	{'NeuralTube', 'NMPs'}
+9	node54	{'NeuralTube', 'NMPs'}
+0	node541	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node546	{'NeuralTube', 'Somite', 'NMPs'}
+1	node546	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node547	{'NeuralTube', 'Somite'}
+0	node549	{'NeuralTube', 'Somite', 'NMPs'}
+1	node549	{'NeuralTube', 'Somite'}
+0	node55	{'NeuralTube', 'Somite', 'NMPs'}
+11	node55	{'NeuralTube', 'Somite', 'NMPs'}
+12	node55	{'NeuralTube', 'Somite', 'NMPs'}
+13	node55	{'Endothelial', 'Somite'}
+2	node55	{'NeuralTube', 'NMPs'}
+4	node55	{'NeuralTube', 'Somite', 'NMPs'}
+9	node55	{'NeuralTube', 'Somite', 'NMPs'}
+0	node550	{'NeuralTube', 'Somite'}
+1	node550	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node551	{'NeuralTube', 'Somite', 'NMPs'}
+1	node551	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node552	{'NeuralTube', 'Somite'}
+0	node553	{'NeuralTube', 'Somite'}
+1	node553	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node555	{'NeuralTube', 'Somite'}
+0	node556	{'NeuralTube', 'Somite'}
+1	node556	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node557	{'NeuralTube', 'Somite'}
+1	node557	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node558	{'NeuralTube', 'Somite'}
+0	node56	{'NeuralTube', 'Somite'}
+1	node56	{'NeuralTube', 'Endoderm', 'Somite'}
+11	node56	{'NeuralTube', 'Somite'}
+12	node56	{'NeuralTube', 'Somite', 'NMPs'}
+13	node56	{'NeuralTube', 'Somite', 'NMPs'}
+4	node56	{'NeuralTube', 'NMPs'}
+8	node56	{'NeuralTube', 'Somite', 'NMPs'}
+9	node56	{'NeuralTube', 'Somite', 'NMPs'}
+0	node560	{'NeuralTube', 'Somite'}
+0	node561	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node561	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node563	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node564	{'NeuralTube', 'Somite'}
+0	node565	{'NeuralTube', 'NMPs'}
+1	node565	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node566	{'NeuralTube', 'Somite'}
+12	node57	{'NeuralTube', 'Somite', 'NMPs'}
+13	node57	{'NeuralTube', 'NMPs'}
+2	node57	{'NeuralTube', 'Somite'}
+3	node57	{'NeuralTube', 'NMPs'}
+5	node57	{'NeuralTube', 'Somite', 'NMPs'}
+6	node57	{'NeuralTube', 'NMPs'}
+8	node57	{'NeuralTube', 'Somite'}
+0	node570	{'NeuralTube', 'Somite', 'NMPs'}
+1	node570	{'NeuralTube', 'Somite'}
+0	node571	{'NeuralTube', 'Somite'}
+1	node571	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node573	{'NeuralTube', 'Somite'}
+0	node574	{'NeuralTube', 'Somite'}
+1	node574	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node575	{'NeuralTube', 'Somite', 'NMPs'}
+0	node577	{'NeuralTube', 'Somite', 'NMPs'}
+1	node578	{'NeuralTube', 'Somite'}
+0	node58	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node58	{'NeuralTube', 'Somite'}
+13	node58	{'NeuralTube', 'Somite', 'NMPs'}
+3	node58	{'NeuralTube', 'Somite', 'NMPs'}
+6	node58	{'NeuralTube', 'NMPs'}
+8	node58	{'NeuralTube', 'NMPs'}
+9	node58	{'NeuralTube', 'Somite'}
+1	node580	{'NeuralTube', 'Somite', 'NMPs'}
+0	node581	{'NeuralTube', 'Somite'}
+1	node581	{'NeuralTube', 'Somite', 'NMPs'}
+0	node584	{'NeuralTube', 'Somite', 'NMPs'}
+0	node585	{'NeuralTube', 'Somite'}
+1	node585	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node586	{'NeuralTube', 'Somite'}
+0	node588	{'NeuralTube', 'Somite'}
+0	node589	{'NeuralTube', 'Somite'}
+0	node59	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node59	{'NeuralTube', 'Endoderm', 'Somite'}
+10	node59	{'NeuralTube', 'Somite', 'NMPs'}
+11	node59	{'NeuralTube', 'Endoderm', 'Somite'}
+12	node59	{'NeuralTube', 'NMPs'}
+5	node59	{'NeuralTube', 'NMPs'}
+6	node59	{'NeuralTube', 'NMPs'}
+8	node59	{'NeuralTube', 'Somite', 'NMPs'}
+9	node59	{'NeuralTube', 'Somite'}
+1	node590	{'NeuralTube', 'Somite'}
+0	node592	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node594	{'NeuralTube', 'Somite', 'NMPs'}
+0	node595	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node595	{'NeuralTube', 'Somite'}
+0	node596	{'NeuralTube', 'Somite'}
+1	node596	{'NeuralTube', 'Somite'}
+1	node597	{'Endothelial', 'Somite'}
+0	node598	{'NeuralTube', 'Somite'}
+0	node599	{'NeuralTube', 'Somite', 'NMPs'}
+1	node599	{'Endothelial', 'Somite'}
+0	node6	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node6	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+11	node6	{'NeuralTube', 'Somite', 'NMPs'}
+2	node6	{'NeuralTube', 'Somite'}
+3	node6	{'NeuralTube', 'Somite', 'NMPs'}
+5	node6	{'NeuralTube', 'Somite', 'NMPs'}
+6	node6	{'NeuralTube', 'NMPs'}
+8	node6	{'NeuralTube', 'Somite'}
+9	node6	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node60	{'NeuralTube', 'Somite', 'NMPs'}
+1	node60	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+12	node60	{'NeuralTube', 'Somite', 'NMPs'}
+5	node60	{'NeuralTube', 'Somite', 'NMPs'}
+8	node60	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+9	node60	{'NeuralTube', 'Somite', 'NMPs'}
+0	node600	{'NeuralTube', 'Somite', 'NMPs'}
+1	node600	{'NeuralTube', 'Somite'}
+0	node601	{'NeuralTube', 'Somite'}
+1	node601	{'NeuralTube', 'Somite'}
+0	node603	{'NeuralTube', 'Somite', 'NMPs'}
+1	node603	{'NeuralTube', 'Somite'}
+0	node604	{'NeuralTube', 'Somite'}
+1	node605	{'NeuralTube', 'Somite'}
+0	node606	{'NeuralTube', 'Somite', 'NMPs'}
+0	node609	{'NeuralTube', 'Somite', 'NMPs'}
+1	node609	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node61	{'NeuralTube', 'NMPs'}
+1	node61	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+10	node61	{'NeuralTube', 'Somite'}
+11	node61	{'NeuralTube', 'Somite', 'NMPs'}
+12	node61	{'NeuralTube', 'Somite', 'NMPs'}
+4	node61	{'NeuralTube', 'Somite', 'NMPs'}
+5	node61	{'NeuralTube', 'Somite', 'NMPs'}
+6	node61	{'NeuralTube', 'Somite', 'NMPs'}
+8	node61	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+9	node61	{'NeuralTube', 'Somite', 'NMPs'}
+1	node610	{'NeuralTube', 'Somite'}
+1	node611	{'NeuralTube', 'Somite'}
+0	node612	{'NeuralTube', 'Somite'}
+0	node614	{'NeuralTube', 'Somite'}
+1	node614	{'NeuralTube', 'Somite'}
+0	node617	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node617	{'Endothelial', 'Somite'}
+0	node618	{'NeuralTube', 'Somite'}
+1	node619	{'NeuralTube', 'Somite'}
+1	node62	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node62	{'NeuralTube', 'NMPs'}
+11	node62	{'NeuralTube', 'Somite'}
+12	node62	{'NeuralTube', 'Somite', 'NMPs'}
+2	node62	{'Endothelial', 'Somite'}
+3	node62	{'NeuralTube', 'Somite', 'NMPs'}
+6	node62	{'NeuralTube', 'Somite'}
+8	node62	{'NeuralTube', 'Somite', 'NMPs'}
+9	node62	{'NeuralTube', 'NMPs'}
+0	node621	{'NeuralTube', 'Somite', 'NMPs'}
+1	node621	{'Endothelial', 'Somite'}
+0	node622	{'NeuralTube', 'Somite'}
+1	node622	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node624	{'NeuralTube', 'Somite'}
+0	node625	{'NeuralTube', 'Somite', 'NMPs'}
+1	node627	{'Endothelial', 'Somite'}
+1	node628	{'NeuralTube', 'Somite'}
+1	node629	{'Endothelial', 'Somite'}
+0	node63	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node63	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node63	{'NeuralTube', 'Somite'}
+13	node63	{'NeuralTube', 'NMPs'}
+2	node63	{'NeuralTube', 'Somite', 'NMPs'}
+8	node63	{'NeuralTube', 'Somite', 'NMPs'}
+9	node63	{'NeuralTube', 'Somite'}
+1	node631	{'NeuralTube', 'Somite'}
+0	node632	{'NeuralTube', 'Somite', 'NMPs'}
+0	node633	{'NeuralTube', 'Somite'}
+1	node633	{'NeuralTube', 'Somite', 'NMPs'}
+1	node634	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node635	{'NeuralTube', 'Somite'}
+1	node635	{'NeuralTube', 'Somite'}
+0	node636	{'NeuralTube', 'NMPs'}
+0	node639	{'NeuralTube', 'Somite', 'NMPs'}
+0	node64	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node64	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node64	{'NeuralTube', 'Somite', 'NMPs'}
+12	node64	{'NeuralTube', 'Somite'}
+2	node64	{'NeuralTube', 'Somite', 'NMPs'}
+4	node64	{'NeuralTube', 'NMPs'}
+6	node64	{'NeuralTube', 'Somite', 'NMPs'}
+8	node64	{'NeuralTube', 'NMPs'}
+0	node640	{'NeuralTube', 'Somite', 'NMPs'}
+0	node641	{'NeuralTube', 'Somite'}
+1	node641	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node644	{'Endothelial', 'Somite'}
+0	node646	{'NeuralTube', 'Somite', 'NMPs'}
+1	node646	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node647	{'Endothelial', 'Somite'}
+0	node648	{'NeuralTube', 'Somite'}
+1	node648	{'NeuralTube', 'Somite'}
+0	node65	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node65	{'NeuralTube', 'Somite'}
+12	node65	{'NeuralTube', 'Somite', 'NMPs'}
+4	node65	{'Endothelial', 'Somite'}
+5	node65	{'NeuralTube', 'NMPs'}
+8	node65	{'NeuralTube', 'Somite', 'NMPs'}
+9	node65	{'NeuralTube', 'Somite'}
+1	node650	{'NeuralTube', 'Somite'}
+1	node651	{'NeuralTube', 'Somite'}
+1	node653	{'Endothelial', 'Somite'}
+1	node654	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+0	node657	{'NeuralTube', 'Somite', 'NMPs'}
+1	node657	{'Endothelial', 'Somite'}
+0	node658	{'NeuralTube', 'NMPs'}
+0	node66	{'NeuralTube', 'Somite', 'NMPs'}
+1	node66	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node66	{'NeuralTube', 'Somite', 'NMPs'}
+12	node66	{'NeuralTube', 'Somite'}
+13	node66	{'NeuralTube', 'Somite', 'NMPs'}
+5	node66	{'NeuralTube', 'NMPs'}
+8	node66	{'NeuralTube', 'Somite', 'NMPs'}
+9	node66	{'NeuralTube', 'Somite'}
+0	node660	{'NeuralTube', 'Somite', 'NMPs'}
+1	node660	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node661	{'NeuralTube', 'Somite', 'NMPs'}
+1	node661	{'NeuralTube', 'Somite'}
+1	node662	{'NeuralTube', 'Somite', 'NMPs'}
+1	node665	{'Endothelial', 'Somite'}
+1	node67	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+10	node67	{'NeuralTube', 'Somite', 'NMPs'}
+11	node67	{'NeuralTube', 'Somite', 'NMPs'}
+13	node67	{'NeuralTube', 'Somite', 'NMPs'}
+5	node67	{'NeuralTube', 'NMPs'}
+8	node67	{'NeuralTube', 'Somite', 'NMPs'}
+1	node670	{'NeuralTube', 'Somite'}
+1	node671	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+0	node68	{'NeuralTube', 'Somite', 'NMPs'}
+1	node68	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+12	node68	{'NeuralTube', 'Somite', 'NMPs'}
+13	node68	{'NeuralTube', 'Somite', 'NMPs'}
+2	node68	{'NeuralTube', 'Somite'}
+4	node68	{'NeuralTube', 'Somite', 'NMPs'}
+5	node68	{'NeuralTube', 'NMPs'}
+6	node68	{'NeuralTube', 'NMPs'}
+8	node68	{'NeuralTube', 'NMPs'}
+1	node680	{'Endothelial', 'Somite'}
+1	node682	{'Endothelial', 'Somite'}
+1	node683	{'NeuralTube', 'Somite'}
+1	node684	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node685	{'Endothelial', 'Somite'}
+1	node687	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node688	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node69	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+13	node69	{'NeuralTube', 'Somite'}
+5	node69	{'NeuralTube', 'Somite', 'NMPs'}
+1	node693	{'NeuralTube', 'Somite'}
+1	node696	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node697	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node698	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node699	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node7	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node7	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node7	{'NeuralTube', 'Somite', 'NMPs'}
+11	node7	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+12	node7	{'NeuralTube', 'Somite'}
+13	node7	{'NeuralTube', 'NMPs'}
+2	node7	{'NeuralTube', 'NMPs'}
+4	node7	{'NeuralTube', 'NMPs'}
+5	node7	{'NeuralTube', 'Somite', 'NMPs'}
+8	node7	{'NeuralTube', 'Somite', 'NMPs'}
+9	node7	{'NeuralTube', 'Somite'}
+0	node70	{'NeuralTube', 'Somite', 'NMPs'}
+1	node70	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+12	node70	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node70	{'NeuralTube', 'Somite'}
+2	node70	{'NeuralTube', 'Somite', 'NMPs'}
+4	node70	{'NeuralTube', 'Somite'}
+8	node70	{'NeuralTube', 'Somite', 'NMPs'}
+9	node70	{'NeuralTube', 'Somite'}
+1	node700	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node707	{'NeuralTube', 'Somite'}
+1	node708	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node709	{'Endothelial', 'Somite'}
+0	node71	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node71	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+3	node71	{'NeuralTube', 'Somite', 'NMPs'}
+4	node71	{'NeuralTube', 'Somite'}
+5	node71	{'NeuralTube', 'Somite'}
+6	node71	{'NeuralTube', 'NMPs'}
+9	node71	{'NeuralTube', 'NMPs'}
+1	node712	{'NeuralTube', 'Somite'}
+1	node713	{'NeuralTube', 'Somite'}
+1	node715	{'Endothelial', 'Somite'}
+1	node716	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node719	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node72	{'NeuralTube', 'Somite'}
+1	node72	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node72	{'Endothelial', 'Somite'}
+12	node72	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node72	{'NeuralTube', 'NMPs'}
+4	node72	{'NeuralTube', 'Somite'}
+6	node72	{'NeuralTube', 'NMPs'}
+1	node720	{'Endothelial', 'Somite'}
+1	node722	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node723	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node726	{'NeuralTube', 'Somite'}
+1	node729	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node73	{'NeuralTube', 'Endoderm', 'Somite'}
+13	node73	{'NeuralTube', 'Somite'}
+2	node73	{'NeuralTube', 'Somite', 'NMPs'}
+3	node73	{'NeuralTube', 'Somite'}
+4	node73	{'NeuralTube', 'Somite', 'NMPs'}
+5	node73	{'NeuralTube', 'NMPs'}
+6	node73	{'NeuralTube', 'Somite'}
+8	node73	{'NeuralTube', 'Somite', 'NMPs'}
+9	node73	{'NeuralTube', 'Somite'}
+1	node730	{'NeuralTube', 'Somite'}
+1	node731	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node735	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node738	{'NeuralTube', 'Somite'}
+1	node74	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node74	{'NeuralTube', 'Somite'}
+11	node74	{'NeuralTube', 'Somite', 'NMPs'}
+12	node74	{'NeuralTube', 'Somite'}
+13	node74	{'NeuralTube', 'Somite'}
+2	node74	{'NeuralTube', 'Somite', 'NMPs'}
+4	node74	{'NeuralTube', 'Somite'}
+8	node74	{'NeuralTube', 'Somite', 'NMPs'}
+9	node74	{'NeuralTube', 'Somite'}
+1	node741	{'NeuralTube', 'NMPs'}
+1	node742	{'NeuralTube', 'Somite'}
+1	node745	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node75	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+10	node75	{'NeuralTube', 'Somite'}
+12	node75	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node75	{'NeuralTube', 'NMPs'}
+2	node75	{'NeuralTube', 'Somite', 'NMPs'}
+3	node75	{'NeuralTube', 'NMPs'}
+4	node75	{'NeuralTube', 'Somite'}
+6	node75	{'NeuralTube', 'NMPs'}
+1	node751	{'NeuralTube', 'Somite'}
+1	node752	{'NeuralTube', 'Somite'}
+1	node757	{'Endothelial', 'Somite'}
+0	node76	{'NeuralTube', 'Somite', 'NMPs'}
+10	node76	{'NeuralTube', 'Somite', 'NMPs'}
+12	node76	{'NeuralTube', 'Somite'}
+13	node76	{'NeuralTube', 'Endoderm', 'Somite'}
+5	node76	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+9	node76	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node761	{'NeuralTube', 'Somite'}
+1	node764	{'NeuralTube', 'Somite'}
+1	node766	{'Endothelial', 'Somite'}
+0	node77	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node77	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node77	{'NeuralTube', 'Somite'}
+11	node77	{'NeuralTube', 'Somite', 'NMPs'}
+13	node77	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+2	node77	{'NeuralTube', 'NMPs'}
+3	node77	{'NeuralTube', 'Somite', 'NMPs'}
+8	node77	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node773	{'Endothelial', 'Somite'}
+1	node777	{'Endothelial', 'Somite'}
+1	node778	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node779	{'Endothelial', 'Somite'}
+0	node78	{'NeuralTube', 'Somite'}
+10	node78	{'NeuralTube', 'Somite', 'NMPs'}
+11	node78	{'NeuralTube', 'Somite', 'NMPs'}
+12	node78	{'NeuralTube', 'NMPs'}
+13	node78	{'NeuralTube', 'Somite', 'NMPs'}
+3	node78	{'NeuralTube', 'Somite', 'NMPs'}
+8	node78	{'NeuralTube', 'Somite'}
+1	node781	{'NeuralTube', 'Somite'}
+1	node782	{'NeuralTube', 'Somite'}
+1	node786	{'NeuralTube', 'Somite'}
+1	node787	{'NeuralTube', 'Somite'}
+1	node788	{'NeuralTube', 'Somite'}
+1	node789	{'NeuralTube', 'NMPs'}
+0	node79	{'NeuralTube', 'NMPs'}
+10	node79	{'NeuralTube', 'Somite'}
+12	node79	{'NeuralTube', 'Somite', 'NMPs'}
+4	node79	{'NeuralTube', 'Somite', 'NMPs'}
+5	node79	{'NeuralTube', 'Somite', 'NMPs'}
+9	node79	{'NeuralTube', 'Somite'}
+1	node790	{'Endothelial', 'Somite'}
+1	node791	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node792	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node794	{'Endothelial', 'Somite'}
+1	node795	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node797	{'NeuralTube', 'Somite'}
+1	node798	{'NeuralTube', 'Somite'}
+1	node799	{'NeuralTube', 'Somite', 'NMPs'}
+0	node8	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node8	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node8	{'NeuralTube', 'Somite'}
+11	node8	{'NeuralTube', 'Somite', 'NMPs'}
+12	node8	{'NeuralTube', 'Somite', 'NMPs'}
+13	node8	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+2	node8	{'NeuralTube', 'Somite', 'NMPs'}
+3	node8	{'NeuralTube', 'Somite', 'NMPs'}
+4	node8	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+5	node8	{'NeuralTube', 'Somite'}
+6	node8	{'NeuralTube', 'Somite'}
+7	node8	{'NeuralTube', 'NMPs'}
+8	node8	{'NeuralTube', 'Somite'}
+9	node8	{'NeuralTube', 'Somite'}
+0	node80	{'NeuralTube', 'Somite', 'NMPs'}
+1	node80	{'NeuralTube', 'Somite'}
+10	node80	{'NeuralTube', 'Somite'}
+12	node80	{'NeuralTube', 'Somite', 'NMPs'}
+2	node80	{'NeuralTube', 'Somite'}
+5	node80	{'NeuralTube', 'NMPs'}
+8	node80	{'NeuralTube', 'Somite'}
+1	node803	{'Endothelial', 'Somite'}
+1	node806	{'NeuralTube', 'Somite'}
+1	node809	{'Endothelial', 'Somite'}
+0	node81	{'NeuralTube', 'Somite', 'NMPs'}
+1	node81	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+11	node81	{'NeuralTube', 'Somite'}
+12	node81	{'NeuralTube', 'NMPs'}
+13	node81	{'NeuralTube', 'Somite'}
+2	node81	{'NeuralTube', 'NMPs'}
+3	node81	{'NeuralTube', 'NMPs'}
+6	node81	{'NeuralTube', 'NMPs'}
+1	node813	{'Endothelial', 'Somite'}
+1	node819	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node82	{'NeuralTube', 'Somite', 'NMPs'}
+12	node82	{'NeuralTube', 'NMPs'}
+2	node82	{'NeuralTube', 'Somite'}
+3	node82	{'NeuralTube', 'Somite', 'NMPs'}
+4	node82	{'NeuralTube', 'NMPs'}
+5	node82	{'NeuralTube', 'Somite', 'NMPs'}
+6	node82	{'NeuralTube', 'NMPs'}
+1	node820	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node821	{'Endothelial', 'Somite'}
+1	node822	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node823	{'NeuralTube', 'Somite'}
+0	node83	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node83	{'NeuralTube', 'Somite'}
+11	node83	{'NeuralTube', 'Somite', 'NMPs'}
+12	node83	{'NeuralTube', 'Somite'}
+13	node83	{'NeuralTube', 'Somite'}
+5	node83	{'NeuralTube', 'Somite', 'NMPs'}
+6	node83	{'NeuralTube', 'NMPs'}
+9	node83	{'NeuralTube', 'Somite'}
+1	node830	{'NeuralTube', 'Somite'}
+1	node833	{'Endothelial', 'Somite'}
+1	node835	{'NeuralTube', 'Somite', 'NMPs'}
+1	node836	{'Endothelial', 'Somite'}
+1	node837	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node839	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node84	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node84	{'NeuralTube', 'Somite'}
+12	node84	{'NeuralTube', 'NMPs'}
+13	node84	{'NeuralTube', 'Somite', 'NMPs'}
+2	node84	{'NeuralTube', 'Somite'}
+4	node84	{'NeuralTube', 'Somite', 'NMPs'}
+5	node84	{'NeuralTube', 'NMPs'}
+8	node84	{'NeuralTube', 'NMPs'}
+9	node84	{'Endothelial', 'Somite'}
+1	node841	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node842	{'Endothelial', 'Somite'}
+1	node848	{'NeuralTube', 'Somite'}
+0	node85	{'NeuralTube', 'Somite', 'NMPs'}
+1	node85	{'NeuralTube', 'Somite'}
+12	node85	{'NeuralTube', 'Somite', 'NMPs'}
+4	node85	{'NeuralTube', 'Somite'}
+5	node85	{'NeuralTube', 'Somite', 'NMPs'}
+8	node85	{'NeuralTube', 'Somite', 'NMPs'}
+9	node85	{'NeuralTube', 'NMPs'}
+1	node854	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node855	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node859	{'NeuralTube', 'Somite'}
+0	node86	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node86	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node86	{'NeuralTube', 'Somite', 'NMPs'}
+4	node86	{'NeuralTube', 'Somite'}
+6	node86	{'NeuralTube', 'NMPs'}
+9	node86	{'NeuralTube', 'NMPs'}
+1	node860	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node861	{'NeuralTube', 'Somite'}
+1	node865	{'NeuralTube', 'Somite'}
+1	node866	{'NeuralTube', 'Somite'}
+1	node869	{'Endothelial', 'Somite'}
+1	node87	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node87	{'NeuralTube', 'Somite'}
+4	node87	{'NeuralTube', 'NMPs'}
+5	node87	{'NeuralTube', 'Somite', 'NMPs'}
+9	node87	{'NeuralTube', 'NMPs'}
+1	node871	{'NeuralTube', 'Somite'}
+1	node876	{'Endothelial', 'Somite'}
+1	node878	{'NeuralTube', 'Somite'}
+1	node879	{'Endothelial', 'Somite'}
+0	node88	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node88	{'NeuralTube', 'Endoderm', 'Somite'}
+10	node88	{'NeuralTube', 'NMPs'}
+11	node88	{'NeuralTube', 'Somite', 'NMPs'}
+12	node88	{'NeuralTube', 'Somite'}
+13	node88	{'Endothelial', 'Somite'}
+2	node88	{'NeuralTube', 'NMPs'}
+5	node88	{'NeuralTube', 'NMPs'}
+6	node88	{'NeuralTube', 'NMPs'}
+8	node88	{'NeuralTube', 'NMPs'}
+9	node88	{'NeuralTube', 'Somite', 'NMPs'}
+1	node880	{'Endothelial', 'Somite'}
+0	node89	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+1	node89	{'NeuralTube', 'Somite', 'NMPs'}
+4	node89	{'NeuralTube', 'NMPs'}
+1	node891	{'NeuralTube', 'Somite'}
+1	node893	{'NeuralTube', 'Somite'}
+1	node895	{'NeuralTube', 'Somite'}
+1	node896	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node897	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node898	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node899	{'NeuralTube', 'Endoderm', 'Somite'}
+0	node9	{'NeuralTube', 'NMPs'}
+1	node9	{'NeuralTube', 'Endoderm', 'Somite'}
+10	node9	{'Endothelial', 'Somite'}
+11	node9	{'NeuralTube', 'Somite'}
+12	node9	{'NeuralTube', 'Somite', 'NMPs'}
+13	node9	{'NeuralTube', 'Somite', 'NMPs'}
+2	node9	{'Endothelial', 'Somite'}
+3	node9	{'NeuralTube', 'Somite', 'NMPs'}
+4	node9	{'NeuralTube', 'Somite', 'NMPs'}
+5	node9	{'NeuralTube', 'NMPs'}
+6	node9	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+7	node9	{'NeuralTube', 'Somite'}
+9	node9	{'NeuralTube', 'Somite', 'NMPs'}
+1	node90	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node90	{'NeuralTube', 'Somite'}
+12	node90	{'NeuralTube', 'Somite'}
+4	node90	{'NeuralTube', 'NMPs'}
+5	node90	{'NeuralTube', 'NMPs'}
+6	node90	{'NeuralTube', 'NMPs'}
+1	node900	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node903	{'NeuralTube', 'Somite'}
+1	node906	{'NeuralTube', 'Somite'}
+1	node907	{'NeuralTube', 'NMPs'}
+1	node909	{'Endothelial', 'Somite'}
+10	node91	{'NeuralTube', 'Somite', 'NMPs'}
+11	node91	{'NeuralTube', 'Somite', 'NMPs'}
+12	node91	{'NeuralTube', 'Somite'}
+13	node91	{'NeuralTube', 'NMPs'}
+3	node91	{'NeuralTube', 'Somite'}
+5	node91	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+9	node91	{'NeuralTube', 'Somite'}
+1	node915	{'NeuralTube', 'Somite'}
+1	node917	{'Endothelial', 'Somite'}
+1	node919	{'Endothelial', 'Somite'}
+0	node92	{'NeuralTube', 'Somite'}
+1	node92	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+11	node92	{'NeuralTube', 'Somite', 'NMPs'}
+12	node92	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node92	{'NeuralTube', 'Somite', 'NMPs'}
+2	node92	{'NeuralTube', 'Somite'}
+5	node92	{'NeuralTube', 'NMPs'}
+8	node92	{'NeuralTube', 'Somite'}
+9	node92	{'NeuralTube', 'Somite', 'NMPs'}
+1	node926	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node927	{'Endothelial', 'Somite'}
+1	node929	{'NeuralTube', 'Somite'}
+0	node93	{'NeuralTube', 'Somite'}
+1	node93	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+3	node93	{'NeuralTube', 'Somite', 'NMPs'}
+8	node93	{'NeuralTube', 'Somite'}
+9	node93	{'NeuralTube', 'Somite', 'NMPs'}
+1	node934	{'NeuralTube', 'Somite'}
+1	node936	{'Endothelial', 'Somite'}
+1	node938	{'Endothelial', 'Somite'}
+10	node94	{'NeuralTube', 'NMPs'}
+5	node94	{'NeuralTube', 'Somite', 'NMPs'}
+8	node94	{'NeuralTube', 'NMPs'}
+9	node94	{'NeuralTube', 'NMPs'}
+1	node940	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node942	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node943	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node944	{'NeuralTube', 'Somite'}
+1	node945	{'Endothelial', 'Somite'}
+1	node95	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+10	node95	{'NeuralTube', 'Somite'}
+13	node95	{'NeuralTube', 'Somite'}
+2	node95	{'NeuralTube', 'Somite', 'NMPs'}
+1	node953	{'Endothelial', 'Somite'}
+0	node96	{'NeuralTube', 'Somite'}
+1	node96	{'NeuralTube', 'Somite'}
+11	node96	{'NeuralTube', 'Somite'}
+3	node96	{'NeuralTube', 'NMPs'}
+1	node960	{'NeuralTube', 'Somite'}
+1	node962	{'NeuralTube', 'Somite'}
+1	node963	{'Endothelial', 'Somite'}
+1	node964	{'Endothelial', 'Somite'}
+1	node966	{'Endothelial', 'Somite'}
+0	node97	{'NeuralTube', 'Somite'}
+1	node97	{'NeuralTube', 'Somite', 'NMPs'}
+10	node97	{'Endothelial', 'Somite'}
+12	node97	{'NeuralTube', 'Somite'}
+13	node97	{'Endothelial', 'Somite'}
+3	node97	{'NeuralTube', 'Somite', 'NMPs'}
+5	node97	{'NeuralTube', 'Somite', 'NMPs'}
+8	node97	{'NeuralTube', 'Somite'}
+1	node971	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node972	{'NeuralTube', 'Endoderm', 'Somite'}
+1	node974	{'NeuralTube', 'Somite'}
+1	node976	{'Endothelial', 'Somite'}
+0	node98	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+10	node98	{'NeuralTube', 'Somite'}
+2	node98	{'NeuralTube', 'Somite'}
+4	node98	{'NeuralTube', 'NMPs'}
+5	node98	{'NeuralTube', 'NMPs'}
+1	node986	{'NeuralTube', 'Somite'}
+1	node988	{'NeuralTube', 'Somite'}
+0	node99	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node99	{'NMPs', 'NeuralTube', 'Endoderm', 'Endothelial', 'PCGLC', 'Somite'}
+13	node99	{'NeuralTube', 'Somite', 'NMPs'}
+8	node99	{'NeuralTube', 'NMPs'}
+1	node990	{'NeuralTube', 'Endothelial', 'PCGLC', 'Somite'}
+1	node991	{'NeuralTube', 'Somite'}
+1	node999	{'NeuralTube', 'Somite'}

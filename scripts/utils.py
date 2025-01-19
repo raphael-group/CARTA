@@ -11,7 +11,7 @@ from collections import defaultdict
 
 def label_tree_with_leaf_states(
     tree,
-    state_labels_file,
+    state_labels,
     state_transform_mapping=None,
     state_to_stateid=None,
     permute=False,
@@ -22,7 +22,7 @@ def label_tree_with_leaf_states(
 
     Args:
         tree: The tree to have its leaves labeled
-        state_labels_file: The file containing the labels for each cell
+        state_labels: Either the file or dataframe containing the labels for each cell
         state_transform_mapping: An optional dictionary mapping states to
             states, e.g. to consolidate substates into larger state groups
         state_to_stateid: An optional dictionary mapping states to state IDs,
@@ -35,8 +35,9 @@ def label_tree_with_leaf_states(
         None. Modifies the tree in place
 
     """
-
-    state_labels = pd.read_csv(state_labels_file, sep="\t")
+    if type(state_labels) == str:
+        state_labels = pd.read_csv(state_labels, sep="\t")
+    
     if permute:
         state_labels[state_column] = np.random.permutation(state_labels[state_column])
     if state_transform_mapping is not None:
@@ -387,3 +388,21 @@ def score_rf(T1, T2):
     ) = T1.robinson_foulds(T2, unrooted_trees=True)
 
     return rf, rf_max
+
+def get_progens_from_tree_input(file):
+    tree = cas.data.CassiopeiaTree(tree = file)
+    for l in tree.leaves:
+        tree.set_attribute(l, "state_labels", [l])
+    for n in tree.internal_nodes:
+        tree.set_attribute(n, "state_labels", [])
+    impute_states_from_children(tree)
+
+    return [tree.get_attribute(n, "state_labels") for n in tree.internal_nodes]
+
+def get_progens_from_ilp_output(file):
+    progens = []
+    with open(file, 'r') as inp:
+        for line in inp:
+            progens.append([x.lstrip("'").rstrip("'") for x in line.rstrip('}\n').lstrip('{').split(', ')])
+
+    return progens

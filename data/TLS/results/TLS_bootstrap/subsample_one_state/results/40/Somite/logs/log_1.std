@@ -1,0 +1,158 @@
+Not Enforcing Tree
+Exhaustive radius
+Set parameter Username
+Set parameter LicenseID to value 2589207
+Academic license - for non-commercial use only - expires 2025-11-23
+116.80916428565979
+Set parameter TimeLimit to value 43200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 28 physical cores, 56 logical processors, using up to 28 threads
+
+Optimize a model with 3473143 rows, 1292227 columns and 9321085 nonzeros
+Model fingerprint: 0x7ffe2d35
+Variable types: 1292163 continuous, 64 integer (64 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 562201 rows and 7 columns (presolve time = 7s) ...
+Presolve removed 2622658 rows and 844380 columns (presolve time = 11s) ...
+Presolve removed 2622701 rows and 844380 columns (presolve time = 15s) ...
+Presolve removed 2676025 rows and 845217 columns (presolve time = 23s) ...
+Presolve removed 2725783 rows and 894975 columns (presolve time = 25s) ...
+Presolve removed 2781317 rows and 894975 columns (presolve time = 30s) ...
+Presolve removed 2781317 rows and 894975 columns (presolve time = 35s) ...
+Presolve removed 2782201 rows and 895004 columns (presolve time = 41s) ...
+Presolve removed 2782201 rows and 895004 columns (presolve time = 45s) ...
+Presolve removed 2782201 rows and 895347 columns (presolve time = 50s) ...
+Presolve removed 2784402 rows and 898880 columns (presolve time = 55s) ...
+Presolve removed 2785354 rows and 900000 columns (presolve time = 61s) ...
+Presolve removed 2793597 rows and 907429 columns
+Presolve time: 64.67s
+Presolved: 679546 rows, 384798 columns, 2402621 nonzeros
+Variable types: 384728 continuous, 70 integer (70 binary)
+Found heuristic solution: objective 1404.0000000
+
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 4.30s
+
+Barrier statistics:
+ Dense cols : 56
+ AA' NZ     : 2.513e+06
+ Factor NZ  : 8.453e+06 (roughly 500 MB of memory)
+ Factor Ops : 2.400e+08 (less than 1 second per iteration)
+ Threads    : 26
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   3.12294397e+06 -1.33747252e+07  1.19e+03 4.00e+00  2.90e+02   731s
+   1   3.00786936e+06 -1.14571660e+07  1.14e+03 1.14e+01  1.76e+02   733s
+   2   1.20907059e+06 -9.98681687e+06  4.58e+02 1.57e+00  7.32e+01   736s
+   3   6.25315845e+05 -6.27273737e+06  2.35e+02 8.28e-07  3.49e+01   739s
+   4   1.03156997e+05 -2.71009475e+06  3.67e+01 1.73e-06  6.39e+00   741s
+   5   3.01144523e+04 -1.11838333e+06  9.07e+00 1.24e-06  1.77e+00   743s
+   6   1.42483521e+04 -4.63689847e+05  3.08e+00 5.55e-07  6.07e-01   745s
+   7   8.33513930e+03 -2.67705322e+05  8.25e-01 3.50e-07  2.70e-01   746s
+   8   6.52576428e+03 -1.23385078e+05  1.49e-01 1.32e-07  1.10e-01   749s
+   9   5.95087753e+03 -4.96826626e+04  1.32e-02 4.94e-08  4.51e-02   751s
+  10   5.59064251e+03 -2.73096177e+04  2.49e-03 2.75e-08  2.65e-02   752s
+  11   5.24848132e+03 -1.79355173e+04  1.51e-03 1.91e-08  1.87e-02   754s
+  12   4.87099863e+03 -1.01444504e+04  1.03e-03 1.17e-08  1.21e-02   756s
+  13   4.61527997e+03 -8.94528569e+03  8.21e-04 1.06e-08  1.09e-02   757s
+  14   4.28550869e+03 -7.41699388e+03  6.23e-04 9.22e-09  9.44e-03   760s
+  15   4.04726840e+03 -5.25647695e+03  5.47e-04 7.34e-09  7.50e-03   764s
+  16   3.63570861e+03 -3.85221910e+03  4.48e-04 5.79e-09  6.04e-03   766s
+  17   3.19158164e+03 -2.72105773e+03  3.52e-04 4.67e-09  4.77e-03   769s
+  18   2.73530448e+03 -2.11643392e+03  2.64e-04 3.94e-09  3.91e-03   772s
+  19   2.54049358e+03 -1.52237596e+03  2.31e-04 3.23e-09  3.28e-03   775s
+  20   2.25453687e+03 -1.17421672e+03  1.86e-04 2.80e-09  2.76e-03   778s
+  21   2.09464064e+03 -7.57176130e+02  1.63e-04 2.35e-09  2.30e-03   780s
+  22   1.94419897e+03 -5.05203123e+02  1.42e-04 2.10e-09  1.98e-03   782s
+  23   1.77625534e+03 -2.30893213e+02  1.19e-04 1.54e-09  1.62e-03   785s
+  24   1.71368484e+03 -2.92776869e+01  1.11e-04 1.37e-09  1.41e-03   788s
+  25   1.58750201e+03  1.58530377e+02  9.38e-05 1.27e-09  1.15e-03   790s
+  26   1.49595887e+03  2.67477167e+02  8.16e-05 1.20e-09  9.91e-04   793s
+  27   1.39359431e+03  3.18545085e+02  6.83e-05 1.16e-09  8.67e-04   796s
+  28   1.27606386e+03  4.80916398e+02  5.32e-05 8.83e-10  6.41e-04   799s
+  29   1.19355703e+03  5.47924196e+02  4.30e-05 8.02e-10  5.21e-04   802s
+  30   1.12356670e+03  6.14160046e+02  3.44e-05 7.50e-10  4.11e-04   805s
+  31   1.09040533e+03  6.60996484e+02  3.06e-05 5.86e-10  3.46e-04   808s
+  32   1.06913507e+03  6.66932637e+02  2.82e-05 5.72e-10  3.24e-04   810s
+  33   1.02136112e+03  6.99766858e+02  2.26e-05 6.68e-10  2.59e-04   812s
+  34   9.90163025e+02  7.15595575e+02  1.90e-05 5.88e-10  2.21e-04   814s
+  35   9.59423303e+02  7.42025900e+02  1.54e-05 5.93e-10  1.75e-04   817s
+  36   9.41720419e+02  7.55745942e+02  1.32e-05 5.89e-10  1.50e-04   819s
+  37   9.15438794e+02  7.65461291e+02  1.01e-05 6.98e-10  1.21e-04   821s
+  38   9.02919823e+02  7.86094350e+02  8.64e-06 1.46e-09  9.42e-05   824s
+  39   8.67152238e+02  8.00994806e+02  4.67e-06 2.03e-09  5.33e-05   826s
+  40   8.27827903e+02  8.15973556e+02  6.94e-07 2.82e-09  9.56e-06   827s
+  41   8.22238921e+02  8.18040904e+02  1.92e-07 1.71e-09  3.38e-06   829s
+  42   8.22042229e+02  8.18660361e+02  1.75e-07 1.22e-09  2.73e-06   830s
+  43   8.20418965e+02  8.19557304e+02  3.06e-08 8.95e-10  6.95e-07   830s
+  44   8.20015231e+02  8.19997252e+02  6.91e-09 2.85e-08  1.45e-08   831s
+  45   8.20004961e+02  8.19999948e+02  1.75e-07 5.38e-10  4.04e-09   832s
+  46   8.20000295e+02  8.19999996e+02  4.15e-08 4.61e-11  2.41e-10   833s
+  47   8.20000001e+02  8.20000000e+02  1.42e-10 5.32e-11  8.21e-13   834s
+
+Barrier solved model in 47 iterations and 834.22 seconds (78.98 work units)
+Optimal objective 8.20000001e+02
+
+
+Root crossover log...
+
+  462107 DPushes remaining with DInf 0.0000000e+00               835s
+   13770 DPushes remaining with DInf 0.0000000e+00               836s
+       0 DPushes remaining with DInf 0.0000000e+00               838s
+
+      49 PPushes remaining with PInf 0.0000000e+00               838s
+       0 PPushes remaining with PInf 0.0000000e+00               838s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00    838s
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   80261    8.2000000e+02   0.000000e+00   0.000000e+00    838s
+   80261    8.2000000e+02   0.000000e+00   0.000000e+00    839s
+Concurrent spin time: 2.32s
+
+Solved with barrier
+
+Root relaxation: objective 8.200000e+02, 80261 iterations, 133.16 seconds (15.12 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  820.00000    0    7 1404.00000  820.00000  41.6%     -  840s
+     0     0  820.55000    0   10 1404.00000  820.55000  41.6%     -  858s
+H    0     0                     894.0000000  824.00000  7.83%     -  867s
+     0     0  824.00000    0    9  894.00000  824.00000  7.83%     -  881s
+     0     0  824.00000    0    8  894.00000  824.00000  7.83%     - 1166s
+     0     0  824.00000    0   12  894.00000  824.00000  7.83%     - 1182s
+H    0     0                     873.0000000  824.00000  5.61%     - 1189s
+     0     0  824.00000    0   12  873.00000  824.00000  5.61%     - 1193s
+     0     0  824.00000    0   12  873.00000  824.00000  5.61%     - 1200s
+H    0     0                     824.0000000  824.00000  0.00%     - 1206s
+
+Cutting planes:
+  Gomory: 4
+  Lift-and-project: 1
+  MIR: 24
+  RLT: 5
+  Relax-and-lift: 5
+
+Explored 1 nodes (145179 simplex iterations) in 1207.19 seconds (131.92 work units)
+Thread count was 28 (of 56 available processors)
+
+Solution count 4: 824 873 894 1404 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.240000000000e+02, best bound 8.240000000000e+02, gap 0.0000%

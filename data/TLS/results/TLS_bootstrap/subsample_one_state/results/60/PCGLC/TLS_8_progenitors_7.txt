@@ -1,0 +1,13 @@
+{'Endoderm'}
+{'Endothelial'}
+{'NeuralTube'}
+{'Somite'}
+{'PCGLC'}
+{'NMPs'}
+{'Somite', 'NeuralTube'}
+{'NeuralTube', 'NMPs'}
+{'Somite', 'Endoderm', 'NeuralTube'}
+{'Somite', 'NeuralTube', 'Endothelial'}
+{'Somite', 'NeuralTube', 'NMPs'}
+{'Endoderm', 'Endothelial', 'NeuralTube', 'Somite', 'NMPs'}
+{'Endoderm', 'Endothelial', 'NeuralTube', 'Somite', 'PCGLC', 'NMPs'}
