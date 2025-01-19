@@ -1,0 +1,6 @@
+,method_name,discrepancy,k
+0,Fitch,104,10
+1,PhyloVelo,1013,5
+2,ICE-FASE,516,8
+3,EvoC,2015,8
+4,Weinreb,1406,8

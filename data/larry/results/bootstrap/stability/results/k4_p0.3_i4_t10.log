@@ -1,0 +1,52 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-08-28
+Set parameter Threads to value 1
+Set parameter Method to value 4
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.5.0 23F79)
+
+CPU model: Apple M3 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 1 threads
+
+Optimize a model with 591 rows, 133 columns and 1758 nonzeros
+Model fingerprint: 0x5e269c70
+Variable types: 77 continuous, 56 integer (56 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 462.0000000
+Presolve removed 268 rows and 50 columns
+Presolve time: 0.00s
+Presolved: 323 rows, 83 columns, 938 nonzeros
+Variable types: 0 continuous, 83 integer (83 binary)
+
+Root relaxation: objective 0.000000e+00, 43 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   21  462.00000    0.00000   100%     -    0s
+H    0     0                     204.0000000    0.00000   100%     -    0s
+H    0     0                     180.0000000    0.00000   100%     -    0s
+H    0     0                     151.0000000    0.00000   100%     -    0s
+H    0     0                     102.0000000    0.00000   100%     -    0s
+H    0     0                      53.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   32   53.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   18   53.00000    0.00000   100%     -    0s
+     0     0   11.14286    0   25   53.00000   11.14286  79.0%     -    0s
+     0     0   13.87500    0   23   53.00000   13.87500  73.8%     -    0s
+
+Cutting planes:
+  Zero half: 8
+  RLT: 4
+  BQP: 1
+
+Explored 1 nodes (222 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 6: 53 102 151 ... 462
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.300000000000e+01, best bound 5.300000000000e+01, gap 0.0000%
+53.0

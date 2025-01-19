@@ -1,0 +1,79 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-08-28
+Set parameter Threads to value 1
+Set parameter Method to value 4
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.5.0 23F79)
+
+CPU model: Apple M3 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 1 threads
+
+Optimize a model with 506 rows, 158 columns and 1454 nonzeros
+Model fingerprint: 0x9567d503
+Variable types: 116 continuous, 42 integer (42 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 3020.0000000
+Presolve removed 262 rows and 43 columns
+Presolve time: 0.00s
+Presolved: 244 rows, 115 columns, 680 nonzeros
+Variable types: 0 continuous, 115 integer (115 binary)
+Found heuristic solution: objective 2288.0000000
+
+Root relaxation: objective 0.000000e+00, 33 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   30 2288.00000    0.00000   100%     -    0s
+     0     0  388.50000    0   45 2288.00000  388.50000  83.0%     -    0s
+H    0     0                    1671.0000000  388.50000  76.8%     -    0s
+     0     0  394.00000    0   44 1671.00000  394.00000  76.4%     -    0s
+     0     0  429.83333    0   57 1671.00000  429.83333  74.3%     -    0s
+H    0     0                    1322.0000000  429.83333  67.5%     -    0s
+     0     0  431.50000    0   54 1322.00000  431.50000  67.4%     -    0s
+     0     0  431.50000    0   54 1322.00000  431.50000  67.4%     -    0s
+     0     0  613.00000    0   52 1322.00000  613.00000  53.6%     -    0s
+     0     0  613.00000    0   53 1322.00000  613.00000  53.6%     -    0s
+     0     0  672.90000    0   75 1322.00000  672.90000  49.1%     -    0s
+     0     0  702.78846    0   93 1322.00000  702.78846  46.8%     -    0s
+     0     0  704.00893    0   93 1322.00000  704.00893  46.7%     -    0s
+     0     0  771.00000    0   58 1322.00000  771.00000  41.7%     -    0s
+     0     0  786.00000    0   85 1322.00000  786.00000  40.5%     -    0s
+     0     0  787.25000    0   72 1322.00000  787.25000  40.5%     -    0s
+     0     0  790.50000    0   71 1322.00000  790.50000  40.2%     -    0s
+     0     0  801.70000    0   99 1322.00000  801.70000  39.4%     -    0s
+     0     0  803.10000    0  100 1322.00000  803.10000  39.3%     -    0s
+     0     0  828.40000    0   91 1322.00000  828.40000  37.3%     -    0s
+     0     0  833.66667    0   91 1322.00000  833.66667  36.9%     -    0s
+     0     0  834.08333    0   91 1322.00000  834.08333  36.9%     -    0s
+     0     0  857.20000    0  101 1322.00000  857.20000  35.2%     -    0s
+     0     0  858.64286    0  104 1322.00000  858.64286  35.0%     -    0s
+     0     0  859.61111    0  104 1322.00000  859.61111  35.0%     -    0s
+     0     0  873.77778    0  111 1322.00000  873.77778  33.9%     -    0s
+     0     0  877.19289    0  113 1322.00000  877.19289  33.6%     -    0s
+     0     0  877.29442    0  113 1322.00000  877.29442  33.6%     -    0s
+     0     0  880.25000    0   89 1322.00000  880.25000  33.4%     -    0s
+     0     0  880.25000    0   88 1322.00000  880.25000  33.4%     -    0s
+     0     0  885.66667    0  106 1322.00000  885.66667  33.0%     -    0s
+     0     0  885.66667    0  106 1322.00000  885.66667  33.0%     -    0s
+     0     2  888.04255    0  106 1322.00000  888.04255  32.8%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Clique: 2
+  MIR: 33
+  Zero half: 37
+  RLT: 16
+  BQP: 8
+
+Explored 7 nodes (1070 simplex iterations) in 0.08 seconds (0.08 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 4: 1322 1671 2288 3020 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.322000000000e+03, best bound 1.322000000000e+03, gap 0.0000%
+1322.0

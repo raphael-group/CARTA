@@ -1,0 +1,86 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-08-28
+Set parameter Threads to value 1
+Set parameter Method to value 4
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.5.0 23F79)
+
+CPU model: Apple M3 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 1 threads
+
+Optimize a model with 565 rows, 141 columns and 1661 nonzeros
+Model fingerprint: 0x0f3760d0
+Variable types: 90 continuous, 51 integer (51 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve removed 203 rows and 47 columns
+Presolve time: 0.00s
+Presolved: 362 rows, 94 columns, 1038 nonzeros
+Variable types: 0 continuous, 94 integer (94 binary)
+Found heuristic solution: objective 1288.0000000
+Found heuristic solution: objective 862.0000000
+Found heuristic solution: objective 678.0000000
+
+Root relaxation: objective 0.000000e+00, 46 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   24  678.00000    0.00000   100%     -    0s
+H    0     0                     559.0000000    0.00000   100%     -    0s
+H    0     0                     523.0000000    0.00000   100%     -    0s
+H    0     0                     403.0000000    0.00000   100%     -    0s
+H    0     0                     298.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   42  298.00000    0.00000   100%     -    0s
+     0     0   38.00000    0   45  298.00000   38.00000  87.2%     -    0s
+     0     0   87.43069    0   59  298.00000   87.43069  70.7%     -    0s
+     0     0   87.43069    0   59  298.00000   87.43069  70.7%     -    0s
+     0     0  104.67647    0   59  298.00000  104.67647  64.9%     -    0s
+     0     0  111.55556    0   61  298.00000  111.55556  62.6%     -    0s
+     0     0  113.17593    0   62  298.00000  113.17593  62.0%     -    0s
+     0     0  115.75000    0   55  298.00000  115.75000  61.2%     -    0s
+     0     0  116.80000    0   60  298.00000  116.80000  60.8%     -    0s
+     0     0  117.20000    0   61  298.00000  117.20000  60.7%     -    0s
+     0     0  117.20000    0   61  298.00000  117.20000  60.7%     -    0s
+     0     0  117.20000    0   63  298.00000  117.20000  60.7%     -    0s
+     0     0  117.20000    0   62  298.00000  117.20000  60.7%     -    0s
+     0     0  117.20000    0   64  298.00000  117.20000  60.7%     -    0s
+     0     0  117.20000    0   62  298.00000  117.20000  60.7%     -    0s
+     0     0  117.20000    0   59  298.00000  117.20000  60.7%     -    0s
+     0     0  117.20000    0   25  298.00000  117.20000  60.7%     -    0s
+     0     0  117.20000    0   44  298.00000  117.20000  60.7%     -    0s
+     0     0  117.20000    0   49  298.00000  117.20000  60.7%     -    0s
+     0     0  117.20000    0   53  298.00000  117.20000  60.7%     -    0s
+     0     0  117.20000    0   54  298.00000  117.20000  60.7%     -    0s
+     0     0  117.20000    0   54  298.00000  117.20000  60.7%     -    0s
+     0     0  117.20000    0   54  298.00000  117.20000  60.7%     -    0s
+     0     0  117.20000    0   60  298.00000  117.20000  60.7%     -    0s
+     0     0  121.53468    0   58  298.00000  121.53468  59.2%     -    0s
+     0     0  121.72110    0   59  298.00000  121.72110  59.2%     -    0s
+     0     0  123.12281    0   59  298.00000  123.12281  58.7%     -    0s
+     0     0  123.12281    0   61  298.00000  123.12281  58.7%     -    0s
+     0     0  124.32075    0   60  298.00000  124.32075  58.3%     -    0s
+     0     0  124.57576    0   60  298.00000  124.57576  58.2%     -    0s
+     0     0  124.57576    0   61  298.00000  124.57576  58.2%     -    0s
+     0     0  124.61111    0   60  298.00000  124.61111  58.2%     -    0s
+     0     0  138.80000    0   60  298.00000  138.80000  53.4%     -    0s
+     0     2  139.21875    0   60  298.00000  139.21875  53.3%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Implied bound: 12
+  MIR: 4
+  Zero half: 8
+  RLT: 9
+  BQP: 6
+
+Explored 15 nodes (978 simplex iterations) in 0.10 seconds (0.10 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 7: 298 403 523 ... 1288
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.980000000000e+02, best bound 2.980000000000e+02, gap 0.0000%
+298.0

@@ -1,0 +1,78 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-08-28
+Set parameter Threads to value 1
+Set parameter Method to value 4
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.5.0 23F79)
+
+CPU model: Apple M3 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 1 threads
+
+Optimize a model with 427 rows, 136 columns and 1229 nonzeros
+Model fingerprint: 0x70b05b44
+Variable types: 98 continuous, 38 integer (38 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 3747.0000000
+Presolve removed 219 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 208 rows, 100 columns, 582 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 0.000000e+00, 35 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   28 3747.00000    0.00000   100%     -    0s
+H    0     0                    2307.0000000    0.00000   100%     -    0s
+H    0     0                    1255.0000000    0.00000   100%     -    0s
+H    0     0                    1185.0000000    0.00000   100%     -    0s
+     0     0  322.50000    0   40 1185.00000  322.50000  72.8%     -    0s
+     0     0  371.25000    0   48 1185.00000  371.25000  68.7%     -    0s
+     0     0  374.25000    0   46 1185.00000  374.25000  68.4%     -    0s
+     0     0  374.25000    0   48 1185.00000  374.25000  68.4%     -    0s
+     0     0  623.75000    0   59 1185.00000  623.75000  47.4%     -    0s
+     0     0  647.50000    0   53 1185.00000  647.50000  45.4%     -    0s
+     0     0  647.50000    0   53 1185.00000  647.50000  45.4%     -    0s
+     0     0  696.00000    0   49 1185.00000  696.00000  41.3%     -    0s
+     0     0  707.00000    0   51 1185.00000  707.00000  40.3%     -    0s
+     0     0  726.17931    0   77 1185.00000  726.17931  38.7%     -    0s
+     0     0  734.25000    0   53 1185.00000  734.25000  38.0%     -    0s
+     0     0  738.55263    0   78 1185.00000  738.55263  37.7%     -    0s
+     0     0  740.40000    0   76 1185.00000  740.40000  37.5%     -    0s
+     0     0  741.37037    0   75 1185.00000  741.37037  37.4%     -    0s
+     0     0  761.00000    0   56 1185.00000  761.00000  35.8%     -    0s
+     0     0  771.64286    0   86 1185.00000  771.64286  34.9%     -    0s
+     0     0  776.25000    0   73 1185.00000  776.25000  34.5%     -    0s
+     0     0  776.50000    0   76 1185.00000  776.50000  34.5%     -    0s
+     0     0  786.00000    0   77 1185.00000  786.00000  33.7%     -    0s
+     0     0  790.40000    0   77 1185.00000  790.40000  33.3%     -    0s
+     0     0  791.31250    0   78 1185.00000  791.31250  33.2%     -    0s
+     0     0  805.50000    0   48 1185.00000  805.50000  32.0%     -    0s
+     0     0  808.27899    0   88 1185.00000  808.27899  31.8%     -    0s
+     0     0  808.32143    0   90 1185.00000  808.32143  31.8%     -    0s
+     0     0  812.75000    0   65 1185.00000  812.75000  31.4%     -    0s
+     0     0  814.87500    0   67 1185.00000  814.87500  31.2%     -    0s
+     0     0  815.37500    0   75 1185.00000  815.37500  31.2%     -    0s
+     0     0  816.41176    0   76 1185.00000  816.41176  31.1%     -    0s
+     0     0  816.41176    0   76 1185.00000  816.41176  31.1%     -    0s
+     0     2  817.66667    0   76 1185.00000  817.66667  31.0%     -    0s
+
+Cutting planes:
+  Clique: 10
+  MIR: 34
+  Zero half: 27
+  RLT: 7
+  BQP: 5
+
+Explored 3 nodes (784 simplex iterations) in 0.07 seconds (0.07 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 4: 1185 1255 2307 3747 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.185000000000e+03, best bound 1.185000000000e+03, gap 0.0000%
+1185.0

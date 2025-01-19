@@ -1,0 +1,914 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count
+----------  -------
+all               1
+carta_tree       60
+total            61
+
+Select jobs to execute...
+
+[Wed Dec 18 14:58:09 2024]
+rule carta_tree:
+    input: CLP.csv
+    output: CLP/CLP_k4_t10_tree_prog.csv
+    log: CLP/logs/CLP_k4_t10.log, CLP/logs/CLP_k4_t10.err.log
+    jobid: 14
+    reason: Missing output files: CLP/CLP_k4_t10_tree_prog.csv
+    wildcards: case=CLP, nprogs=4, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 14:58:09 2024]
+rule carta_tree:
+    input: CLP.csv
+    output: CLP/CLP_k5_t10_tree_prog.csv
+    log: CLP/logs/CLP_k5_t10.log, CLP/logs/CLP_k5_t10.err.log
+    jobid: 15
+    reason: Missing output files: CLP/CLP_k5_t10_tree_prog.csv
+    wildcards: case=CLP, nprogs=5, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 14:58:09 2024]
+rule carta_tree:
+    input: CLP.csv
+    output: CLP/CLP_k7_t10_tree_prog.csv
+    log: CLP/logs/CLP_k7_t10.log, CLP/logs/CLP_k7_t10.err.log
+    jobid: 17
+    reason: Missing output files: CLP/CLP_k7_t10_tree_prog.csv
+    wildcards: case=CLP, nprogs=7, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 14:58:09 2024]
+rule carta_tree:
+    input: CLP.csv
+    output: CLP/CLP_k9_t10_tree_prog.csv
+    log: CLP/logs/CLP_k9_t10.log, CLP/logs/CLP_k9_t10.err.log
+    jobid: 19
+    reason: Missing output files: CLP/CLP_k9_t10_tree_prog.csv
+    wildcards: case=CLP, nprogs=9, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 14:58:09 2024]
+rule carta_tree:
+    input: CLP.csv
+    output: CLP/CLP_k1_t10_tree_prog.csv
+    log: CLP/logs/CLP_k1_t10.log, CLP/logs/CLP_k1_t10.err.log
+    jobid: 11
+    reason: Missing output files: CLP/CLP_k1_t10_tree_prog.csv
+    wildcards: case=CLP, nprogs=1, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 14:58:09 2024]
+rule carta_tree:
+    input: CLP.csv
+    output: CLP/CLP_k3_t10_tree_prog.csv
+    log: CLP/logs/CLP_k3_t10.log, CLP/logs/CLP_k3_t10.err.log
+    jobid: 13
+    reason: Missing output files: CLP/CLP_k3_t10_tree_prog.csv
+    wildcards: case=CLP, nprogs=3, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 14:58:09 2024]
+rule carta_tree:
+    input: CLP.csv
+    output: CLP/CLP_k6_t10_tree_prog.csv
+    log: CLP/logs/CLP_k6_t10.log, CLP/logs/CLP_k6_t10.err.log
+    jobid: 16
+    reason: Missing output files: CLP/CLP_k6_t10_tree_prog.csv
+    wildcards: case=CLP, nprogs=6, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 14:58:09 2024]
+rule carta_tree:
+    input: CLP.csv
+    output: CLP/CLP_k8_t10_tree_prog.csv
+    log: CLP/logs/CLP_k8_t10.log, CLP/logs/CLP_k8_t10.err.log
+    jobid: 18
+    reason: Missing output files: CLP/CLP_k8_t10_tree_prog.csv
+    wildcards: case=CLP, nprogs=8, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 14:58:09 2024]
+rule carta_tree:
+    input: CLP.csv
+    output: CLP/CLP_k10_t10_tree_prog.csv
+    log: CLP/logs/CLP_k10_t10.log, CLP/logs/CLP_k10_t10.err.log
+    jobid: 20
+    reason: Missing output files: CLP/CLP_k10_t10_tree_prog.csv
+    wildcards: case=CLP, nprogs=10, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 14:58:09 2024]
+rule carta_tree:
+    input: CLP.csv
+    output: CLP/CLP_k2_t10_tree_prog.csv
+    log: CLP/logs/CLP_k2_t10.log, CLP/logs/CLP_k2_t10.err.log
+    jobid: 12
+    reason: Missing output files: CLP/CLP_k2_t10_tree_prog.csv
+    wildcards: case=CLP, nprogs=2, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:10 2024]
+Finished job 11.
+1 of 61 steps (2%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:10 2024]
+rule carta_tree:
+    input: MEP.csv
+    output: MEP/MEP_k9_t10_tree_prog.csv
+    log: MEP/logs/MEP_k9_t10.log, MEP/logs/MEP_k9_t10.err.log
+    jobid: 9
+    reason: Missing output files: MEP/MEP_k9_t10_tree_prog.csv
+    wildcards: case=MEP, nprogs=9, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:10 2024]
+Finished job 12.
+2 of 61 steps (3%) done
+[Wed Dec 18 14:58:10 2024]
+Finished job 13.
+3 of 61 steps (5%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:10 2024]
+rule carta_tree:
+    input: MEP.csv
+    output: MEP/MEP_k3_t10_tree_prog.csv
+    log: MEP/logs/MEP_k3_t10.log, MEP/logs/MEP_k3_t10.err.log
+    jobid: 3
+    reason: Missing output files: MEP/MEP_k3_t10_tree_prog.csv
+    wildcards: case=MEP, nprogs=3, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 14:58:10 2024]
+rule carta_tree:
+    input: MEP.csv
+    output: MEP/MEP_k10_t10_tree_prog.csv
+    log: MEP/logs/MEP_k10_t10.log, MEP/logs/MEP_k10_t10.err.log
+    jobid: 10
+    reason: Missing output files: MEP/MEP_k10_t10_tree_prog.csv
+    wildcards: case=MEP, nprogs=10, threshold=10
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Wed Dec 18 14:58:10 2024]
+Finished job 14.
+4 of 61 steps (7%) done
+
+[Wed Dec 18 14:58:10 2024]
+rule carta_tree:
+    input: MEP.csv
+    output: MEP/MEP_k2_t10_tree_prog.csv
+    log: MEP/logs/MEP_k2_t10.log, MEP/logs/MEP_k2_t10.err.log
+    jobid: 2
+    reason: Missing output files: MEP/MEP_k2_t10_tree_prog.csv
+    wildcards: case=MEP, nprogs=2, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:11 2024]
+Finished job 3.
+5 of 61 steps (8%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:11 2024]
+rule carta_tree:
+    input: MEP.csv
+    output: MEP/MEP_k4_t10_tree_prog.csv
+    log: MEP/logs/MEP_k4_t10.log, MEP/logs/MEP_k4_t10.err.log
+    jobid: 4
+    reason: Missing output files: MEP/MEP_k4_t10_tree_prog.csv
+    wildcards: case=MEP, nprogs=4, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:11 2024]
+Finished job 2.
+6 of 61 steps (10%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:11 2024]
+rule carta_tree:
+    input: MEP.csv
+    output: MEP/MEP_k5_t10_tree_prog.csv
+    log: MEP/logs/MEP_k5_t10.log, MEP/logs/MEP_k5_t10.err.log
+    jobid: 5
+    reason: Missing output files: MEP/MEP_k5_t10_tree_prog.csv
+    wildcards: case=MEP, nprogs=5, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:12 2024]
+Finished job 4.
+7 of 61 steps (11%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:12 2024]
+rule carta_tree:
+    input: MEP.csv
+    output: MEP/MEP_k6_t10_tree_prog.csv
+    log: MEP/logs/MEP_k6_t10.log, MEP/logs/MEP_k6_t10.err.log
+    jobid: 6
+    reason: Missing output files: MEP/MEP_k6_t10_tree_prog.csv
+    wildcards: case=MEP, nprogs=6, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:12 2024]
+Finished job 16.
+8 of 61 steps (13%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:12 2024]
+rule carta_tree:
+    input: MEP.csv
+    output: MEP/MEP_k8_t10_tree_prog.csv
+    log: MEP/logs/MEP_k8_t10.log, MEP/logs/MEP_k8_t10.err.log
+    jobid: 8
+    reason: Missing output files: MEP/MEP_k8_t10_tree_prog.csv
+    wildcards: case=MEP, nprogs=8, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:12 2024]
+Finished job 15.
+9 of 61 steps (15%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:12 2024]
+rule carta_tree:
+    input: MEP.csv
+    output: MEP/MEP_k1_t10_tree_prog.csv
+    log: MEP/logs/MEP_k1_t10.log, MEP/logs/MEP_k1_t10.err.log
+    jobid: 1
+    reason: Missing output files: MEP/MEP_k1_t10_tree_prog.csv
+    wildcards: case=MEP, nprogs=1, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:13 2024]
+Finished job 1.
+10 of 61 steps (16%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:13 2024]
+rule carta_tree:
+    input: MEP.csv
+    output: MEP/MEP_k7_t10_tree_prog.csv
+    log: MEP/logs/MEP_k7_t10.log, MEP/logs/MEP_k7_t10.err.log
+    jobid: 7
+    reason: Missing output files: MEP/MEP_k7_t10_tree_prog.csv
+    wildcards: case=MEP, nprogs=7, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:14 2024]
+Finished job 17.
+11 of 61 steps (18%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:14 2024]
+rule carta_tree:
+    input: MEP_CLP.csv
+    output: MEP_CLP/MEP_CLP_k7_t10_tree_prog.csv
+    log: MEP_CLP/logs/MEP_CLP_k7_t10.log, MEP_CLP/logs/MEP_CLP_k7_t10.err.log
+    jobid: 37
+    reason: Missing output files: MEP_CLP/MEP_CLP_k7_t10_tree_prog.csv
+    wildcards: case=MEP_CLP, nprogs=7, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:15 2024]
+Finished job 5.
+12 of 61 steps (20%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:15 2024]
+rule carta_tree:
+    input: MEP_CLP.csv
+    output: MEP_CLP/MEP_CLP_k8_t10_tree_prog.csv
+    log: MEP_CLP/logs/MEP_CLP_k8_t10.log, MEP_CLP/logs/MEP_CLP_k8_t10.err.log
+    jobid: 38
+    reason: Missing output files: MEP_CLP/MEP_CLP_k8_t10_tree_prog.csv
+    wildcards: case=MEP_CLP, nprogs=8, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:22 2024]
+Finished job 18.
+13 of 61 steps (21%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:22 2024]
+rule carta_tree:
+    input: MEP_CLP.csv
+    output: MEP_CLP/MEP_CLP_k1_t10_tree_prog.csv
+    log: MEP_CLP/logs/MEP_CLP_k1_t10.log, MEP_CLP/logs/MEP_CLP_k1_t10.err.log
+    jobid: 31
+    reason: Missing output files: MEP_CLP/MEP_CLP_k1_t10_tree_prog.csv
+    wildcards: case=MEP_CLP, nprogs=1, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:22 2024]
+Finished job 31.
+14 of 61 steps (23%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:22 2024]
+rule carta_tree:
+    input: MEP_CLP.csv
+    output: MEP_CLP/MEP_CLP_k9_t10_tree_prog.csv
+    log: MEP_CLP/logs/MEP_CLP_k9_t10.log, MEP_CLP/logs/MEP_CLP_k9_t10.err.log
+    jobid: 39
+    reason: Missing output files: MEP_CLP/MEP_CLP_k9_t10_tree_prog.csv
+    wildcards: case=MEP_CLP, nprogs=9, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:22 2024]
+Finished job 6.
+15 of 61 steps (25%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:22 2024]
+rule carta_tree:
+    input: MEP_CLP.csv
+    output: MEP_CLP/MEP_CLP_k2_t10_tree_prog.csv
+    log: MEP_CLP/logs/MEP_CLP_k2_t10.log, MEP_CLP/logs/MEP_CLP_k2_t10.err.log
+    jobid: 32
+    reason: Missing output files: MEP_CLP/MEP_CLP_k2_t10_tree_prog.csv
+    wildcards: case=MEP_CLP, nprogs=2, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:23 2024]
+Finished job 32.
+16 of 61 steps (26%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:23 2024]
+rule carta_tree:
+    input: MEP_CLP.csv
+    output: MEP_CLP/MEP_CLP_k10_t10_tree_prog.csv
+    log: MEP_CLP/logs/MEP_CLP_k10_t10.log, MEP_CLP/logs/MEP_CLP_k10_t10.err.log
+    jobid: 40
+    reason: Missing output files: MEP_CLP/MEP_CLP_k10_t10_tree_prog.csv
+    wildcards: case=MEP_CLP, nprogs=10, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:27 2024]
+Finished job 37.
+17 of 61 steps (28%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:27 2024]
+rule carta_tree:
+    input: MEP_CLP.csv
+    output: MEP_CLP/MEP_CLP_k3_t10_tree_prog.csv
+    log: MEP_CLP/logs/MEP_CLP_k3_t10.log, MEP_CLP/logs/MEP_CLP_k3_t10.err.log
+    jobid: 33
+    reason: Missing output files: MEP_CLP/MEP_CLP_k3_t10_tree_prog.csv
+    wildcards: case=MEP_CLP, nprogs=3, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:27 2024]
+Finished job 33.
+18 of 61 steps (30%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:27 2024]
+rule carta_tree:
+    input: MEP_CLP.csv
+    output: MEP_CLP/MEP_CLP_k4_t10_tree_prog.csv
+    log: MEP_CLP/logs/MEP_CLP_k4_t10.log, MEP_CLP/logs/MEP_CLP_k4_t10.err.log
+    jobid: 34
+    reason: Missing output files: MEP_CLP/MEP_CLP_k4_t10_tree_prog.csv
+    wildcards: case=MEP_CLP, nprogs=4, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:28 2024]
+Finished job 34.
+19 of 61 steps (31%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:28 2024]
+rule carta_tree:
+    input: MEP_CLP.csv
+    output: MEP_CLP/MEP_CLP_k5_t10_tree_prog.csv
+    log: MEP_CLP/logs/MEP_CLP_k5_t10.log, MEP_CLP/logs/MEP_CLP_k5_t10.err.log
+    jobid: 35
+    reason: Missing output files: MEP_CLP/MEP_CLP_k5_t10_tree_prog.csv
+    wildcards: case=MEP_CLP, nprogs=5, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:33 2024]
+Finished job 35.
+20 of 61 steps (33%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:33 2024]
+rule carta_tree:
+    input: MEP_CLP.csv
+    output: MEP_CLP/MEP_CLP_k6_t10_tree_prog.csv
+    log: MEP_CLP/logs/MEP_CLP_k6_t10.log, MEP_CLP/logs/MEP_CLP_k6_t10.err.log
+    jobid: 36
+    reason: Missing output files: MEP_CLP/MEP_CLP_k6_t10_tree_prog.csv
+    wildcards: case=MEP_CLP, nprogs=6, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:38 2024]
+Finished job 36.
+21 of 61 steps (34%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:38 2024]
+rule carta_tree:
+    input: MB.csv
+    output: MB/MB_k7_t10_tree_prog.csv
+    log: MB/logs/MB_k7_t10.log, MB/logs/MB_k7_t10.err.log
+    jobid: 57
+    reason: Missing output files: MB/MB_k7_t10_tree_prog.csv
+    wildcards: case=MB, nprogs=7, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:41 2024]
+Finished job 57.
+22 of 61 steps (36%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:41 2024]
+rule carta_tree:
+    input: MB.csv
+    output: MB/MB_k1_t10_tree_prog.csv
+    log: MB/logs/MB_k1_t10.log, MB/logs/MB_k1_t10.err.log
+    jobid: 51
+    reason: Missing output files: MB/MB_k1_t10_tree_prog.csv
+    wildcards: case=MB, nprogs=1, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:41 2024]
+Finished job 51.
+23 of 61 steps (38%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:41 2024]
+rule carta_tree:
+    input: MB.csv
+    output: MB/MB_k8_t10_tree_prog.csv
+    log: MB/logs/MB_k8_t10.log, MB/logs/MB_k8_t10.err.log
+    jobid: 58
+    reason: Missing output files: MB/MB_k8_t10_tree_prog.csv
+    wildcards: case=MB, nprogs=8, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:46 2024]
+Finished job 58.
+24 of 61 steps (39%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:46 2024]
+rule carta_tree:
+    input: MB.csv
+    output: MB/MB_k2_t10_tree_prog.csv
+    log: MB/logs/MB_k2_t10.log, MB/logs/MB_k2_t10.err.log
+    jobid: 52
+    reason: Missing output files: MB/MB_k2_t10_tree_prog.csv
+    wildcards: case=MB, nprogs=2, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:47 2024]
+Finished job 52.
+25 of 61 steps (41%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:47 2024]
+rule carta_tree:
+    input: MB.csv
+    output: MB/MB_k9_t10_tree_prog.csv
+    log: MB/logs/MB_k9_t10.log, MB/logs/MB_k9_t10.err.log
+    jobid: 59
+    reason: Missing output files: MB/MB_k9_t10_tree_prog.csv
+    wildcards: case=MB, nprogs=9, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:50 2024]
+Finished job 59.
+26 of 61 steps (43%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:50 2024]
+rule carta_tree:
+    input: MB.csv
+    output: MB/MB_k3_t10_tree_prog.csv
+    log: MB/logs/MB_k3_t10.log, MB/logs/MB_k3_t10.err.log
+    jobid: 53
+    reason: Missing output files: MB/MB_k3_t10_tree_prog.csv
+    wildcards: case=MB, nprogs=3, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:50 2024]
+Finished job 53.
+27 of 61 steps (44%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:50 2024]
+rule carta_tree:
+    input: MB.csv
+    output: MB/MB_k10_t10_tree_prog.csv
+    log: MB/logs/MB_k10_t10.log, MB/logs/MB_k10_t10.err.log
+    jobid: 60
+    reason: Missing output files: MB/MB_k10_t10_tree_prog.csv
+    wildcards: case=MB, nprogs=10, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:55 2024]
+Finished job 19.
+28 of 61 steps (46%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:55 2024]
+rule carta_tree:
+    input: MB.csv
+    output: MB/MB_k4_t10_tree_prog.csv
+    log: MB/logs/MB_k4_t10.log, MB/logs/MB_k4_t10.err.log
+    jobid: 54
+    reason: Missing output files: MB/MB_k4_t10_tree_prog.csv
+    wildcards: case=MB, nprogs=4, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:56 2024]
+Finished job 54.
+29 of 61 steps (48%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:56 2024]
+rule carta_tree:
+    input: MB.csv
+    output: MB/MB_k5_t10_tree_prog.csv
+    log: MB/logs/MB_k5_t10.log, MB/logs/MB_k5_t10.err.log
+    jobid: 55
+    reason: Missing output files: MB/MB_k5_t10_tree_prog.csv
+    wildcards: case=MB, nprogs=5, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:56 2024]
+Finished job 55.
+30 of 61 steps (49%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:56 2024]
+rule carta_tree:
+    input: MB.csv
+    output: MB/MB_k6_t10_tree_prog.csv
+    log: MB/logs/MB_k6_t10.log, MB/logs/MB_k6_t10.err.log
+    jobid: 56
+    reason: Missing output files: MB/MB_k6_t10_tree_prog.csv
+    wildcards: case=MB, nprogs=6, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:57 2024]
+Finished job 56.
+31 of 61 steps (51%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:57 2024]
+rule carta_tree:
+    input: CLP_MB.csv
+    output: CLP_MB/CLP_MB_k3_t10_tree_prog.csv
+    log: CLP_MB/logs/CLP_MB_k3_t10.log, CLP_MB/logs/CLP_MB_k3_t10.err.log
+    jobid: 43
+    reason: Missing output files: CLP_MB/CLP_MB_k3_t10_tree_prog.csv
+    wildcards: case=CLP_MB, nprogs=3, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:58 2024]
+Finished job 43.
+32 of 61 steps (52%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:58 2024]
+rule carta_tree:
+    input: CLP_MB.csv
+    output: CLP_MB/CLP_MB_k4_t10_tree_prog.csv
+    log: CLP_MB/logs/CLP_MB_k4_t10.log, CLP_MB/logs/CLP_MB_k4_t10.err.log
+    jobid: 44
+    reason: Missing output files: CLP_MB/CLP_MB_k4_t10_tree_prog.csv
+    wildcards: case=CLP_MB, nprogs=4, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:59 2024]
+Finished job 44.
+33 of 61 steps (54%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:59 2024]
+rule carta_tree:
+    input: CLP_MB.csv
+    output: CLP_MB/CLP_MB_k2_t10_tree_prog.csv
+    log: CLP_MB/logs/CLP_MB_k2_t10.log, CLP_MB/logs/CLP_MB_k2_t10.err.log
+    jobid: 42
+    reason: Missing output files: CLP_MB/CLP_MB_k2_t10_tree_prog.csv
+    wildcards: case=CLP_MB, nprogs=2, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:58:59 2024]
+Finished job 42.
+34 of 61 steps (56%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:58:59 2024]
+rule carta_tree:
+    input: CLP_MB.csv
+    output: CLP_MB/CLP_MB_k5_t10_tree_prog.csv
+    log: CLP_MB/logs/CLP_MB_k5_t10.log, CLP_MB/logs/CLP_MB_k5_t10.err.log
+    jobid: 45
+    reason: Missing output files: CLP_MB/CLP_MB_k5_t10_tree_prog.csv
+    wildcards: case=CLP_MB, nprogs=5, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:00 2024]
+Finished job 45.
+35 of 61 steps (57%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:00 2024]
+rule carta_tree:
+    input: CLP_MB.csv
+    output: CLP_MB/CLP_MB_k7_t10_tree_prog.csv
+    log: CLP_MB/logs/CLP_MB_k7_t10.log, CLP_MB/logs/CLP_MB_k7_t10.err.log
+    jobid: 47
+    reason: Missing output files: CLP_MB/CLP_MB_k7_t10_tree_prog.csv
+    wildcards: case=CLP_MB, nprogs=7, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:01 2024]
+Finished job 47.
+36 of 61 steps (59%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:01 2024]
+rule carta_tree:
+    input: CLP_MB.csv
+    output: CLP_MB/CLP_MB_k9_t10_tree_prog.csv
+    log: CLP_MB/logs/CLP_MB_k9_t10.log, CLP_MB/logs/CLP_MB_k9_t10.err.log
+    jobid: 49
+    reason: Missing output files: CLP_MB/CLP_MB_k9_t10_tree_prog.csv
+    wildcards: case=CLP_MB, nprogs=9, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:01 2024]
+Finished job 38.
+37 of 61 steps (61%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:01 2024]
+rule carta_tree:
+    input: CLP_MB.csv
+    output: CLP_MB/CLP_MB_k1_t10_tree_prog.csv
+    log: CLP_MB/logs/CLP_MB_k1_t10.log, CLP_MB/logs/CLP_MB_k1_t10.err.log
+    jobid: 41
+    reason: Missing output files: CLP_MB/CLP_MB_k1_t10_tree_prog.csv
+    wildcards: case=CLP_MB, nprogs=1, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:02 2024]
+Finished job 41.
+38 of 61 steps (62%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:02 2024]
+rule carta_tree:
+    input: CLP_MB.csv
+    output: CLP_MB/CLP_MB_k6_t10_tree_prog.csv
+    log: CLP_MB/logs/CLP_MB_k6_t10.log, CLP_MB/logs/CLP_MB_k6_t10.err.log
+    jobid: 46
+    reason: Missing output files: CLP_MB/CLP_MB_k6_t10_tree_prog.csv
+    wildcards: case=CLP_MB, nprogs=6, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:03 2024]
+Finished job 46.
+39 of 61 steps (64%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:03 2024]
+rule carta_tree:
+    input: CLP_MB.csv
+    output: CLP_MB/CLP_MB_k8_t10_tree_prog.csv
+    log: CLP_MB/logs/CLP_MB_k8_t10.log, CLP_MB/logs/CLP_MB_k8_t10.err.log
+    jobid: 48
+    reason: Missing output files: CLP_MB/CLP_MB_k8_t10_tree_prog.csv
+    wildcards: case=CLP_MB, nprogs=8, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:04 2024]
+Finished job 48.
+40 of 61 steps (66%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:04 2024]
+rule carta_tree:
+    input: CLP_MB.csv
+    output: CLP_MB/CLP_MB_k10_t10_tree_prog.csv
+    log: CLP_MB/logs/CLP_MB_k10_t10.log, CLP_MB/logs/CLP_MB_k10_t10.err.log
+    jobid: 50
+    reason: Missing output files: CLP_MB/CLP_MB_k10_t10_tree_prog.csv
+    wildcards: case=CLP_MB, nprogs=10, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:04 2024]
+Finished job 49.
+41 of 61 steps (67%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:04 2024]
+rule carta_tree:
+    input: MEP_MB.csv
+    output: MEP_MB/MEP_MB_k8_t10_tree_prog.csv
+    log: MEP_MB/logs/MEP_MB_k8_t10.log, MEP_MB/logs/MEP_MB_k8_t10.err.log
+    jobid: 28
+    reason: Missing output files: MEP_MB/MEP_MB_k8_t10_tree_prog.csv
+    wildcards: case=MEP_MB, nprogs=8, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:05 2024]
+Finished job 60.
+42 of 61 steps (69%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:05 2024]
+rule carta_tree:
+    input: MEP_MB.csv
+    output: MEP_MB/MEP_MB_k9_t10_tree_prog.csv
+    log: MEP_MB/logs/MEP_MB_k9_t10.log, MEP_MB/logs/MEP_MB_k9_t10.err.log
+    jobid: 29
+    reason: Missing output files: MEP_MB/MEP_MB_k9_t10_tree_prog.csv
+    wildcards: case=MEP_MB, nprogs=9, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:05 2024]
+Finished job 8.
+43 of 61 steps (70%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:05 2024]
+rule carta_tree:
+    input: MEP_MB.csv
+    output: MEP_MB/MEP_MB_k1_t10_tree_prog.csv
+    log: MEP_MB/logs/MEP_MB_k1_t10.log, MEP_MB/logs/MEP_MB_k1_t10.err.log
+    jobid: 21
+    reason: Missing output files: MEP_MB/MEP_MB_k1_t10_tree_prog.csv
+    wildcards: case=MEP_MB, nprogs=1, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:06 2024]
+Finished job 21.
+44 of 61 steps (72%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:06 2024]
+rule carta_tree:
+    input: MEP_MB.csv
+    output: MEP_MB/MEP_MB_k3_t10_tree_prog.csv
+    log: MEP_MB/logs/MEP_MB_k3_t10.log, MEP_MB/logs/MEP_MB_k3_t10.err.log
+    jobid: 23
+    reason: Missing output files: MEP_MB/MEP_MB_k3_t10_tree_prog.csv
+    wildcards: case=MEP_MB, nprogs=3, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:06 2024]
+Finished job 23.
+45 of 61 steps (74%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:06 2024]
+rule carta_tree:
+    input: MEP_MB.csv
+    output: MEP_MB/MEP_MB_k5_t10_tree_prog.csv
+    log: MEP_MB/logs/MEP_MB_k5_t10.log, MEP_MB/logs/MEP_MB_k5_t10.err.log
+    jobid: 25
+    reason: Missing output files: MEP_MB/MEP_MB_k5_t10_tree_prog.csv
+    wildcards: case=MEP_MB, nprogs=5, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:07 2024]
+Finished job 50.
+46 of 61 steps (75%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:07 2024]
+rule carta_tree:
+    input: MEP_MB.csv
+    output: MEP_MB/MEP_MB_k7_t10_tree_prog.csv
+    log: MEP_MB/logs/MEP_MB_k7_t10.log, MEP_MB/logs/MEP_MB_k7_t10.err.log
+    jobid: 27
+    reason: Missing output files: MEP_MB/MEP_MB_k7_t10_tree_prog.csv
+    wildcards: case=MEP_MB, nprogs=7, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:07 2024]
+Finished job 25.
+47 of 61 steps (77%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:07 2024]
+rule carta_tree:
+    input: MEP_MB.csv
+    output: MEP_MB/MEP_MB_k2_t10_tree_prog.csv
+    log: MEP_MB/logs/MEP_MB_k2_t10.log, MEP_MB/logs/MEP_MB_k2_t10.err.log
+    jobid: 22
+    reason: Missing output files: MEP_MB/MEP_MB_k2_t10_tree_prog.csv
+    wildcards: case=MEP_MB, nprogs=2, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:07 2024]
+Finished job 22.
+48 of 61 steps (79%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:07 2024]
+rule carta_tree:
+    input: MEP_MB.csv
+    output: MEP_MB/MEP_MB_k10_t10_tree_prog.csv
+    log: MEP_MB/logs/MEP_MB_k10_t10.log, MEP_MB/logs/MEP_MB_k10_t10.err.log
+    jobid: 30
+    reason: Missing output files: MEP_MB/MEP_MB_k10_t10_tree_prog.csv
+    wildcards: case=MEP_MB, nprogs=10, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:08 2024]
+Finished job 28.
+49 of 61 steps (80%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:08 2024]
+rule carta_tree:
+    input: MEP_MB.csv
+    output: MEP_MB/MEP_MB_k4_t10_tree_prog.csv
+    log: MEP_MB/logs/MEP_MB_k4_t10.log, MEP_MB/logs/MEP_MB_k4_t10.err.log
+    jobid: 24
+    reason: Missing output files: MEP_MB/MEP_MB_k4_t10_tree_prog.csv
+    wildcards: case=MEP_MB, nprogs=4, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:08 2024]
+Finished job 24.
+50 of 61 steps (82%) done
+Select jobs to execute...
+
+[Wed Dec 18 14:59:08 2024]
+rule carta_tree:
+    input: MEP_MB.csv
+    output: MEP_MB/MEP_MB_k6_t10_tree_prog.csv
+    log: MEP_MB/logs/MEP_MB_k6_t10.log, MEP_MB/logs/MEP_MB_k6_t10.err.log
+    jobid: 26
+    reason: Missing output files: MEP_MB/MEP_MB_k6_t10_tree_prog.csv
+    wildcards: case=MEP_MB, nprogs=6, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 14:59:09 2024]
+Finished job 27.
+51 of 61 steps (84%) done
+[Wed Dec 18 14:59:09 2024]
+Finished job 26.
+52 of 61 steps (85%) done
+[Wed Dec 18 14:59:10 2024]
+Finished job 29.
+53 of 61 steps (87%) done
+[Wed Dec 18 14:59:12 2024]
+Finished job 30.
+54 of 61 steps (89%) done
+[Wed Dec 18 14:59:17 2024]
+Finished job 7.
+55 of 61 steps (90%) done
+[Wed Dec 18 14:59:56 2024]
+Finished job 9.
+56 of 61 steps (92%) done
+[Wed Dec 18 15:00:53 2024]
+Finished job 39.
+57 of 61 steps (93%) done
+[Wed Dec 18 15:01:07 2024]
+Finished job 20.
+58 of 61 steps (95%) done
+[Wed Dec 18 15:01:48 2024]
+Finished job 40.
+59 of 61 steps (97%) done
+[Wed Dec 18 15:02:26 2024]
+Finished job 10.
+60 of 61 steps (98%) done
+Select jobs to execute...
+
+[Wed Dec 18 15:02:26 2024]
+localrule all:
+    input: MEP/MEP_k1_t10_tree_prog.csv, MEP/MEP_k2_t10_tree_prog.csv, MEP/MEP_k3_t10_tree_prog.csv, MEP/MEP_k4_t10_tree_prog.csv, MEP/MEP_k5_t10_tree_prog.csv, MEP/MEP_k6_t10_tree_prog.csv, MEP/MEP_k7_t10_tree_prog.csv, MEP/MEP_k8_t10_tree_prog.csv, MEP/MEP_k9_t10_tree_prog.csv, MEP/MEP_k10_t10_tree_prog.csv, CLP/CLP_k1_t10_tree_prog.csv, CLP/CLP_k2_t10_tree_prog.csv, CLP/CLP_k3_t10_tree_prog.csv, CLP/CLP_k4_t10_tree_prog.csv, CLP/CLP_k5_t10_tree_prog.csv, CLP/CLP_k6_t10_tree_prog.csv, CLP/CLP_k7_t10_tree_prog.csv, CLP/CLP_k8_t10_tree_prog.csv, CLP/CLP_k9_t10_tree_prog.csv, CLP/CLP_k10_t10_tree_prog.csv, MEP_MB/MEP_MB_k1_t10_tree_prog.csv, MEP_MB/MEP_MB_k2_t10_tree_prog.csv, MEP_MB/MEP_MB_k3_t10_tree_prog.csv, MEP_MB/MEP_MB_k4_t10_tree_prog.csv, MEP_MB/MEP_MB_k5_t10_tree_prog.csv, MEP_MB/MEP_MB_k6_t10_tree_prog.csv, MEP_MB/MEP_MB_k7_t10_tree_prog.csv, MEP_MB/MEP_MB_k8_t10_tree_prog.csv, MEP_MB/MEP_MB_k9_t10_tree_prog.csv, MEP_MB/MEP_MB_k10_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k1_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k2_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k3_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k4_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k5_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k6_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k7_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k8_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k9_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k10_t10_tree_prog.csv, CLP_MB/CLP_MB_k1_t10_tree_prog.csv, CLP_MB/CLP_MB_k2_t10_tree_prog.csv, CLP_MB/CLP_MB_k3_t10_tree_prog.csv, CLP_MB/CLP_MB_k4_t10_tree_prog.csv, CLP_MB/CLP_MB_k5_t10_tree_prog.csv, CLP_MB/CLP_MB_k6_t10_tree_prog.csv, CLP_MB/CLP_MB_k7_t10_tree_prog.csv, CLP_MB/CLP_MB_k8_t10_tree_prog.csv, CLP_MB/CLP_MB_k9_t10_tree_prog.csv, CLP_MB/CLP_MB_k10_t10_tree_prog.csv, MB/MB_k1_t10_tree_prog.csv, MB/MB_k2_t10_tree_prog.csv, MB/MB_k3_t10_tree_prog.csv, MB/MB_k4_t10_tree_prog.csv, MB/MB_k5_t10_tree_prog.csv, MB/MB_k6_t10_tree_prog.csv, MB/MB_k7_t10_tree_prog.csv, MB/MB_k8_t10_tree_prog.csv, MB/MB_k9_t10_tree_prog.csv, MB/MB_k10_t10_tree_prog.csv
+    jobid: 0
+    reason: Input files updated by another job: CLP_MB/CLP_MB_k7_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k5_t10_tree_prog.csv, MEP_MB/MEP_MB_k9_t10_tree_prog.csv, MEP/MEP_k3_t10_tree_prog.csv, MB/MB_k2_t10_tree_prog.csv, CLP_MB/CLP_MB_k10_t10_tree_prog.csv, CLP_MB/CLP_MB_k3_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k4_t10_tree_prog.csv, MEP_MB/MEP_MB_k10_t10_tree_prog.csv, CLP/CLP_k4_t10_tree_prog.csv, CLP/CLP_k9_t10_tree_prog.csv, MEP_MB/MEP_MB_k1_t10_tree_prog.csv, CLP_MB/CLP_MB_k5_t10_tree_prog.csv, CLP_MB/CLP_MB_k8_t10_tree_prog.csv, MB/MB_k3_t10_tree_prog.csv, MB/MB_k1_t10_tree_prog.csv, MB/MB_k10_t10_tree_prog.csv, MEP_MB/MEP_MB_k7_t10_tree_prog.csv, CLP/CLP_k6_t10_tree_prog.csv, MB/MB_k5_t10_tree_prog.csv, CLP/CLP_k8_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k3_t10_tree_prog.csv, MEP_MB/MEP_MB_k2_t10_tree_prog.csv, MB/MB_k8_t10_tree_prog.csv, CLP_MB/CLP_MB_k9_t10_tree_prog.csv, MEP/MEP_k4_t10_tree_prog.csv, MEP_MB/MEP_MB_k3_t10_tree_prog.csv, CLP_MB/CLP_MB_k4_t10_tree_prog.csv, CLP/CLP_k10_t10_tree_prog.csv, MEP/MEP_k8_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k2_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k8_t10_tree_prog.csv, MEP/MEP_k1_t10_tree_prog.csv, CLP_MB/CLP_MB_k6_t10_tree_prog.csv, MEP_MB/MEP_MB_k4_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k7_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k6_t10_tree_prog.csv, CLP/CLP_k2_t10_tree_prog.csv, MB/MB_k7_t10_tree_prog.csv, CLP/CLP_k1_t10_tree_prog.csv, CLP/CLP_k3_t10_tree_prog.csv, MEP_MB/MEP_MB_k5_t10_tree_prog.csv, MEP/MEP_k2_t10_tree_prog.csv, MEP/MEP_k6_t10_tree_prog.csv, MEP/MEP_k7_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k9_t10_tree_prog.csv, MEP/MEP_k9_t10_tree_prog.csv, CLP/CLP_k7_t10_tree_prog.csv, CLP_MB/CLP_MB_k1_t10_tree_prog.csv, CLP_MB/CLP_MB_k2_t10_tree_prog.csv, MEP_MB/MEP_MB_k8_t10_tree_prog.csv, MB/MB_k6_t10_tree_prog.csv, MB/MB_k4_t10_tree_prog.csv, MB/MB_k9_t10_tree_prog.csv, MEP/MEP_k5_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k10_t10_tree_prog.csv, MEP_MB/MEP_MB_k6_t10_tree_prog.csv, MEP/MEP_k10_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k1_t10_tree_prog.csv, CLP/CLP_k5_t10_tree_prog.csv
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 15:02:26 2024]
+Finished job 0.
+61 of 61 steps (100%) done
+Complete log: .snakemake/log/2024-12-18T145809.177817.snakemake.log

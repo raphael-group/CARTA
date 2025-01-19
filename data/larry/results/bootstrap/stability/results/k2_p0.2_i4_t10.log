@@ -1,0 +1,49 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-08-28
+Set parameter Threads to value 1
+Set parameter Method to value 4
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.5.0 23F79)
+
+CPU model: Apple M3 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 1 threads
+
+Optimize a model with 192 rows, 70 columns and 556 nonzeros
+Model fingerprint: 0x2d4179de
+Variable types: 44 continuous, 26 integer (26 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 9e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 262.0000000
+Presolve removed 147 rows and 46 columns
+Presolve time: 0.00s
+Presolved: 45 rows, 24 columns, 121 nonzeros
+Variable types: 0 continuous, 24 integer (24 binary)
+Found heuristic solution: objective 182.0000000
+
+Root relaxation: objective 0.000000e+00, 14 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   12  182.00000    0.00000   100%     -    0s
+H    0     0                      75.0000000    0.00000   100%     -    0s
+     0     0   37.50000    0   14   75.00000   37.50000  50.0%     -    0s
+     0     0 infeasible    0        75.00000   75.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Clique: 5
+  Zero half: 3
+  RLT: 4
+  BQP: 1
+
+Explored 1 nodes (45 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 3: 75 182 262 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.500000000000e+01, best bound 7.500000000000e+01, gap 0.0000%
+75.0

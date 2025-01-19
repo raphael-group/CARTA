@@ -1,0 +1,58 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-08-28
+Set parameter Threads to value 1
+Set parameter Method to value 4
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.5.0 23F79)
+
+CPU model: Apple M3 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 1 threads
+
+Optimize a model with 2306 rows, 353 columns and 6914 nonzeros
+Model fingerprint: 0x7697f0ea
+Variable types: 206 continuous, 147 integer (147 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve removed 376 rows and 61 columns
+Presolve time: 0.01s
+Presolved: 1930 rows, 292 columns, 5656 nonzeros
+Variable types: 0 continuous, 292 integer (292 binary)
+Found heuristic solution: objective 3898.0000000
+Found heuristic solution: objective 3730.0000000
+
+Root relaxation: objective 0.000000e+00, 137 iterations, 0.00 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   42 3730.00000    0.00000   100%     -    0s
+H    0     0                     883.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   69  883.00000    0.00000   100%     -    0s
+H    0     0                     841.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   92  841.00000    0.00000   100%     -    0s
+H    0     0                     690.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  106  690.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  110  690.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   99  690.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   98  690.00000    0.00000   100%     -    0s
+H    0     0                     522.0000000    0.00000   100%     -    0s
+H    0     0                     448.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   98  448.00000    0.00000   100%     -    0s
+H   79    51                     439.0000000    6.00000  98.6%  53.5    0s
+  2863   301  397.22222   25   91  439.00000  313.60000  28.6%  34.9    5s
+
+Cutting planes:
+  Zero half: 7
+  RLT: 7
+  BQP: 5
+
+Explored 4385 nodes (139488 simplex iterations) in 6.64 seconds (8.52 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 8: 439 448 522 ... 3898
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.390000000000e+02, best bound 4.390000000000e+02, gap 0.0000%
+439.0

@@ -1,0 +1,77 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-08-28
+Set parameter Threads to value 1
+Set parameter Method to value 4
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.5.0 23F79)
+
+CPU model: Apple M3 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 1 threads
+
+Optimize a model with 3278 rows, 459 columns and 9854 nonzeros
+Model fingerprint: 0x4fa3c797
+Variable types: 270 continuous, 189 integer (189 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve removed 548 rows and 80 columns
+Presolve time: 0.01s
+Presolved: 2730 rows, 379 columns, 8028 nonzeros
+Variable types: 0 continuous, 379 integer (379 binary)
+Found heuristic solution: objective 3884.0000000
+Found heuristic solution: objective 3688.0000000
+
+Root relaxation: objective 0.000000e+00, 161 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   42 3688.00000    0.00000   100%     -    0s
+H    0     0                    3462.0000000    0.00000   100%     -    0s
+H    0     0                    1672.0000000    0.00000   100%     -    0s
+H    0     0                    1600.0000000    0.00000   100%     -    0s
+H    0     0                    1378.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   88 1378.00000    0.00000   100%     -    0s
+H    0     0                    1245.0000000    0.00000   100%     -    0s
+H    0     0                    1060.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  118 1060.00000    0.00000   100%     -    0s
+H    0     0                     833.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  111  833.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  134  833.00000    0.00000   100%     -    0s
+H    0     0                     604.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  134  604.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   77  604.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   77  604.00000    0.00000   100%     -    0s
+H    0     0                     544.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   77  544.00000    0.00000   100%     -    0s
+H   27    24                     508.0000000    0.00000   100%  73.5    0s
+H   54    37                     489.0000000    0.00000   100%  47.3    0s
+H   78    58                     423.0000000    0.00000   100%  42.0    0s
+H  156    92                     420.0000000    0.00000   100%  38.6    0s
+H  418   227                     415.0000000    8.00000  98.1%  50.0    1s
+H  573   305                     403.0000000   12.00000  97.0%  47.0    1s
+  1749   583  347.04000   29   83  403.00000  136.83333  66.0%  36.3    5s
+  4624  1385  233.50000   28   86  403.00000  199.00000  50.6%  28.2   10s
+  7621  2117  299.00000   32   53  403.00000  232.00000  42.4%  26.5   15s
+ 10202  2293  373.66667   28   57  403.00000  251.00000  37.7%  26.3   22s
+ 11335  2322  390.00000   29   56  403.00000  261.00000  35.2%  26.3   25s
+ 14228  2281 infeasible   33       403.00000  283.50000  29.7%  26.2   30s
+ 17434  2098  368.75000   44   61  403.00000  303.00000  24.8%  25.9   35s
+ 21024  1588     cutoff   30       403.00000  325.00000  19.4%  25.4   40s
+ 24790   393  388.88889   44   82  403.00000  366.70000  9.01%  24.7   45s
+
+Cutting planes:
+  Flow cover: 5
+  Zero half: 10
+  RLT: 8
+  BQP: 13
+
+Explored 25342 nodes (623123 simplex iterations) in 45.64 seconds (55.14 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 10: 403 415 420 ... 1060
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.030000000000e+02, best bound 4.030000000000e+02, gap 0.0000%
+403.0

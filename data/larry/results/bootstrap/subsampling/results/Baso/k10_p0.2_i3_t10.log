@@ -1,0 +1,79 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-08-28
+Set parameter Threads to value 1
+Set parameter Method to value 4
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.5.0 23F79)
+
+CPU model: Apple M3 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 1 threads
+
+Optimize a model with 3267 rows, 461 columns and 9828 nonzeros
+Model fingerprint: 0xe9e25ae4
+Variable types: 281 continuous, 180 integer (180 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve removed 558 rows and 83 columns
+Presolve time: 0.01s
+Presolved: 2709 rows, 378 columns, 8010 nonzeros
+Variable types: 0 continuous, 378 integer (378 binary)
+Found heuristic solution: objective 2746.0000000
+
+Root relaxation: objective 0.000000e+00, 245 iterations, 0.00 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   56 2746.00000    0.00000   100%     -    0s
+H    0     0                    2615.0000000    0.00000   100%     -    0s
+H    0     0                     991.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   92  991.00000    0.00000   100%     -    0s
+H    0     0                     485.0000000    0.00000   100%     -    0s
+H    0     0                     470.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   68  470.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   76  470.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  106  470.00000    0.00000   100%     -    0s
+H    0     0                     425.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  114  425.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   96  425.00000    0.00000   100%     -    0s
+H    0     0                     398.0000000    0.00000   100%     -    0s
+H    0     0                     385.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  105  385.00000    0.00000   100%     -    0s
+     0     0    1.33333    0  108  385.00000    1.33333   100%     -    0s
+     0     0    1.33333    0  108  385.00000    1.33333   100%     -    0s
+     0     0    1.33333    0  117  385.00000    1.33333   100%     -    0s
+H    0     0                     380.0000000    1.33333   100%     -    0s
+     0     0    1.33333    0  127  380.00000    1.33333   100%     -    0s
+     0     0    1.33333    0  119  380.00000    1.33333   100%     -    0s
+     0     0    1.33333    0  128  380.00000    1.33333   100%     -    0s
+     0     0    1.33333    0  124  380.00000    1.33333   100%     -    0s
+H    0     0                     354.0000000    1.33333   100%     -    0s
+     0     0    1.33333    0  119  354.00000    1.33333   100%     -    0s
+     0     0    1.33333    0  129  354.00000    1.33333   100%     -    0s
+     0     0    1.33333    0  127  354.00000    1.33333   100%     -    0s
+     0     2   12.00000    0  121  354.00000   12.00000  96.6%     -    0s
+H   27    23                     330.0000000   38.00000  88.5%  42.6    0s
+*  144    99              19     325.0000000   66.00000  79.7%  50.5    0s
+*  190   119              19     323.0000000   74.00000  77.1%  48.7    1s
+H  248   144                     302.0000000   81.00000  73.2%  47.5    1s
+H  291   179                     301.0000000   82.75000  72.5%  48.7    1s
+H  317   190                     299.0000000   86.00000  71.2%  48.8    1s
+H  684   399                     288.0000000  103.00000  64.2%  49.6    2s
+*  735   395              23     284.0000000  103.00000  63.7%  51.2    3s
+  1200   300  282.80000   26   85  284.00000  178.00000  37.3%  43.4    5s
+
+Cutting planes:
+  Zero half: 15
+  RLT: 2
+  BQP: 3
+
+Explored 1567 nodes (64902 simplex iterations) in 5.98 seconds (6.09 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 10: 284 288 299 ... 380
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.840000000000e+02, best bound 2.840000000000e+02, gap 0.0000%
+284.0

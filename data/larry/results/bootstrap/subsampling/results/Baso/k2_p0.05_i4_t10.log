@@ -1,0 +1,54 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-08-28
+Set parameter Threads to value 1
+Set parameter Method to value 4
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.5.0 23F79)
+
+CPU model: Apple M3 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 1 threads
+
+Optimize a model with 309 rows, 103 columns and 892 nonzeros
+Model fingerprint: 0xac57e084
+Variable types: 71 continuous, 32 integer (32 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 1862.0000000
+Presolve removed 189 rows and 43 columns
+Presolve time: 0.00s
+Presolved: 120 rows, 60 columns, 334 nonzeros
+Variable types: 0 continuous, 60 integer (60 binary)
+
+Root relaxation: objective 0.000000e+00, 24 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   21 1862.00000    0.00000   100%     -    0s
+H    0     0                    1132.0000000    0.00000   100%     -    0s
+H    0     0                     510.0000000    0.00000   100%     -    0s
+     0     0   92.50000    0   26  510.00000   92.50000  81.9%     -    0s
+     0     0  121.50000    0   23  510.00000  121.50000  76.2%     -    0s
+     0     0  238.00000    0   24  510.00000  238.00000  53.3%     -    0s
+     0     0  238.00000    0   25  510.00000  238.00000  53.3%     -    0s
+     0     0  313.00000    0   34  510.00000  313.00000  38.6%     -    0s
+     0     0  474.00000    0   21  510.00000  474.00000  7.06%     -    0s
+
+Cutting planes:
+  Implied bound: 3
+  Clique: 8
+  MIR: 10
+  Zero half: 10
+  RLT: 9
+  BQP: 1
+
+Explored 1 nodes (186 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 3: 510 1132 1862 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.100000000000e+02, best bound 5.100000000000e+02, gap 0.0000%
+510.0

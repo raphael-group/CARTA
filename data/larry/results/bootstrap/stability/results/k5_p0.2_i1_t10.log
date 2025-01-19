@@ -1,0 +1,52 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-08-28
+Set parameter Threads to value 1
+Set parameter Method to value 4
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.5.0 23F79)
+
+CPU model: Apple M3 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 1 threads
+
+Optimize a model with 732 rows, 151 columns and 2188 nonzeros
+Model fingerprint: 0xf268a4fa
+Variable types: 86 continuous, 65 integer (65 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 9e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 52.0000000
+Presolve removed 163 rows and 35 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 116 columns, 1640 nonzeros
+Variable types: 0 continuous, 116 integer (116 binary)
+
+Root relaxation: objective 0.000000e+00, 49 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   20   52.00000    0.00000   100%     -    0s
+H    0     0                      41.0000000    0.00000   100%     -    0s
+H    0     0                      22.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   22   22.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   16   22.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   18   22.00000    0.00000   100%     -    0s
+     0     0   11.00000    0   10   22.00000   11.00000  50.0%     -    0s
+     0     0 infeasible    0        22.00000   22.00000  0.00%     -    0s
+
+Cutting planes:
+  Clique: 4
+  MIR: 2
+  Flow cover: 4
+  Zero half: 7
+  RLT: 1
+
+Explored 1 nodes (318 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 3: 22 41 52 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.200000000000e+01, best bound 2.200000000000e+01, gap 0.0000%
+22.0
