@@ -8,7 +8,8 @@
 
   1. [Pre-requisites](#pre-requisites)
   2. [Installation](#installation)
-     * [Using pip](#pip)
+     * [Recommended](#local)
+     * [Alternative](#global)
   4. [Usage instructions](#usage)
      * [Input file format](#input)
      * [Arguments](#arguments)
@@ -29,8 +30,8 @@
 <a name="installation"></a>
 ## Installation
 
-<a name="pip"></a>
-### Using pip
+<a name="local"></a>
+### Recommended
 
 1. Create a new conda environment named "carta" and install dependencies:
 
@@ -38,9 +39,12 @@
    conda create -n carta python==3.10.13 pip
    ```
 
-2. Then activate the created environment: `conda activate carta`.
+2. Then activate the created environment:
+   ```bash
+   conda activate carta
+   ```
 
-3. Clone the git repository
+4. Clone the git repository
 
     ```bash
     git clone git@github.com:raphael-group/CARTA.git
@@ -50,6 +54,30 @@
     ```bash
     cd carta
     pip install .
+    ```
+
+<a name="global"></a>
+### Alternative
+1. Create a new conda environment named "carta" and install dependencies:
+
+   ```bash
+   conda create -n carta python==3.10.13 pip
+   ```
+
+2. Then activate the created environment:
+   ```bash
+   conda activate carta
+   ```
+
+4. Install carta-cell from pip:
+
+    ```bash
+    pip install carta-cell==1.0
+    ```
+
+5. Install cassiopeia:
+    ```bash
+    pip install git+https://github.com/YosefLab/Cassiopeia@master#egg=cassiopeia-lineage
     ```
 
 <a name="usage"></a>
