@@ -28,7 +28,7 @@ classifiers = [
 ]
 dependencies = [
     "numpy",
-    "pandas",
+    "pandas==2.2.2",
     "gurobipy==11.0.0",
     #"gurobipy",
     "networkx",
