@@ -16,6 +16,6 @@ rule carta_tree:
         std="{case}/logs/{case}_k{nprogs}_t{threshold}.log",
         err="{case}/logs/{case}_k{nprogs}_t{threshold}.err.log",
     shell:
-        "python /n/fs/ragr-data/users/palash/carta-rebuttal/scripts/larry.py -i {input.clone_type_mat} -k {wildcards.nprogs} -t {wildcards.threshold} -r "
+        "python ../../../../scripts/larry.py -i {input.clone_type_mat} -k {wildcards.nprogs} -t {wildcards.threshold} -r "
         " -o {params.prefix} "
         " 1> {log.std} 2> {log.err}"

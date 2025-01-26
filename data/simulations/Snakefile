@@ -1,29 +1,93 @@
-# run_ice_fase_our_sim.smk
+# run_simulations.smk
 
-# cell_types_list = ["graph/type_6", "graph/type_10", "graph/type_14", "tree/type_8", "tree/type_12", "tree/type_16"]
-# cell_types_list = ["poly_tree/type_8", "poly_tree/type_12", "poly_tree/type_16"]
-cell_types_list = ["graph/type_6", "graph/type_10"]
+cell_types_list = ["graph/type_6", "graph/type_10", "graph/type_14", "poly_tree/type_8", "poly_tree/type_12", "poly_tree/type_16", "bin_tree/type_8", "bin_tree/type_12", "bin_tree/type_16"]
 num_cells_list = [50, 100, 200]
 fm_indices = [str(i).zfill(4) for i in list(range(2, 12)) + list(range(17, 27))]
 tree_index_list = list(range(5))
 
+def get_structure_flag_carta_dag(wc):
+    structure = wc.cell_type
+    if structure == "bin_tree/type_16":
+        return "16_flag"
+    else:
+        return f"differentiation_maps/{cell_type}/graph_fate_map{fm_index}.txt"
+
+def get_structure_flag_carta_tree(wc):
+    structure = wc.cell_type
+    if "poly" in structure:
+        return "--graph_file " + f"differentiation_maps/{wc.cell_type}/graph_fate_map{wc.fm_index}.txt",
+    else:
+        return ""
+
 rule all:
     input:
-        expand("/n/fs/ragr-data/users/palash/carta-rebuttal/results/ice_fase_prob/our_sims/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}_IceFaseGraph.nwk", num_cell=num_cells_list, cell_type=cell_types_list, fm_index=fm_indices, tree_index=tree_index_list),
+        expand("results/ice_fase/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}_IceFaseGraph.nwk", num_cell=num_cells_list, cell_type=cell_types_list, fm_index=fm_indices, tree_index=tree_index_list),
+        expand("results/evoC/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}_EvoCGraph.nwk", num_cell=num_cells_list, cell_type=cell_types_list, fm_index=fm_indices, tree_index=tree_index_list),
+        expand("results/carta_dag/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}_dummy.txt", num_cell=num_cells_list, cell_type=cell_types_list, fm_index=fm_indices, tree_index=tree_index_list),
+        expand("results/carta_tree/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}_dummy.txt", num_cell=num_cells_list, cell_type=cell_types_list, fm_index=fm_indices, tree_index=tree_index_list),
 
-
-rule run:
+rule run_ice_fase:
     input:
-        tree_file="/n/fs/ragr-data/users/palash/carta-rebuttal/sims/trees_prob/{cell_type}/cells_{num_cell}/{fm_index}_time_estimate_tree_{tree_index}.nwk",
+        tree_file="trees/{cell_type}/cells_{num_cell}/{fm_index}_time_estimate_tree_{tree_index}.nwk",
     output:
-        tree="/n/fs/ragr-data/users/palash/carta-rebuttal/results/ice_fase_prob/our_sims/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}_IceFaseGraph.nwk",
+        tree="results/ice_fase/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}_IceFaseGraph.nwk",
     params:
-        prefix="/n/fs/ragr-data/users/palash/carta-rebuttal/results/ice_fase_prob/our_sims/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}",
-        meta_file="/n/fs/ragr-data/users/palash/carta-rebuttal/sims/trees_prob/{cell_type}/cells_{num_cell}/{fm_index}_meta_{tree_index}.txt",
+        prefix="results/ice_fase/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}",
+        meta_file="trees/{cell_type}/cells_{num_cell}/{fm_index}_meta_{tree_index}.txt",
     log:
-        std="/n/fs/ragr-data/users/palash/carta-rebuttal/results/ice_fase_prob/our_sims/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.log",
-        err="/n/fs/ragr-data/users/palash/carta-rebuttal/results/ice_fase_prob/our_sims/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.err",
-    benchmark: "/n/fs/ragr-data/users/palash/carta-rebuttal/results/ice_fase_prob/our_sims/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.benchmark",
+        std="results/ice_fase/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.log",
+        err="results/ice_fase/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.err",
+    benchmark: "results/ice_fase/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.benchmark",
     shell:
-        "Rscript /n/fs/ragr-data/users/palash/carta-rebuttal/scripts/run_ice_fase.R --prefix {params.prefix} --tree_file {input.tree_file}"
+        "Rscript ../../scripts/run_ice_fase.R --prefix {params.prefix} --tree_file {input.tree_file}"
         " --label_file {params.meta_file} --tree_time 1 --root_time 0.01 > {log.std} 2> {log.err} "
+
+rule run_evoc:
+    input:
+        tree_file="trees/{cell_type}/cells_{num_cell}/{fm_index}_time_estimate_tree_{tree_index}.nwk",
+    output:
+        tree="results/evoC/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}_EvoCGraph.nwk",
+    params:
+        prefix="results/evoC/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}",
+        meta_file="trees/{cell_type}/cells_{num_cell}/{fm_index}_meta_{tree_index}.txt",
+    log:
+        std="results/evoC/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.log",
+        err="results/evoC/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.err",
+    benchmark: "results/evoC/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.benchmark",
+    shell:
+        "python ../../scripts/run_evo_coupling.py --prefix {params.prefix} --tree_file {input.tree_file}"
+        " --label_file {params.meta_file} --use_branch_lengths > {log.std} 2> {log.err}"
+
+rule run_carta_dag:
+    input:
+        tree_file="trees/{cell_type}/cells_{num_cell}/{fm_index}_tree_{tree_index}.txt",
+    output:
+        out="results/carta_dag/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}_dummy.txt",
+    params:
+        out_folder="results/carta_dag/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}",
+        sim_folder="trees/{cell_type}/cells_{num_cell}/{fm_index}_meta_{tree_index}.txt",
+        tree_ind="{tree_index}",
+        fm_ind="{fm_index}",
+        graph_file_usage=get_structure_flag_carta_dag,
+    log:
+        std="results/carta_dag/{cell_type}/cells_{num_cell}/logs/log_{fm_index}_{tree_index}.std",
+        err="results/carta_dag/{cell_type}/cells_{num_cell}/logs/log_{fm_index}_{tree_index}.err",
+    shell:
+        "python ../../scripts/run_fastCARTA.py -t {input.tree_file} --output {params.out_folder} --label {params.sim_folder} --radius 0 --no_enforce_tree --graph_file {params.graph_file_usage} > {log.std} 2> {log.err}"
+
+rule run_carta_tree:
+    input:
+        tree_file="trees/{cell_type}/cells_{num_cell}/{fm_index}_tree_{tree_index}.txt",
+    output:
+        out="results/carta_tree/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}_dummy.txt",
+    params:
+        out_folder="results/carta_tree/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}",
+        sim_folder="trees/{cell_type}/cells_{num_cell}/{fm_index}_meta_{tree_index}.txt",
+        tree_ind="{tree_index}",
+        fm_ind="{fm_index}",
+        graph_file_usage=get_structure_flag_carta_tree,
+    log:
+        std="results/carta_tree/{cell_type}/cells_{num_cell}/logs/log_{fm_index}_{tree_index}.std",
+        err="results/carta_tree/{cell_type}/cells_{num_cell}/logs/log_{fm_index}_{tree_index}.err",
+    shell:
+        "python ../../scripts/run_fastCARTA.py -t {input.tree_file} --output {params.out_folder} --label {params.sim_folder} --radius 0 {params.graph_file_usage} > {log.std} 2> {log.err}"
