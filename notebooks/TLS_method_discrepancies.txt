@@ -1,5 +1,0 @@
-,method_name,discrepancy,k
-0,EvoC,4809,5
-1,ICE-FASE,3609,5
-2,Fitch,1706,5
-3,PhyloVelo,3597,6
