@@ -1,7 +1,6 @@
 #
 case:
   - collapsed
-    #- orig
 
 nprogs:
   - 1
@@ -17,12 +16,9 @@ nprogs:
 
 threshold:
   - 10
-    #- 5
-    #- 0
 
 subsampled_celltype:
-  - 'Erythroid'
-    #- 'Eos'
+  - 'Eos'
   #- 'Baso'
 
 subsampling_prob:

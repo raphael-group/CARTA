@@ -77,16 +77,19 @@ if __name__ == "__main__":
         k_list = args.klist
 
     if args.graph_file is not None:
-        graph_dicts = []
-        with open(args.graph_file) as g_file:
-            for line in g_file:
-                graph_dicts.append(json.loads(line))
+        if args.graph_file == "16_flag":
+            base_k = 15
+        else:
+            graph_dicts = []
+            with open(args.graph_file) as g_file:
+                for line in g_file:
+                    graph_dicts.append(json.loads(line))
 
-        edge_dict = {}
-        for key, value in graph_dicts[0].items():
-            edge_dict[str(key)] = value
+            edge_dict = {}
+            for key, value in graph_dicts[0].items():
+                edge_dict[str(key)] = value
 
-        base_k = len([i for i in edge_dict.values() if len(i) > 1])
+            base_k = len([i for i in edge_dict.values() if len(i) > 1])
         k_list = list(range(max(1, base_k - 3), base_k + 4))
 
     start_time = time.time()

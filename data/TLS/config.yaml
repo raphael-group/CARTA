@@ -1,10 +1,6 @@
 # inference parameters
-
-case:
-  - "TLS"
   
 k:
-  - 0
   - 1
   - 2
   - 3

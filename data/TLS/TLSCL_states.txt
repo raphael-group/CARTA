@@ -1,5 +1,0 @@
-Endoderm
-NMPs
-NeuralTube
-PCGLC
-Somite

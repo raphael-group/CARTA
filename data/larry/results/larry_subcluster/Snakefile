@@ -1,0 +1,21 @@
+# simulation snakefile
+configfile: "config.yaml"
+
+rule all:
+    input:
+        expand('{case}/{case}_k{nprogs}_t{threshold}_tree_prog.csv', case=config['case'], nprogs=config['nprogs'], threshold=config['threshold']),
+
+rule carta_tree:
+    input:
+        clone_type_mat="{case}.csv",
+    output:
+        prog_file="{case}/{case}_k{nprogs}_t{threshold}_tree_prog.csv",
+    params:
+        prefix="{case}/{case}_k{nprogs}_t{threshold}_tree",
+    log:
+        std="{case}/logs/{case}_k{nprogs}_t{threshold}.log",
+        err="{case}/logs/{case}_k{nprogs}_t{threshold}.err.log",
+    shell:
+        "python ../../../../scripts/larry.py -i {input.clone_type_mat} -k {wildcards.nprogs} -t {wildcards.threshold} -r "
+        " -o {params.prefix} "
+        " 1> {log.std} 2> {log.err}"

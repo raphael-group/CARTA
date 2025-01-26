@@ -1,0 +1,64 @@
+Set parameter Username
+Set parameter LicenseID to value 2589207
+Academic license - for non-commercial use only - expires 2025-11-23
+Set parameter Threads to value 1
+Set parameter Method to value 4
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 28 physical cores, 56 logical processors, using up to 1 threads
+
+Optimize a model with 112 rows, 46 columns and 316 nonzeros
+Model fingerprint: 0xb517cb38
+Variable types: 28 continuous, 18 integer (18 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+01, 6e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 296.0000000
+Presolve removed 56 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 56 rows, 29 columns, 152 nonzeros
+Variable types: 0 continuous, 29 integer (29 binary)
+
+Root relaxation: objective 0.000000e+00, 13 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   12  296.00000    0.00000   100%     -    0s
+H    0     0                     168.0000000    0.00000   100%     -    0s
+     0     0   72.60000    0   16  168.00000   72.60000  56.8%     -    0s
+     0     0   72.77778    0   18  168.00000   72.77778  56.7%     -    0s
+     0     0   73.45946    0   17  168.00000   73.45946  56.3%     -    0s
+     0     0   74.57143    0   16  168.00000   74.57143  55.6%     -    0s
+     0     0   98.74457    0   18  168.00000   98.74457  41.2%     -    0s
+     0     0   98.88987    0   19  168.00000   98.88987  41.1%     -    0s
+     0     0   98.92588    0   19  168.00000   98.92588  41.1%     -    0s
+     0     0  100.89384    0   18  168.00000  100.89384  39.9%     -    0s
+     0     0  101.82314    0   17  168.00000  101.82314  39.4%     -    0s
+     0     0  102.14815    0   18  168.00000  102.14815  39.2%     -    0s
+     0     0  102.82609    0   18  168.00000  102.82609  38.8%     -    0s
+     0     0  106.21429    0   18  168.00000  106.21429  36.8%     -    0s
+     0     0  106.57627    0   18  168.00000  106.57627  36.6%     -    0s
+     0     0  107.21739    0   18  168.00000  107.21739  36.2%     -    0s
+     0     0  107.94681    0   18  168.00000  107.94681  35.7%     -    0s
+     0     0  107.94681    0   18  168.00000  107.94681  35.7%     -    0s
+     0     2  109.00000    0   18  168.00000  109.00000  35.1%     -    0s
+
+Cutting planes:
+  Clique: 1
+  MIR: 8
+  StrongCG: 2
+  Zero half: 3
+  RLT: 1
+
+Explored 12 nodes (221 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 1 (of 56 available processors)
+
+Solution count 2: 168 296 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.680000000000e+02, best bound 1.680000000000e+02, gap 0.0000%
+168.0

@@ -1,0 +1,165 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count
+----------  -------
+all               1
+carta_tree       10
+total            11
+
+Select jobs to execute...
+
+[Wed Dec 18 18:34:59 2024]
+rule carta_tree:
+    input: MEP_CLP_MB.csv
+    output: MEP_CLP_MB/MEP_CLP_MB_k10_t10_tree_prog.csv
+    log: MEP_CLP_MB/logs/MEP_CLP_MB_k10_t10.log, MEP_CLP_MB/logs/MEP_CLP_MB_k10_t10.err.log
+    jobid: 70
+    reason: Missing output files: MEP_CLP_MB/MEP_CLP_MB_k10_t10_tree_prog.csv
+    wildcards: case=MEP_CLP_MB, nprogs=10, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 18:34:59 2024]
+rule carta_tree:
+    input: MEP_CLP_MB.csv
+    output: MEP_CLP_MB/MEP_CLP_MB_k1_t10_tree_prog.csv
+    log: MEP_CLP_MB/logs/MEP_CLP_MB_k1_t10.log, MEP_CLP_MB/logs/MEP_CLP_MB_k1_t10.err.log
+    jobid: 61
+    reason: Missing output files: MEP_CLP_MB/MEP_CLP_MB_k1_t10_tree_prog.csv
+    wildcards: case=MEP_CLP_MB, nprogs=1, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 18:34:59 2024]
+rule carta_tree:
+    input: MEP_CLP_MB.csv
+    output: MEP_CLP_MB/MEP_CLP_MB_k3_t10_tree_prog.csv
+    log: MEP_CLP_MB/logs/MEP_CLP_MB_k3_t10.log, MEP_CLP_MB/logs/MEP_CLP_MB_k3_t10.err.log
+    jobid: 63
+    reason: Missing output files: MEP_CLP_MB/MEP_CLP_MB_k3_t10_tree_prog.csv
+    wildcards: case=MEP_CLP_MB, nprogs=3, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 18:34:59 2024]
+rule carta_tree:
+    input: MEP_CLP_MB.csv
+    output: MEP_CLP_MB/MEP_CLP_MB_k5_t10_tree_prog.csv
+    log: MEP_CLP_MB/logs/MEP_CLP_MB_k5_t10.log, MEP_CLP_MB/logs/MEP_CLP_MB_k5_t10.err.log
+    jobid: 65
+    reason: Missing output files: MEP_CLP_MB/MEP_CLP_MB_k5_t10_tree_prog.csv
+    wildcards: case=MEP_CLP_MB, nprogs=5, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 18:34:59 2024]
+rule carta_tree:
+    input: MEP_CLP_MB.csv
+    output: MEP_CLP_MB/MEP_CLP_MB_k7_t10_tree_prog.csv
+    log: MEP_CLP_MB/logs/MEP_CLP_MB_k7_t10.log, MEP_CLP_MB/logs/MEP_CLP_MB_k7_t10.err.log
+    jobid: 67
+    reason: Missing output files: MEP_CLP_MB/MEP_CLP_MB_k7_t10_tree_prog.csv
+    wildcards: case=MEP_CLP_MB, nprogs=7, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 18:34:59 2024]
+rule carta_tree:
+    input: MEP_CLP_MB.csv
+    output: MEP_CLP_MB/MEP_CLP_MB_k9_t10_tree_prog.csv
+    log: MEP_CLP_MB/logs/MEP_CLP_MB_k9_t10.log, MEP_CLP_MB/logs/MEP_CLP_MB_k9_t10.err.log
+    jobid: 69
+    reason: Missing output files: MEP_CLP_MB/MEP_CLP_MB_k9_t10_tree_prog.csv
+    wildcards: case=MEP_CLP_MB, nprogs=9, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 18:34:59 2024]
+rule carta_tree:
+    input: MEP_CLP_MB.csv
+    output: MEP_CLP_MB/MEP_CLP_MB_k2_t10_tree_prog.csv
+    log: MEP_CLP_MB/logs/MEP_CLP_MB_k2_t10.log, MEP_CLP_MB/logs/MEP_CLP_MB_k2_t10.err.log
+    jobid: 62
+    reason: Missing output files: MEP_CLP_MB/MEP_CLP_MB_k2_t10_tree_prog.csv
+    wildcards: case=MEP_CLP_MB, nprogs=2, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 18:34:59 2024]
+rule carta_tree:
+    input: MEP_CLP_MB.csv
+    output: MEP_CLP_MB/MEP_CLP_MB_k4_t10_tree_prog.csv
+    log: MEP_CLP_MB/logs/MEP_CLP_MB_k4_t10.log, MEP_CLP_MB/logs/MEP_CLP_MB_k4_t10.err.log
+    jobid: 64
+    reason: Missing output files: MEP_CLP_MB/MEP_CLP_MB_k4_t10_tree_prog.csv
+    wildcards: case=MEP_CLP_MB, nprogs=4, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 18:34:59 2024]
+rule carta_tree:
+    input: MEP_CLP_MB.csv
+    output: MEP_CLP_MB/MEP_CLP_MB_k6_t10_tree_prog.csv
+    log: MEP_CLP_MB/logs/MEP_CLP_MB_k6_t10.log, MEP_CLP_MB/logs/MEP_CLP_MB_k6_t10.err.log
+    jobid: 66
+    reason: Missing output files: MEP_CLP_MB/MEP_CLP_MB_k6_t10_tree_prog.csv
+    wildcards: case=MEP_CLP_MB, nprogs=6, threshold=10
+    resources: tmpdir=/tmp
+
+
+[Wed Dec 18 18:34:59 2024]
+rule carta_tree:
+    input: MEP_CLP_MB.csv
+    output: MEP_CLP_MB/MEP_CLP_MB_k8_t10_tree_prog.csv
+    log: MEP_CLP_MB/logs/MEP_CLP_MB_k8_t10.log, MEP_CLP_MB/logs/MEP_CLP_MB_k8_t10.err.log
+    jobid: 68
+    reason: Missing output files: MEP_CLP_MB/MEP_CLP_MB_k8_t10_tree_prog.csv
+    wildcards: case=MEP_CLP_MB, nprogs=8, threshold=10
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 18:35:00 2024]
+Finished job 61.
+1 of 11 steps (9%) done
+[Wed Dec 18 18:35:00 2024]
+Finished job 62.
+2 of 11 steps (18%) done
+[Wed Dec 18 18:35:00 2024]
+Finished job 63.
+3 of 11 steps (27%) done
+[Wed Dec 18 18:35:00 2024]
+Finished job 65.
+4 of 11 steps (36%) done
+[Wed Dec 18 18:35:00 2024]
+Finished job 64.
+5 of 11 steps (45%) done
+[Wed Dec 18 18:35:00 2024]
+Finished job 66.
+6 of 11 steps (55%) done
+[Wed Dec 18 18:35:00 2024]
+Finished job 67.
+7 of 11 steps (64%) done
+[Wed Dec 18 18:35:01 2024]
+Finished job 68.
+8 of 11 steps (73%) done
+[Wed Dec 18 18:35:03 2024]
+Finished job 69.
+9 of 11 steps (82%) done
+[Wed Dec 18 18:35:04 2024]
+Finished job 70.
+10 of 11 steps (91%) done
+Select jobs to execute...
+
+[Wed Dec 18 18:35:04 2024]
+localrule all:
+    input: MEP/MEP_k1_t10_tree_prog.csv, MEP/MEP_k2_t10_tree_prog.csv, MEP/MEP_k3_t10_tree_prog.csv, MEP/MEP_k4_t10_tree_prog.csv, MEP/MEP_k5_t10_tree_prog.csv, MEP/MEP_k6_t10_tree_prog.csv, MEP/MEP_k7_t10_tree_prog.csv, MEP/MEP_k8_t10_tree_prog.csv, MEP/MEP_k9_t10_tree_prog.csv, MEP/MEP_k10_t10_tree_prog.csv, CLP/CLP_k1_t10_tree_prog.csv, CLP/CLP_k2_t10_tree_prog.csv, CLP/CLP_k3_t10_tree_prog.csv, CLP/CLP_k4_t10_tree_prog.csv, CLP/CLP_k5_t10_tree_prog.csv, CLP/CLP_k6_t10_tree_prog.csv, CLP/CLP_k7_t10_tree_prog.csv, CLP/CLP_k8_t10_tree_prog.csv, CLP/CLP_k9_t10_tree_prog.csv, CLP/CLP_k10_t10_tree_prog.csv, MEP_MB/MEP_MB_k1_t10_tree_prog.csv, MEP_MB/MEP_MB_k2_t10_tree_prog.csv, MEP_MB/MEP_MB_k3_t10_tree_prog.csv, MEP_MB/MEP_MB_k4_t10_tree_prog.csv, MEP_MB/MEP_MB_k5_t10_tree_prog.csv, MEP_MB/MEP_MB_k6_t10_tree_prog.csv, MEP_MB/MEP_MB_k7_t10_tree_prog.csv, MEP_MB/MEP_MB_k8_t10_tree_prog.csv, MEP_MB/MEP_MB_k9_t10_tree_prog.csv, MEP_MB/MEP_MB_k10_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k1_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k2_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k3_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k4_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k5_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k6_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k7_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k8_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k9_t10_tree_prog.csv, MEP_CLP/MEP_CLP_k10_t10_tree_prog.csv, CLP_MB/CLP_MB_k1_t10_tree_prog.csv, CLP_MB/CLP_MB_k2_t10_tree_prog.csv, CLP_MB/CLP_MB_k3_t10_tree_prog.csv, CLP_MB/CLP_MB_k4_t10_tree_prog.csv, CLP_MB/CLP_MB_k5_t10_tree_prog.csv, CLP_MB/CLP_MB_k6_t10_tree_prog.csv, CLP_MB/CLP_MB_k7_t10_tree_prog.csv, CLP_MB/CLP_MB_k8_t10_tree_prog.csv, CLP_MB/CLP_MB_k9_t10_tree_prog.csv, CLP_MB/CLP_MB_k10_t10_tree_prog.csv, MB/MB_k1_t10_tree_prog.csv, MB/MB_k2_t10_tree_prog.csv, MB/MB_k3_t10_tree_prog.csv, MB/MB_k4_t10_tree_prog.csv, MB/MB_k5_t10_tree_prog.csv, MB/MB_k6_t10_tree_prog.csv, MB/MB_k7_t10_tree_prog.csv, MB/MB_k8_t10_tree_prog.csv, MB/MB_k9_t10_tree_prog.csv, MB/MB_k10_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k1_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k2_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k3_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k4_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k5_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k6_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k7_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k8_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k9_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k10_t10_tree_prog.csv
+    jobid: 0
+    reason: Input files updated by another job: MEP_CLP_MB/MEP_CLP_MB_k1_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k6_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k4_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k8_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k9_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k10_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k5_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k2_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k3_t10_tree_prog.csv, MEP_CLP_MB/MEP_CLP_MB_k7_t10_tree_prog.csv
+    resources: tmpdir=/tmp
+
+[Wed Dec 18 18:35:04 2024]
+Finished job 0.
+11 of 11 steps (100%) done
+Complete log: .snakemake/log/2024-12-18T183459.225674.snakemake.log
