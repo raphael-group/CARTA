@@ -5,6 +5,8 @@ import itertools
 import numpy as np
 import networkx as nx
 import pandas as pd
+import cassiopeia as cas
+import json
 
 from collections import defaultdict
 
@@ -406,3 +408,158 @@ def get_progens_from_ilp_output(file):
             progens.append([x.lstrip("'").rstrip("'") for x in line.rstrip('}\n').lstrip('{').split(', ')])
 
     return progens
+
+def jaccard_dist(s1, s2, states):
+    s1 = set([state_set_to_int(s, states) for s in s1])
+    s2 = set([state_set_to_int(s, states) for s in s2])
+
+    return 1 - len(s1.intersection(s2))/len(s1.union(s2))
+
+def state_set_to_int(state_set, states):
+    tot = 0
+    for i in range(len(states)):
+        if states[i] in state_set:
+            tot += 2**i
+    return tot
+
+def sum_of_min_symmetric_difference(s1, s2):
+    tot_dist = 0
+    for s in s1:
+        s = set(s)
+        min_dist = np.inf
+        for s_ in s2:
+            s_ = set(s_)
+            dist = len(s.union(s_) - s.intersection(s_))
+            if dist < min_dist:
+                min_dist = dist
+        tot_dist += min_dist
+    return tot_dist
+
+def classification_scores(ground, recon, states):
+    ground = set([state_set_to_int(s, states) for s in ground])
+    recon = set([state_set_to_int(s, states) for s in recon])
+
+    true_positives = len(recon.intersection(ground))
+
+    possible_progens = 2**len(states) - len(states) - 1
+
+    precision = true_positives/len(recon)
+    recall = true_positives/len(ground)
+    false_positive_rate = len(recon - ground)/(possible_progens - len(ground))
+
+    return precision, recall, false_positive_rate
+
+def get_progens_qfm_json_format(fatemap_fname):
+    with open(fatemap_fname) as f:
+        fatemap = json.load(f)
+
+    fatemap_nxtree = nx.DiGraph()
+    for edge in fatemap['edges']:
+        fatemap_nxtree.add_edge(edge['in_node'], edge['out_node'])
+    
+    for node in fatemap_nxtree:
+        if fatemap_nxtree.in_degree(node) == 0:
+            fatemap_root = node
+    
+    progenitors = {}
+    for node in nx.dfs_postorder_nodes(fatemap_nxtree, fatemap_root):
+        if len(fatemap_nxtree[node]) == 0:
+            progenitors[node] = set([node])
+        else:
+            progenitors[node] = set()
+            for child in fatemap_nxtree[node]:
+                progenitors[node] = progenitors[node] | progenitors[child]
+
+    progens = [i for i in list(progenitors.values()) if len(i) > 1]
+    new_progens = []
+    for i in progens:
+        new_progens.append(["type_" + s for s in i])
+
+    return new_progens
+
+def min_unrealizations_for_set(tree, states, potency_set, attribute_name="state_labels"):
+    """Given a progeny set, returns the minimum unrealizations on a tree.
+
+    Implements a DP algorithm that finds the minimum number of unrealizations 
+    on a tree. The singleton state progeny sets (sets of size 1) and the state
+    progeny that is the full union of all states are implictly included in the
+    progency set.
+
+    Note: currently the root node is implicitly labeled as the state progeny
+    that is the full union of all states, BUT the number of unrealizations at
+    the root is always counted as 0.
+
+    Args:
+        tree: The tree over which to calculate unrealizations
+        states: A list of all of the cell states, with the union of these states
+            being the potency/label of the root node
+        potency_set: A set of possible progenitors, which are sets of states
+        attribute_name: The CassiopeiaTree attribute to store state labels
+
+
+    Returns:
+        A tuple containing 1) the minimum realizations 2) A dictionary of state
+        progenitor indexes to their unrealization scores 3) A dictionary 
+        mapping state progenitor indexes to the progenitor set
+    """
+
+    potency_set = [set(i) for i in potency_set]
+    if set(states) in potency_set:
+        potency_set.remove(set(states))
+    potency_set.insert(0, set(states))
+    for i in states:
+        if set([i]) not in potency_set:
+            potency_set.append(set([i]))
+
+    ind_to_potency_set = dict(zip(range(len(potency_set)), potency_set))
+
+    leaf_set_at_nodes = {}
+
+    for n in tree.nodes:
+        leaf_set_at_nodes[n] = set(
+            [
+                tree.get_attribute(l, attribute_name)[0]
+                for l in tree.leaves_in_subtree(n)
+            ]
+        )
+
+    potency_sets_at_nodes = defaultdict(defaultdict)
+    potency_sets_at_nodes[tree.root][0] = (0, 0)
+
+    for n in tree.depth_first_traverse_nodes(postorder=False):
+        if n == tree.root or n in tree.leaves:
+            continue
+
+        leaf_set = leaf_set_at_nodes[n]
+
+        for ind, potency_set in ind_to_potency_set.items():
+            if leaf_set.issubset(potency_set):
+                potency_sets_at_nodes[n][ind] = (len(potency_set) - len(leaf_set), 0)
+
+    for n in tree.depth_first_traverse_nodes(postorder=True):
+        if tree.is_leaf(n):
+            continue
+
+        for ind, scores in potency_sets_at_nodes[n].items():
+
+            total_at_this_node = scores[0]
+
+            for child in tree.children(n):
+                if tree.is_leaf(child):
+                    continue
+
+                best_child_state_score = np.inf
+
+                for c_ind, c_scores in potency_sets_at_nodes[child].items():
+
+                    if ind_to_potency_set[c_ind].issubset(ind_to_potency_set[ind]):
+
+                        if c_scores[1] < best_child_state_score:
+
+                            best_child_state_score = c_scores[1]
+
+                total_at_this_node += best_child_state_score
+
+            potency_sets_at_nodes[n][ind] = (scores[0], total_at_this_node)
+
+    return (potency_sets_at_nodes[tree.root][0][1], potency_sets_at_nodes, ind_to_potency_set)
