@@ -1,2 +1,0 @@
-objective_score	model_runtime	model_buildtime
-592.0	166.0912001132965	75.31655812263489

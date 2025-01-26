@@ -1,0 +1,82 @@
+# run_fastCARTA_qfm_trees.smk
+
+import pandas as pd
+
+index_list = [str(i).zfill(4) for i in pd.read_csv("qfm_cell_type_16.csv")["0"]]
+
+rule all:
+    input:
+        expand("carta_tree/{index}_dummy.txt", index=index_list),
+        expand('ICE-FASE/ground_truth_times/{index}_IceFaseGraph.nwk', index=index_list),
+        expand('ICE-FASE/mixed_25site/{index}_IceFaseGraph.nwk', index=index_list),
+        expand('ICE-FASE/mixed_50site/{index}_IceFaseGraph.nwk', index=index_list),
+        expand('ICE-FASE/mixed_100site/{index}_IceFaseGraph.nwk', index=index_list),
+
+rule carta_tree:
+    input:
+        tree_file="../../trees/supplementary_data_3_simulated_experiments/simulated_phylogeny/{index}.newick",
+    output:
+        out_folder="carta_tree/{index}_dummy.txt",
+    params:
+        prefix="carta_tree/{index}",
+    log:
+        std="carta_tree/logs/{index}.log",
+        err="carta_tree/logs/{index}.err",
+    shell:
+        "python ../../../../scripts/run_fastCARTA.py -t {input.tree_file} --output {params.prefix} --radius 0 > {log.std} 2> {log.err}"
+
+rule iceFase_gt:
+    input:
+        tree_file="../../trees/supplementary_data_3_simulated_experiments/simulated_phylogeny/{index}.newick",
+    output:
+        tree='ICE-FASE/ground_truth_times/{index}_IceFaseGraph.nwk',
+    params:
+        prefix="ICE-FASE/ground_truth_times/{index}",
+    log:
+        std="ICE-FASE/ground_truth_times/logs/{index}.log",
+        err="ICE-FASE/ground_truth_times/logs/{index}.err.log",
+    shell:
+        "Rscript ../../../../scripts/run_ice_fase_sim.R --prefix {params.prefix} --tree_file {input.tree_file}"
+        " > {log.std} 2> {log.err} "
+
+rule iceFase_mixed25:
+    input:
+        tree_file="../../trees/supplementary_data_3_simulated_experiments/phylotime_phylogeny/phylotime_phylogeny/mixed_25site/{index}.newick",
+    output:
+        tree='ICE-FASE/mixed_25site/{index}_IceFaseGraph.nwk',
+    params:
+        prefix="ICE-FASE/mixed_25site/{index}",
+    log:
+        std="ICE-FASE/mixed_25site/logs/{index}.log",
+        err="ICE-FASE/mixed_25site/logs/{index}.err.log",
+    shell:
+        "Rscript ../../../../scripts/run_ice_fase_sim.R --prefix {params.prefix} --tree_file {input.tree_file}"
+        " > {log.std} 2> {log.err} "
+
+rule iceFase_mixed50:
+    input:
+        tree_file="../../trees/supplementary_data_3_simulated_experiments/phylotime_phylogeny/phylotime_phylogeny/mixed_50site/{index}.newick",
+    output:
+        tree='ICE-FASE/mixed_50site/{index}_IceFaseGraph.nwk',
+    params:
+        prefix="ICE-FASE/mixed_50site/{index}",
+    log:
+        std="ICE-FASE/mixed_50site/logs/{index}.log",
+        err="ICE-FASE/mixed_50site/logs/{index}.err.log",
+    shell:
+        "Rscript ../../../../scripts/run_ice_fase_sim.R --prefix {params.prefix} --tree_file {input.tree_file}"
+        " > {log.std} 2> {log.err} "
+
+rule iceFase_mixed100:
+    input:
+        tree_file="../../trees/supplementary_data_3_simulated_experiments/phylotime_phylogeny/phylotime_phylogeny/mixed_100site/{index}.newick",
+    output:
+        tree='ICE-FASE/mixed_100site/{index}_IceFaseGraph.nwk',
+    params:
+        prefix="ICE-FASE/mixed_100site/{index}",
+    log:
+        std="ICE-FASE/mixed_100site/logs/{index}.log",
+        err="ICE-FASE/mixed_100site/logs/{index}.err.log",
+    shell:
+        "Rscript ../../../../scripts/run_ice_fase_sim.R --prefix {params.prefix} --tree_file {input.tree_file}"
+        " > {log.std} 2> {log.err} "
