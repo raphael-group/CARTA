@@ -140,7 +140,7 @@ def main(args):
         for k in args.klist:
             if args.enforce_tree:
                 solved_model, observed_potencies = ilp.solve_large_k_problem_tree(
-                    labeled_trees, states, k, weights, int(args.time_limit_sec)
+                    labeled_trees, states, k - 1, weights, int(args.time_limit_sec)
                 )
                 out = ilp.post_process_solution_tree(solved_model, observed_potencies, states, labeled_trees)
                 # solved_model = ilp.solve_large_k_problem_tree(
