@@ -14,7 +14,7 @@ rule all:
 
 rule carta_tree:
     input:
-        tree_file="../../trees/supplementary_data_3_simulated_experiments/simulated_phylogeny/{index}.newick",
+        tree_file="../../inputs/trees/supplementary_data_3_simulated_experiments/simulated_phylogeny/{index}.newick",
     output:
         out_folder="carta_tree/{index}_dummy.txt",
     params:
@@ -27,7 +27,7 @@ rule carta_tree:
 
 rule iceFase_gt:
     input:
-        tree_file="../../trees/supplementary_data_3_simulated_experiments/simulated_phylogeny/{index}.newick",
+        tree_file="../../inputs/trees/supplementary_data_3_simulated_experiments/simulated_phylogeny/{index}.newick",
     output:
         tree='ICE-FASE/ground_truth_times/{index}_IceFaseGraph.nwk',
     params:
@@ -41,7 +41,7 @@ rule iceFase_gt:
 
 rule iceFase_mixed25:
     input:
-        tree_file="../../trees/supplementary_data_3_simulated_experiments/phylotime_phylogeny/phylotime_phylogeny/mixed_25site/{index}.newick",
+        tree_file="../../inputs/trees/supplementary_data_3_simulated_experiments/phylotime_phylogeny/phylotime_phylogeny/mixed_25site/{index}.newick",
     output:
         tree='ICE-FASE/mixed_25site/{index}_IceFaseGraph.nwk',
     params:
@@ -55,7 +55,7 @@ rule iceFase_mixed25:
 
 rule iceFase_mixed50:
     input:
-        tree_file="../../trees/supplementary_data_3_simulated_experiments/phylotime_phylogeny/phylotime_phylogeny/mixed_50site/{index}.newick",
+        tree_file="../../inputs/trees/supplementary_data_3_simulated_experiments/phylotime_phylogeny/phylotime_phylogeny/mixed_50site/{index}.newick",
     output:
         tree='ICE-FASE/mixed_50site/{index}_IceFaseGraph.nwk',
     params:
@@ -69,7 +69,7 @@ rule iceFase_mixed50:
 
 rule iceFase_mixed100:
     input:
-        tree_file="../../trees/supplementary_data_3_simulated_experiments/phylotime_phylogeny/phylotime_phylogeny/mixed_100site/{index}.newick",
+        tree_file="../../inputs/trees/supplementary_data_3_simulated_experiments/phylotime_phylogeny/phylotime_phylogeny/mixed_100site/{index}.newick",
     output:
         tree='ICE-FASE/mixed_100site/{index}_IceFaseGraph.nwk',
     params:

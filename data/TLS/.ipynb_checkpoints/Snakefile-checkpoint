@@ -1,0 +1,31 @@
+# gastruloid snakefile
+configfile: "config.yaml"
+
+rule all:
+    input:
+        expand('results/{structure}/{weights}_progenitors_{k}.txt', case=config['case'], structure=config['structure'], weights=config['weights'], k=config['k']),
+
+def get_structure_flag(wc):
+    structure = wc.structure
+    if structure == 'tree':
+        return "--enforce_tree"
+    else:
+        return ""
+
+rule run:
+    input:
+        location_file="TLS_locations.txt",
+        state_file="TLS_states.txt",
+    output:
+        prog_file="results/{structure}/{weights}_progenitors_{k}.txt",
+    params:
+        prefix="results/{structure}/{weights}",
+        structure_flag=get_structure_flag,
+    log:
+        std="results/{structure}/{weights}_{k}.log",
+        err="results/{structure}/{weights}_{k}.err.log",
+    shell:
+        "python ../../carta/carta.py --prefix {params.prefix} -ks {wildcards.k} "
+        "--file_locations {input.location_file} --states_file {input.state_file} "
+        "--normalize_method {wildcards.weights} --time_limit_sec 1000000000000 "
+        "{params.structure_flag} > {log.std} 2> {log.err} "
