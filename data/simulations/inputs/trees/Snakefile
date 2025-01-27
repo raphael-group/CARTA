@@ -23,7 +23,7 @@ rule from_our_maps:
         std="{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.log",
         err="{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.err",
     shell:
-        "python ../../../scripts/simulate_tree_from_qfm_fate_map.py --prefix {params.prefix} "
+        "python ../../../../scripts/simulate_tree_from_qfm_fate_map.py --prefix {params.prefix} "
         "--tree_ind {params.tree_ind} --graph_file_location {input.graph_file} --num_sampled_per_cell_type {params.num_cell} "
         "--min_sampled_per_cell_type {params.num_cell} --graph_format carta > {log.std} 2> {log.err}"
 
@@ -40,6 +40,6 @@ rule from_qfm_maps:
         std="bin_tree/type_16/cells_{num_cell}/logs/{fm_index}_{tree_index}.log",
         err="bin_tree/type_16/cells_{num_cell}/logs/{fm_index}_{tree_index}.err",
     shell:
-        "python ../../../scripts/simulate_tree_from_qfm_fate_map.py --prefix {params.prefix} "
+        "python ../../../../scripts/simulate_tree_from_qfm_fate_map.py --prefix {params.prefix} "
         "--tree_ind {params.tree_ind} --graph_file_location {input.graph_file} --num_sampled_per_cell_type {params.num_cell} "
         "--min_sampled_per_cell_type {params.num_cell} > {log.std} 2> {log.err}"
