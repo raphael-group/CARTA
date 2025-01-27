@@ -1,6 +1,6 @@
 Set parameter Username
-Set parameter LicenseID to value 2589207
-Academic license - for non-commercial use only - expires 2025-11-23
+Set parameter LicenseID to value 2608596
+Academic license - for non-commercial use only - expires 2026-01-11
 Set parameter Threads to value 1
 Set parameter Method to value 4
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
@@ -44,7 +44,8 @@ H  658   320                     590.0000000  162.10000  72.5%  41.6    1s
 H  685   327                     583.0000000  165.00000  71.7%  41.4    1s
 H  767   303                     527.0000000  173.11538  67.2%  40.0    1s
 H 2020   321                     524.0000000  262.00000  50.0%  34.7    4s
-  2387   369 infeasible   25       524.00000  314.08333  40.1%  33.5    5s
+  2368   369 infeasible   25       524.00000  314.08333  40.1%  33.5    5s
+  6085    19     cutoff   31       524.00000  512.73333  2.15%  26.4   10s
 
 Cutting planes:
   Gomory: 1
@@ -53,7 +54,7 @@ Cutting planes:
   RLT: 9
   BQP: 16
 
-Explored 6106 nodes (162778 simplex iterations) in 9.97 seconds (8.02 work units)
+Explored 6106 nodes (162778 simplex iterations) in 10.02 seconds (8.02 work units)
 Thread count was 1 (of 56 available processors)
 
 Solution count 10: 524 527 583 ... 806
