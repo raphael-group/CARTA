@@ -1,0 +1,69 @@
+Set parameter Username
+Set parameter LicenseID to value 2608596
+Academic license - for non-commercial use only - expires 2026-01-11
+Set parameter Threads to value 1
+Set parameter Method to value 4
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 28 physical cores, 56 logical processors, using up to 1 threads
+
+Optimize a model with 1334 rows, 234 columns and 3986 nonzeros
+Model fingerprint: 0x0542ec53
+Variable types: 108 continuous, 126 integer (126 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 350.0000000
+Presolve removed 182 rows and 26 columns
+Presolve time: 0.00s
+Presolved: 1152 rows, 208 columns, 3336 nonzeros
+Variable types: 0 continuous, 208 integer (208 binary)
+
+Root relaxation: objective 0.000000e+00, 88 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   26  350.00000    0.00000   100%     -    0s
+H    0     0                     295.0000000    0.00000   100%     -    0s
+H    0     0                     275.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   61  275.00000    0.00000   100%     -    0s
+H    0     0                     217.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   42  217.00000    0.00000   100%     -    0s
+H    0     0                     198.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   41  198.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   44  198.00000    0.00000   100%     -    0s
+H    0     0                     159.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   45  159.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   48  159.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   48  159.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   41  159.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   46  159.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   42  159.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   40  159.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   59  159.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   51  159.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   63  159.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   60  159.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   58  159.00000    0.00000   100%     -    0s
+     0     2    0.00000    0   58  159.00000    0.00000   100%     -    0s
+*  117    20               9     151.0000000   96.00000  36.4%  18.5    0s
+
+Cutting planes:
+  Gomory: 1
+  Inf proof: 1
+  Zero half: 41
+  RLT: 24
+  BQP: 22
+
+Explored 225 nodes (5403 simplex iterations) in 0.44 seconds (0.32 work units)
+Thread count was 1 (of 56 available processors)
+
+Solution count 7: 151 159 198 ... 350
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.510000000000e+02, best bound 1.510000000000e+02, gap 0.0000%
+151.0

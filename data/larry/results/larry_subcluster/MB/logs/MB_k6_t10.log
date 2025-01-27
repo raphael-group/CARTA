@@ -1,6 +1,6 @@
 Set parameter Username
-Set parameter LicenseID to value 2589207
-Academic license - for non-commercial use only - expires 2025-11-23
+Set parameter LicenseID to value 2608596
+Academic license - for non-commercial use only - expires 2026-01-11
 Set parameter Threads to value 1
 Set parameter Method to value 4
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
@@ -50,7 +50,7 @@ Cutting planes:
   RLT: 13
   BQP: 14
 
-Explored 578 nodes (12666 simplex iterations) in 0.61 seconds (0.45 work units)
+Explored 578 nodes (12666 simplex iterations) in 0.63 seconds (0.45 work units)
 Thread count was 1 (of 56 available processors)
 
 Solution count 8: 188 198 211 ... 366
