@@ -10,12 +10,12 @@ def get_structure_flag_carta_dag(wc):
     if structure == "bin_tree/type_16":
         return "16_flag"
     else:
-        return f"differentiation_maps/{cell_type}/graph_fate_map{fm_index}.txt"
+        return f"inputs/differentiation_maps/{wc.cell_type}/graph_fate_map{wc.fm_index}.txt"
 
 def get_structure_flag_carta_tree(wc):
     structure = wc.cell_type
     if "poly" in structure:
-        return "--graph_file " + f"differentiation_maps/{wc.cell_type}/graph_fate_map{wc.fm_index}.txt",
+        return "--graph_file " + f"inputs/differentiation_maps/{wc.cell_type}/graph_fate_map{wc.fm_index}.txt",
     else:
         return ""
 
@@ -28,12 +28,12 @@ rule all:
 
 rule run_ice_fase:
     input:
-        tree_file="trees/{cell_type}/cells_{num_cell}/{fm_index}_time_estimate_tree_{tree_index}.nwk",
+        tree_file="inputs/trees/{cell_type}/cells_{num_cell}/{fm_index}_time_estimate_tree_{tree_index}.nwk",
     output:
         tree="results/ice_fase/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}_IceFaseGraph.nwk",
     params:
         prefix="results/ice_fase/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}",
-        meta_file="trees/{cell_type}/cells_{num_cell}/{fm_index}_meta_{tree_index}.txt",
+        meta_file="inputs/trees/{cell_type}/cells_{num_cell}/{fm_index}_meta_{tree_index}.txt",
     log:
         std="results/ice_fase/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.log",
         err="results/ice_fase/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.err",
@@ -44,12 +44,12 @@ rule run_ice_fase:
 
 rule run_evoc:
     input:
-        tree_file="trees/{cell_type}/cells_{num_cell}/{fm_index}_time_estimate_tree_{tree_index}.nwk",
+        tree_file="inputs/trees/{cell_type}/cells_{num_cell}/{fm_index}_time_estimate_tree_{tree_index}.nwk",
     output:
         tree="results/evoC/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}_EvoCGraph.nwk",
     params:
         prefix="results/evoC/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}",
-        meta_file="trees/{cell_type}/cells_{num_cell}/{fm_index}_meta_{tree_index}.txt",
+        meta_file="inputs/trees/{cell_type}/cells_{num_cell}/{fm_index}_meta_{tree_index}.txt",
     log:
         std="results/evoC/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.log",
         err="results/evoC/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.err",
@@ -60,12 +60,12 @@ rule run_evoc:
 
 rule run_carta_dag:
     input:
-        tree_file="trees/{cell_type}/cells_{num_cell}/{fm_index}_tree_{tree_index}.txt",
+        tree_file="inputs/trees/{cell_type}/cells_{num_cell}/{fm_index}_tree_{tree_index}.txt",
     output:
         out="results/carta_dag/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}_dummy.txt",
     params:
         out_folder="results/carta_dag/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}",
-        sim_folder="trees/{cell_type}/cells_{num_cell}/{fm_index}_meta_{tree_index}.txt",
+        sim_folder="inputs/trees/{cell_type}/cells_{num_cell}/{fm_index}_meta_{tree_index}.txt",
         tree_ind="{tree_index}",
         fm_ind="{fm_index}",
         graph_file_usage=get_structure_flag_carta_dag,
@@ -77,12 +77,12 @@ rule run_carta_dag:
 
 rule run_carta_tree:
     input:
-        tree_file="trees/{cell_type}/cells_{num_cell}/{fm_index}_tree_{tree_index}.txt",
+        tree_file="inputs/trees/{cell_type}/cells_{num_cell}/{fm_index}_tree_{tree_index}.txt",
     output:
         out="results/carta_tree/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}_dummy.txt",
     params:
         out_folder="results/carta_tree/{cell_type}/cells_{num_cell}/{fm_index}_{tree_index}",
-        sim_folder="trees/{cell_type}/cells_{num_cell}/{fm_index}_meta_{tree_index}.txt",
+        sim_folder="inputs/trees/{cell_type}/cells_{num_cell}/{fm_index}_meta_{tree_index}.txt",
         tree_ind="{tree_index}",
         fm_ind="{fm_index}",
         graph_file_usage=get_structure_flag_carta_tree,

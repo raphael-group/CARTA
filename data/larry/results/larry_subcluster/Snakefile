@@ -7,7 +7,7 @@ rule all:
 
 rule carta_tree:
     input:
-        clone_type_mat="{case}.csv",
+        clone_type_mat="../../input/larry_subcluster/{case}.csv",
     output:
         prog_file="{case}/{case}_k{nprogs}_t{threshold}_tree_prog.csv",
     params:

@@ -12,8 +12,8 @@ one_state_percent_list = [20, 40, 60, 80]
 rule all:
     input:
         expand('results/{structure}/{weights}_progenitors_{k}.txt', structure=config['structure'], weights=config['weights'], k=config['k']),
-        expand("results/TLS_bootstrap/random_undersample/results/{percent}_percent/TLS_{tree_index}_dummy.txt", percent=percent_list, tree_index=tree_index_list),
-        expand("results/TLS_bootstrap/subsample_one_state/results/{percent}/{state}/TLS_{tree_index}_dummy.txt", percent=one_state_percent_list, state=state_list, tree_index=one_state_tree_index_list),
+        expand("results/TLS_bootstrap/random_undersample/{percent}_percent/TLS_{tree_index}_dummy.txt", percent=percent_list, tree_index=tree_index_list),
+        expand("results/TLS_bootstrap/subsample_one_state/{percent}/{state}/TLS_{tree_index}_dummy.txt", percent=one_state_percent_list, state=state_list, tree_index=one_state_tree_index_list),
 
 def get_structure_flag(wc):
     structure = wc.structure
@@ -42,28 +42,28 @@ rule run_carta:
 
 rule random_undersample:
     input:
-        tree_file="results/TLS_bootstrap/random_undersample/trees/{percent}_percent/tree_{tree_index}.nwk",
+        tree_file="inputs/TLS_bootstrap/random_undersample/trees/{percent}_percent/tree_{tree_index}.nwk",
     output:
-        out="results/TLS_bootstrap/random_undersample/results/{percent}_percent/TLS_{tree_index}_dummy.txt",
+        out="results/TLS_bootstrap/random_undersample/{percent}_percent/TLS_{tree_index}_dummy.txt",
     params:
-        out_folder="results/TLS_bootstrap/random_undersample/results/{percent}_percent/TLS_{tree_index}",
+        out_folder="results/TLS_bootstrap/random_undersample/{percent}_percent/TLS_{tree_index}",
         sim_folder="results/TLS_bootstrap/random_undersample/trees/{percent}_percent/meta_{tree_index}.txt",
     log:
-        std="results/TLS_bootstrap/random_undersample/results/{percent}_percent/logs/log_{tree_index}.std",
-        err="results/TLS_bootstrap/random_undersample/results/{percent}_percent/logs/log_{tree_index}.err",
+        std="results/TLS_bootstrap/random_undersample/{percent}_percent/logs/log_{tree_index}.std",
+        err="results/TLS_bootstrap/random_undersample/{percent}_percent/logs/log_{tree_index}.err",
     shell:
         "python ../../scripts/run_fastCARTA.py -t {input.tree_file} --output {params.out_folder} --label {params.sim_folder} -ks 1 2 3 4 5 6 7 8 9 10 --no_enforce_tree > {log.std} 2> {log.err}"
 
 rule subsample_one_state:
     input:
-        tree_file="results/TLS_bootstrap/subsample_one_state/trees/{percent}/{state}/tree_{tree_index}.nwk",
+        tree_file="inputs/TLS_bootstrap/subsample_one_state/trees/{percent}/{state}/tree_{tree_index}.nwk",
     output:
-        out="results/TLS_bootstrap/subsample_one_state/results/{percent}/{state}/TLS_{tree_index}_dummy.txt",
+        out="results/TLS_bootstrap/subsample_one_state/{percent}/{state}/TLS_{tree_index}_dummy.txt",
     params:
-        out_folder="results/TLS_bootstrap/subsample_one_state/results/{percent}/{state}/TLS_{tree_index}",
+        out_folder="results/TLS_bootstrap/subsample_one_state/{percent}/{state}/TLS_{tree_index}",
         sim_folder="results/TLS_bootstrap/subsample_one_state/trees/{percent}/{state}/meta_{tree_index}.txt",
     log:
-        std="results/TLS_bootstrap/subsample_one_state/results/{percent}/{state}/logs/log_{tree_index}.std",
-        err="results/TLS_bootstrap/subsample_one_state/results/{percent}/{state}/logs/log_{tree_index}.err",
+        std="results/TLS_bootstrap/subsample_one_state/{percent}/{state}/logs/log_{tree_index}.std",
+        err="results/TLS_bootstrap/subsample_one_state/{percent}/{state}/logs/log_{tree_index}.err",
     shell:
         "python ../../scripts/run_fastCARTA.py -t {input.tree_file} --output {params.out_folder} --label {params.sim_folder} -ks 7 --no_enforce_tree > {log.std} 2> {log.err}"
