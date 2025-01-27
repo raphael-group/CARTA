@@ -39,7 +39,7 @@ rule run_ice_fase:
         err="results/ice_fase/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.err",
     benchmark: "results/ice_fase/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.benchmark",
     shell:
-        "Rscript ../../scripts/run_ice_fase.R --prefix {params.prefix} --tree_file {input.tree_file}"
+        "Rscript ../../scripts/run_ice_fase_single_tree.R --prefix {params.prefix} --tree_file {input.tree_file}"
         " --label_file {params.meta_file} --tree_time 1 --root_time 0.01 > {log.std} 2> {log.err} "
 
 rule run_evoc:
@@ -55,7 +55,7 @@ rule run_evoc:
         err="results/evoC/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.err",
     benchmark: "results/evoC/{cell_type}/cells_{num_cell}/logs/{fm_index}_{tree_index}.benchmark",
     shell:
-        "python ../../scripts/run_evo_coupling.py --prefix {params.prefix} --tree_file {input.tree_file}"
+        "python ../../scripts/run_evo_coupling_single_tree.py --prefix {params.prefix} --tree_file {input.tree_file}"
         " --label_file {params.meta_file} --use_branch_lengths > {log.std} 2> {log.err}"
 
 rule run_carta_dag:

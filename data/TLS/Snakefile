@@ -47,7 +47,7 @@ rule random_undersample:
         out="results/TLS_bootstrap/random_undersample/{percent}_percent/TLS_{tree_index}_dummy.txt",
     params:
         out_folder="results/TLS_bootstrap/random_undersample/{percent}_percent/TLS_{tree_index}",
-        sim_folder="results/TLS_bootstrap/random_undersample/trees/{percent}_percent/meta_{tree_index}.txt",
+        sim_folder="inputs/TLS_bootstrap/random_undersample/trees/{percent}_percent/meta_{tree_index}.txt",
     log:
         std="results/TLS_bootstrap/random_undersample/{percent}_percent/logs/log_{tree_index}.std",
         err="results/TLS_bootstrap/random_undersample/{percent}_percent/logs/log_{tree_index}.err",
@@ -61,7 +61,7 @@ rule subsample_one_state:
         out="results/TLS_bootstrap/subsample_one_state/{percent}/{state}/TLS_{tree_index}_dummy.txt",
     params:
         out_folder="results/TLS_bootstrap/subsample_one_state/{percent}/{state}/TLS_{tree_index}",
-        sim_folder="results/TLS_bootstrap/subsample_one_state/trees/{percent}/{state}/meta_{tree_index}.txt",
+        sim_folder="inputs/TLS_bootstrap/subsample_one_state/trees/{percent}/{state}/meta_{tree_index}.txt",
     log:
         std="results/TLS_bootstrap/subsample_one_state/{percent}/{state}/logs/log_{tree_index}.std",
         err="results/TLS_bootstrap/subsample_one_state/{percent}/{state}/logs/log_{tree_index}.err",
